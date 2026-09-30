@@ -1,0 +1,1063 @@
+[
+  {
+    "status": "success",
+    "question": "Kinh Dương Vương có tên húy là gì và là con của ai?",
+    "ground_truth": "Kinh Dương Vương tên húy là Lộc Tục, là con của Đế Minh và con gái Vụ Tiên.",
+    "extracted_entities": [
+      "Kinh Dương Vương",
+      "Kinh Dương Vương"
+    ],
+    "answer": "Dựa trên context được cung cấp:\n\nKinh Dương Vương có tên húy là **Lộc Tục** và là con của **Đế Minh**.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6718,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "fail",
+    "question": "Nước Xích Quỷ do ai cai quản và nằm ở phương nào?",
+    "reason": "no context for ['Nước Xích Quỷ']"
+  },
+  {
+    "status": "success",
+    "question": "Lạc Long Quân có tên húy là gì, cha và mẹ là ai?",
+    "ground_truth": "Lạc Long Quân tên húy là Sùng Lãm, là con của Kinh Dương Vương và con gái Động Đình Quân tên là Thần Long.",
+    "extracted_entities": [
+      "Lạc Long Quân",
+      "Cha",
+      "Mẹ"
+    ],
+    "answer": "Dựa trên context được cung cấp:\n\nLạc Long Quân có tên húy là **Sùng Lãm**.\n\nCha của Lạc Long Quân là **Kinh Dương Vương**, còn mẹ là **Đế Lai** (cũng gọi là Âu Cơ).",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5154,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Lạc Long Quân kết hôn với ai và sinh ra bao nhiêu người con?",
+    "ground_truth": "Lạc Long Quân lấy con gái của Đế Lai là Âu Cơ, sinh ra một trăm người con trai (sinh trăm trứng).",
+    "extracted_entities": [
+      "Lạc Long Quân",
+      "Người con"
+    ],
+    "answer": "Dựa trên context được cung cấp:\n\nLạc Long Quân kết hôn với Âu Cơ và sinh ra 100 người con.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.3973,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Khi chia tay nhau, Lạc Long Quân và Âu Cơ đã phân chia các con như thế nào?",
+    "ground_truth": "50 con theo mẹ về núi, 50 con theo cha về ở miền Nam (hoặc Nam Hải), phong con trưởng làm Hùng Vương nối ngôi.",
+    "extracted_entities": [
+      "Lạc Long Quân",
+      "Âu Cơ"
+    ],
+    "answer": "Khi chia tay nhau, Lạc Long Quân và Âu Cơ đã phân chia các con như sau: 50 con theo mẹ về núi, 50 con theo cha về ở miền Nam (có bản chép là về Nam Hải).",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5447,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Mối quan hệ họ hàng giữa Kinh Dương Vương và vợ của Lạc Long Quân (Âu Cơ) theo nhận xét của sử thần Ngô Sĩ Liên là gì?",
+    "ground_truth": "Đế Lai là con Đế Nghi, mà Kinh Dương Vương là em ruột Đế Nghi; do đó Âu Cơ là cháu gọi Kinh Dương Vương bằng chú/bác.",
+    "extracted_entities": [
+      "Kinh Dương Vương",
+      "Lạc Long Quân",
+      "Âu Cơ",
+      "Ngô Sĩ Liên"
+    ],
+    "answer": "Theo nhận xét của sử thần Ngô Sĩ Liên, Kinh Dương Vương và vợ của Lạc Long Quân (Âu Cơ) là cha con.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2845,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Hùng Vương đặt quốc hiệu nước ta là gì và đóng đô ở đâu?",
+    "ground_truth": "Quốc hiệu là Văn Lang, đóng đô ở Phong Châu (huyện Bạch Hạc).",
+    "extracted_entities": [
+      "Hùng Vương",
+      "Quốc hiệu",
+      "Đông Đô"
+    ],
+    "answer": "Hùng Vương đặt quốc hiệu nước ta là Văn Lang và đóng đô ở Phong Châu (nay là huyện Bạch Hạc).",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.7792,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Dưới thời Hùng Vương, nước được chia thành bao nhiêu bộ? Kể tên bộ nơi vua đóng đô.",
+    "ground_truth": "Chia làm 15 bộ; nơi vua đóng đô là bộ Văn Lang.",
+    "extracted_entities": [
+      "Hùng Vương",
+      "Bộ"
+    ],
+    "answer": "Dưới thời Hùng Vương, nước được chia thành 15 bộ. Bộ nơi vua đóng đô là bộ Văn Lang.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6532,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Thời Hùng Vương, tướng văn và tướng võ được gọi là gì?",
+    "ground_truth": "Tướng văn gọi là Lạc Hầu, tướng võ gọi là Lạc Tướng.",
+    "extracted_entities": [
+      "Hùng Vương",
+      "Tướng văn",
+      "Tướng võ"
+    ],
+    "answer": "Tướng văn được gọi là Lạc Hầu, tướng võ được gọi là Lạc Tướng.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 1.0,
+      "context_relevance": 5,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Con trai và con gái của Hùng Vương được gọi là gì?",
+    "ground_truth": "Con trai gọi là Quan Lang, con gái gọi là Mị Nương.",
+    "extracted_entities": [
+      "Hùng Vương",
+      "Con trai Hùng Vương",
+      "Con gái Hùng Vương"
+    ],
+    "answer": "Theo context, con trai của Hùng Vương được gọi là \"Quan Lang\", còn con gái của Hùng Vương được gọi là \"Mị Nương\".",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6691,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Quan coi việc dưới thời Hùng Vương gọi là gì và có đặc điểm thế tập ra sao?",
+    "ground_truth": "Gọi là Bồ Chính, đời đời cha truyền con nối gọi là phụ đạo.",
+    "extracted_entities": [],
+    "answer": "Trong thời Hùng Vương, quan coi việc được gọi là **\"Đức ông Tám\"**. Đây là một chức danh trong hệ thống chính trị - tôn giáo của người Bách Việt cổ đại, thể hiện sự kết hợp giữa quyền lực chính trị và tín ngưỡng tôn giáo.\n\nĐặc điểm nổi bật của \"Đức ông Tám\" là:\n\n- Là **đại diện cho thần linh**, được xem như **thần dân tộc** hoặc **thần bảo hộ**.\n- Có vai trò **quản lý việc nước**, điều hành các hoạt động cộng đồng, đảm bảo trật tự và an ninh.\n- Thường được chọn từ những người có uy tín, hiểu biết về văn hóa, tôn giáo và kinh nghiệm lãnh đạo.\n- Là biểu tượng của sự kết hợp giữa **chính trị** và **tôn giáo**, phản ánh đặc trưng văn hóa - chính trị thời kỳ Văn Lang - Âu Lạc.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0611,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Nguồn gốc của tục vẽ mình của người Bách Việt bắt đầu từ sự việc nào?",
+    "ground_truth": "Do dân đi bắt cá hay bị thuồng luồng làm hại, Hùng Vương bảo vẽ hình thủy quái vào mình để chúng tưởng cùng loài không cắn hại nữa.",
+    "extracted_entities": [
+      "Người Bách Việt"
+    ],
+    "answer": "Không tìm thấy đủ thông tin để xác định nguồn gốc của tục vẽ mình của người Bách Việt.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1699,
+      "context_relevance": 1,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Đứa trẻ ở hương Phù Đổng đánh tan giặc vào đời vua Hùng thứ mấy và ở đâu?",
+    "ground_truth": "Vào đời Hùng Vương thứ 6, đánh tan quân giặc ở chân núi Vũ Ninh.",
+    "extracted_entities": [
+      "Đứa trẻ ở hương Phù Đổng",
+      "hương Phù Đổng",
+      "vua Hùng"
+    ],
+    "answer": "Đứa trẻ ở hương Phù Đổng đánh tan giặc vào đời Hùng Vương thứ 6 và xảy ra tại chân núi Vũ Ninh.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6708,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Sau khi đánh tan giặc, đứa trẻ làng Phù Đổng đã làm gì và về sau được vua Lý Thái Tổ phong danh hiệu gì?",
+    "ground_truth": "Đứa trẻ phi ngựa lên trời mà đi; về sau được Lý Thái Tổ phong là Xung Thiên Thần Vương.",
+    "extracted_entities": [
+      "hương Phù Đổng",
+      "Lý Thái Tổ"
+    ],
+    "answer": "Sau khi đánh tan giặc, đứa trẻ làng Phù Đổng đã phi ngựa lên trời mà đi. Về sau được vua Lý Thái Tổ phong danh hiệu là Xung Thiên Thần Vương.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.798,
+      "context_relevance": 5,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Nước ta lần đầu sang thăm nhà Chu vào thời vua Chu nào và đã hiến vật gì?",
+    "ground_truth": "Vào thời Thành Vương nhà Chu, xưng là Việt Thường thị, hiến chim trĩ trắng.",
+    "extracted_entities": [
+      "Chu",
+      "Nhà Chu"
+    ],
+    "answer": "Nước ta lần đầu sang thăm nhà Chu vào thời Thành Vương nhà Chu và đã hiến chim trĩ trắng.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.568,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Vì sao Thục Vương lại đem lòng oán giận vua Hùng?",
+    "ground_truth": "Vì Thục Vương đến cầu hôn Mị Nương nhưng Hùng Hầu can ngăn, cho rằng Thục Vương lấy cớ hôn nhân để chiếm nước nên vua không gả.",
+    "extracted_entities": [
+      "Thục Vương",
+      "Vua Hùng"
+    ],
+    "answer": "Thục Vương đem lòng oán giận vua Hùng vì ông muốn chiếm nước ta nhưng chỉ lấy việc hôn nhân làm cớ. Khi Thục Vương đến cầu hôn Mị Nương, vua Hùng không gả con gái cho ông mà chọn người khác, khiến Thục Vương cảm thấy bị từ chối và nuôi lòng oán giận.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5319,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Hai nhân vật đến cầu hôn Mị Nương cùng lúc là ai, và vua Hùng đưa ra điều kiện gì?",
+    "ground_truth": "Là Sơn Tinh và Thủy Tinh; vua Hùng hẹn ai đem đủ sính lễ đến trước thì gả cho.",
+    "extracted_entities": [
+      "Hùng",
+      "Mị Nương"
+    ],
+    "answer": "Hai nhân vật đến cầu hôn Mị Nương cùng lúc là Sơn Tinh và Thủy Tinh. Vua Hùng đưa ra điều kiện là ai đem đủ sính lễ đến trước thì gả con cho người ấy.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.7105,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 3,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Khi Thủy Tinh dâng nước đánh Tản Viên, Sơn Tinh đã dùng những cách gì để chống lại?",
+    "ground_truth": "Sơn Tinh gọi người man đan tre làm rào chắn nước và lấy nỏ bắn xuống khiến các loài thủy tộc tháo chạy.",
+    "extracted_entities": [
+      "Thủy Tinh",
+      "Tản Viên",
+      "Sơn Tinh"
+    ],
+    "answer": "Khi Thủy Tinh dâng nước đánh Tản Viên, Sơn Tinh đã dùng cách gọi người man đan tre làm rào chắn nước và lấy nỏ bắn xuống, khiến các loài có vẩy và có vỏ trúng phải lui bước.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6871,
+      "context_relevance": 4,
+      "context_sufficiency": 4,
+      "faithfulness": 4,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai là người sau này kế thừa sự oán giận của Thục Vương để đánh lấy nước Văn Lang?",
+    "ground_truth": "Thục Phán (cháu của Thục Vương).",
+    "extracted_entities": [
+      "Thục Vương",
+      "Văn Lang"
+    ],
+    "answer": "Thục Phán.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5117,
+      "context_relevance": 5,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Kỷ Hồng Bàng thị kéo dài tổng cộng bao nhiêu năm, bắt đầu và kết thúc vào các năm nào?",
+    "ground_truth": "Kéo dài 2.622 năm, từ năm Nhâm Tuất (2879 TCN) đến năm Quý Mão (258 TCN).",
+    "extracted_entities": [
+      "Kỷ Hồng Bàng thị"
+    ],
+    "answer": "Dựa trên context được cung cấp, Kỷ Hồng Bàng thị kéo dài tổng cộng 2.622 năm, bắt đầu vào năm Nhâm Tuất và kết thúc vào năm Quý Mão.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.4061,
+      "context_relevance": 3,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Quang Trung sinh năm nào và tên khai sinh là gì?",
+    "ground_truth": "Quang Trung sinh năm 1753 (Quý Dậu, niên hiệu Cảnh Hưng thứ 13), tên khai sinh là Hồ Thơm, sau đổi tên thành Nguyễn Huệ.",
+    "extracted_entities": [
+      "Quang Trung",
+      "Quang Trung"
+    ],
+    "answer": "Dựa trên context được cung cấp, Quang Trung (tên khai sinh là Nguyễn Huệ) sinh năm Quý Dậu 1753.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6097,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ba anh em Tây Sơn tam kiệt gồm những ai?",
+    "ground_truth": "Gồm Nguyễn Nhạc, Nguyễn Huệ (Quang Trung) và Nguyễn Lữ.",
+    "extracted_entities": [
+      "Ba anh em Tây Sơn tam kiệt",
+      "ấp Tây Sơn",
+      "Tam kiệt"
+    ],
+    "answer": "Ba anh em Tây Sơn tam kiệt gồm Nguyễn Huệ, Nguyễn Nhạc và Nguyễn Lữ.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6945,
+      "context_relevance": 3,
+      "context_sufficiency": 4,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai là người kế vị Quang Trung và lúc đó bao nhiêu tuổi?",
+    "ground_truth": "Quang Toản kế vị, khi đó mới 9 tuổi.",
+    "extracted_entities": [
+      "Quang Trung"
+    ],
+    "answer": "Người kế vị Quang Trung là Quang Toản, và lúc đó ông mới 9 tuổi.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6469,
+      "context_relevance": 3,
+      "context_sufficiency": 4,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Quang Trung qua đời ở tuổi bao nhiêu và sau khi ông mất Nhà Tây Sơn ra sao?",
+    "ground_truth": "Ông qua đời đột ngột ở tuổi 39; sau đó Nhà Tây Sơn suy yếu nhanh chóng, triều đình mâu thuẫn nội bộ và thất bại trước Nguyễn Ánh.",
+    "extracted_entities": [
+      "Quang Trung",
+      "Nhà Tây Sơn"
+    ],
+    "answer": "Quang Trung qua đời ở tuổi 39. Sau khi ông mất, Nhà Tây Sơn nhanh chóng suy yếu. Người kế vị là Quang Toản, nhưng vì còn quá nhỏ (chỉ 9 tuổi), nên không đủ khả năng lãnh đạo đất nước, dẫn đến mâu thuẫn nội bộ và thất bại trong việc chống lại Nguyễn Ánh.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5173,
+      "context_relevance": 4,
+      "context_sufficiency": 4,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Quang Trung đã đánh bại những cuộc xâm lược nào?",
+    "ground_truth": "Đánh bại quân Xiêm La từ phía nam và quân Đại Thanh từ phía bắc.",
+    "extracted_entities": [
+      "Quang Trung",
+      "Quang Trung"
+    ],
+    "answer": "Quang Trung đã đánh bại các cuộc xâm lược của Xiêm La từ phía nam và của Đại Thanh từ phía bắc.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.7899,
+      "context_relevance": 3,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Người thầy nào đã phát hiện khả năng của Nguyễn Huệ và khuyên ba anh em khởi nghĩa?",
+    "ground_truth": "Thầy Trương Văn Hiến, người được cho là đã nói câu sấm \"Tây khởi nghĩa, Bắc thu công\".",
+    "extracted_entities": [
+      "Nguyễn Huệ"
+    ],
+    "answer": "Trương Văn Hiến.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.3266,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Nguyễn Huệ khai sáng ra võ phái/bài quyền nào, và ba anh em cùng sáng tạo bài binh khí nào?",
+    "ground_truth": "Nguyễn Huệ khai sáng Yến phi quyền; cả ba anh em cùng sáng tạo Độc lư thương.",
+    "extracted_entities": [
+      "Nguyễn Huệ",
+      "bài quyền",
+      "bài binh khí"
+    ],
+    "answer": "Nguyễn Huệ khai sáng ra võ phái Yến phi quyền. Ba anh em Tây Sơn cùng sáng tạo bài binh khí Độc lư thương.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.8637,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Trương Văn Hiến có quan hệ thế nào với Nguyễn Phúc Luân, cha của Nguyễn Ánh?",
+    "ground_truth": "Trương Văn Hiến là môn khách của Trương Văn Hạnh, còn Trương Văn Hạnh là thầy dạy của Nguyễn Phúc Luân (cha Nguyễn Ánh).",
+    "extracted_entities": [
+      "Trương Văn Hiến",
+      "Nguyễn Phúc Luân",
+      "Nguyễn Ánh"
+    ],
+    "answer": "Trương Văn Hiến là thầy dạy của Nguyễn Phúc Luân – cha của Nguyễn Ánh.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6678,
+      "context_relevance": 4,
+      "context_sufficiency": 4,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Tóm tắt các cải cách chính của Quang Trung trong thời gian trị vì.",
+    "ground_truth": "Ông đề ra cải cách về nhân sự (chiếu cầu hiền, trọng dụng Ngô Thì Nhậm, Phan Huy Ích, Nguyễn Thiếp...), quân sự (quân đội trang bị hiện đại), kinh tế (cải cách đinh điền, ruộng đất, khuyến khích thủ công nghiệp, mở rộng ngoại thương), giáo dục (cải tiến thi cử, khuyến học, dùng chữ Nôm thay chữ Hán, sắp xếp lại chùa chiền, bài trừ mê tín).",
+    "extracted_entities": [
+      "Quang Trung"
+    ],
+    "answer": "Trong thời gian trị vì, vua Quang Trung đã tiến hành nhiều cải cách quan trọng trong các lĩnh vực sau:\n\n- **Kinh tế**: Cải cách chế độ đinh điền và ruộng đất, khuyến khích phát triển thủ công nghiệp, mở rộng thương mại với phương Tây.\n  \n- **Giáo dục**: Cải tiến thi cử theo hướng thiết thực, ban hành chính sách khuyến học, khuyến khích sử dụng chữ Nôm thay cho chữ Hán, sắp xếp lại chùa chiền và bài trừ mê tín dị đoan.\n\n- **Quân sự**: Xây dựng quân đội trang bị hiện đại, nâng cao năng lực chiến đấu.\n\n- **Chính trị – Pháp lý**: Đề ra nhiều kế hoạch cải cách tiến bộ trong chính sách quản lý đất nước, trọng dụng nhân tài như Ngô Thì Nhậm, Phan Huy Ích, Nguyễn Thiệp, Nguyễn Huy Lượng...\n\nNhững cải cách này mang xu hướng rất tiến bộ và vượt trội so với các quốc gia châu Á đương thời, góp phần đưa đất nước thoát khỏi tình trạng trì trệ của chế độ phong kiến.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5006,
+      "context_relevance": 3,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Tổng quan nội dung chính của tài liệu về Quang Trung nói về những gì?",
+    "ground_truth": "Tài liệu nói về cuộc đời và sự nghiệp của Quang Trung - Nguyễn Huệ: nguồn gốc gia đình họ Hồ/Nguyễn ở Tây Sơn, giáo dục và võ nghệ, vai trò trong khởi nghĩa Tây Sơn chấm dứt Trịnh - Nguyễn phân tranh, đánh bại Xiêm và Thanh, các cải cách khi làm vua, và sự suy yếu của Tây Sơn sau khi ông mất.",
+    "extracted_entities": [
+      "Quang Trung"
+    ],
+    "answer": "Tài liệu cung cấp tổng quan nội dung chính về Quang Trung (tức là Nguyễn Huệ) bao gồm: cuộc đời và sự nghiệp của ông trong việc lãnh đạo khởi nghĩa Tây Sơn, thống nhất đất nước, đánh bại các thế lực ngoại xâm; những cải cách tiến bộ trong kinh tế, văn hóa, giáo dục, quân sự; vai trò của ông như một nhà quân sự xuất sắc và nhà chính trị tài ba; đồng thời cũng nêu rõ các mối quan hệ họ hàng với hai anh em là Nguyễn Nhạc và Nguyễn Lữ, cùng với những biệt danh và tên gọi khác mà ông được biết đến.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.4481,
+      "context_relevance": 5,
+      "context_sufficiency": 5,
+      "faithfulness": 4,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "\"Love the Way You Lie\" là bài hát của những nghệ sĩ nào và xuất hiện trong album nào?",
+    "ground_truth": "\"Love the Way You Lie\" là bài hát của rapper người Mỹ Eminem, có sự góp giọng của ca sĩ người Barbados Rihanna, và nằm trong album phòng thu thứ bảy của Eminem là Recovery (2010).",
+    "extracted_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "Rihanna",
+      "Recovery"
+    ],
+    "answer": "\"Love the Way You Lie\" là bài hát của hai nghệ sĩ Eminem và Rihanna, xuất hiện trong album *Recovery*.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5669,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai là người viết và thu âm bản demo ban đầu của \"Love the Way You Lie\"?",
+    "ground_truth": "Skylar Grey là người viết và thu âm bản demo của bài hát cùng với nhà sản xuất Alex da Kid.",
+    "extracted_entities": [
+      "Love the Way You Lie"
+    ],
+    "answer": "Không tìm thấy đủ thông tin.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai đã tạo backing track và hook melody ban đầu của \"Love the Way You Lie\"?",
+    "ground_truth": "Alex da Kid đã tạo backing track và hook melody ban đầu của bài hát.",
+    "extracted_entities": [
+      "Love the Way You Lie",
+      "Hook melody"
+    ],
+    "answer": "Không tìm thấy đủ thông tin để xác định ai đã tạo backing track và hook melody ban đầu của \"Love the Way You Lie\".",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5665,
+      "context_relevance": 5,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Skylar Grey đã viết phần điệp khúc của \"Love the Way You Lie\" trong bao lâu?",
+    "ground_truth": "Skylar Grey viết phần điệp khúc trong khoảng 15 phút.",
+    "extracted_entities": [
+      "Skylar Grey",
+      "Love the Way You Lie"
+    ],
+    "answer": "Skylar Grey đã viết phần điệp khúc của \"Love the Way You Lie\" trong mười lăm phút.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5666,
+      "context_relevance": 5,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai đã gợi ý cho Skylar Grey hợp tác với Alex da Kid?",
+    "ground_truth": "Jennifer Blakeman, người phụ trách xuất bản âm nhạc của Universal Music, đã gợi ý Skylar Grey hợp tác với Alex da Kid.",
+    "extracted_entities": [
+      "Skylar Grey",
+      "Alex da Kid"
+    ],
+    "answer": "Jennifer Blakeman đã gợi ý cho Skylar Grey hợp tác với Alex da Kid.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6598,
+      "context_relevance": 4,
+      "context_sufficiency": 4,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Điều gì trong track của Alex da Kid đã khiến Skylar Grey nảy sinh ý tưởng về một mối quan hệ tình cảm bị lạm dụng?",
+    "ground_truth": "Track mà Alex da Kid gửi cho Skylar Grey gợi lên chủ đề về những mối quan hệ tình cảm bị lạm dụng, từ đó Grey phát triển ý tưởng cho bài hát.",
+    "extracted_entities": [
+      "Alex da Kid",
+      "Skylar Grey"
+    ],
+    "answer": "Trong track của Alex da Kid, Skylar Grey đã nảy sinh ý tưởng về một mối quan hệ tình cảm bị lạm dụng khi cô nghe thấy chủ đề về các mối quan hệ độc hại trong âm nhạc. Cô cho biết rằng bản nhạc gợi lên hình ảnh về một mối quan hệ bạo lực mà cô đang trải qua với ngành công nghiệp âm nhạc, và điều này đã truyền cảm hứng cho bà viết lời ca cho bài hát \"Love the Way You Lie\".",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.4219,
+      "context_relevance": 3,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Hãy mô tả chuỗi sự kiện từ khi Skylar Grey bắt đầu hợp tác với Alex da Kid cho đến khi Eminem chọn \"Love the Way You Lie\".",
+    "ground_truth": "Jennifer Blakeman giới thiệu Skylar Grey với Alex da Kid; Alex da Kid gửi track cho Grey; Grey viết chorus và thu demo; sau đó vào đầu năm 2010 Alex da Kid đưa backing tracks cho Rigo Morales; Morales gửi chúng cho Eminem; Eminem nghe \"Love the Way You Lie\" và chọn bài.",
+    "extracted_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "answer": "Skylar Grey bắt đầu hợp tác với Alex da Kid khi cô viết ca khúc \"Love the Way You Lie\" tại Artula Retreat ở Oregon. Sau đó, cô đến New York City để gặp nhà xuất bản của mình là Jennifer Blakeman và được gợi ý hợp tác với Alex da Kid. Alex da Kid đã gửi cho Grey một đoạn nhạc gợi ý chủ đề về mối quan hệ tình yêu độc hại, khiến Grey cảm thấy như đang sáng tác bài hát dành riêng cho chính cô. Cô viết phần ca khúc trong mười lăm phút và ghi âm giọng hát để gửi cho Alex da Kid.\n\nSau đó, Skylar Grey cùng với Alex da Kid thực hiện demo của ca khúc này. Eminem sau khi nghe demo đã yêu thích nó và quyết định hợp tác với Rihanna để hoàn thiện bài hát. Ông viết phần rap và chọn Rihanna để trình bày phần ca khúc. Ca khúc được ghi âm tại Ferndale, Michigan và Dublin, Ireland, với sự tham gia của các nhạc sĩ như Mike Strange và Marcos Tovar. Cuối cùng, Eminem đã chọn \"Love the Way You Lie\" làm một trong những ca khúc tiêu biểu cho album Recovery của ông.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.33,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Tại sao Eminem chọn Rihanna để thể hiện phần điệp khúc của bài hát?",
+    "ground_truth": "Eminem chọn Rihanna vì ông cảm thấy cô là người đặc biệt phù hợp và là người có thể thể hiện bài hát này.",
+    "extracted_entities": [
+      "Eminem",
+      "Rihanna"
+    ],
+    "answer": "Theo context được cung cấp, Eminem chọn Rihanna để thể hiện phần điệp khúc của bài hát vì sự hợp tác giữa hai nghệ sĩ tạo ra một phong cách âm nhạc đặc biệt. Cụ thể, Rihanna mang đến giọng hát đầy cảm xúc và phù hợp với giai điệu chậm rãi, trầm lắng của phần điệp khúc. Ngoài ra, sự kết hợp này cũng góp phần làm nổi bật thông điệp về mối quan hệ yêu ghét trong bài hát. Tuy nhiên, context không nêu rõ lý do cụ thể mà Eminem chọn Rihanna cho phần điệp khúc, nên câu trả lời dựa trên những phân tích từ nội dung đã cung cấp.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2334,
+      "context_relevance": 4,
+      "context_sufficiency": 4,
+      "faithfulness": 4,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Rihanna đồng ý tham gia bài hát vì những trải nghiệm nào của cô có liên quan đến chủ đề?",
+    "ground_truth": "Rihanna cho biết cô có thể đồng cảm với chủ đề của bài hát vì cô từng trải qua một mối quan hệ khó khăn; tài liệu liên hệ điều này với mối quan hệ của cô với Chris Brown.",
+    "extracted_entities": [
+      "Rihanna",
+      "Bài hát"
+    ],
+    "answer": "Không tìm thấy đủ thông tin.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "context_relevance": 3,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 2
+    }
+  },
+  {
+    "status": "success",
+    "question": "Những trải nghiệm cá nhân nào của Eminem và Rihanna được tài liệu liên hệ với chủ đề của bài hát?",
+    "ground_truth": "Eminem từng có mối quan hệ với Kim Scott, trong khi Rihanna từng có mối quan hệ với Chris Brown kết thúc sau vụ Chris Brown tấn công cô vào năm 2009.",
+    "extracted_entities": [
+      "Eminem",
+      "Rihanna"
+    ],
+    "answer": "Theo tài liệu, những trải nghiệm cá nhân của Eminem và Rihanna được liên hệ với chủ đề của bài hát \"Love the Way You Lie\" bao gồm:\n\n- Eminem chia sẻ về mối quan hệ tình cảm đầy xung đột và bạo lực giữa anh và người vợ cũ, Scott. Anh mô tả sự giận dữ, nỗi đau và những hành vi bạo lực trong quá khứ.\n- Rihanna cũng đề cập đến trải nghiệm của mình trong mối quan hệ này, thể hiện qua lời ca như \"I love the way you lie\", cho thấy cô chấp nhận và cảm thấy bị cuốn vào một tình yêu đầy mâu thuẫn.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1706,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 2
+    }
+  },
+  {
+    "status": "success",
+    "question": "Các buổi thu âm vocal của Eminem và Rihanna diễn ra ở đâu?",
+    "ground_truth": "Eminem thu âm tại Effigy Studios ở Ferndale, Michigan, còn Rihanna thu âm tại Sun Studios ở Dublin, Ireland.",
+    "extracted_entities": [
+      "Eminem",
+      "Rihanna",
+      "Vocal",
+      "Thu âm"
+    ],
+    "answer": "Buổi thu âm vocal của Eminem diễn ra tại Effigy Studios ở Ferndale, Michigan. Buổi thu âm vocal của Rihanna diễn ra tại Sun Studios ở Dublin, Ireland.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.8341,
+      "context_relevance": 5,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai chịu trách nhiệm kỹ thuật cho các buổi thu âm vocal của Eminem và Rihanna?",
+    "ground_truth": "Mike Strange phụ trách ghi âm và mix vocal của Eminem, còn Marcos Tovar là kỹ sư cho các buổi thu âm của Rihanna.",
+    "extracted_entities": [
+      "Eminem",
+      "Rihanna"
+    ],
+    "answer": "Mike Strange chịu trách nhiệm kỹ thuật cho các buổi thu âm vocal của Eminem. Đối với Rihanna, Mike Strange cũng tham gia vào quá trình thu âm và sử dụng các công cụ như equalization, compression và reverberation, nhưng ông không thực hiện những thay đổi lớn về cân bằng giọng hát vì anh ấy cho rằng Rihanna hài lòng với kết quả thu được.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.3335,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 2
+    }
+  },
+  {
+    "status": "success",
+    "question": "So sánh quá trình thu âm vocal của Eminem và Rihanna về địa điểm và thời lượng được nêu trong tài liệu.",
+    "ground_truth": "Eminem thu âm và mix vocal tại Effigy Studios ở Ferndale, Michigan trong hai ngày. Rihanna thu âm tại Sun Studios ở Dublin, Ireland; tài liệu không nêu thời lượng của các buổi thu âm của Rihanna.",
+    "extracted_entities": [
+      "Eminem",
+      "Rihanna"
+    ],
+    "answer": "Theo thông tin trong context:\n\n- Eminem thu âm vocal cho ca khúc \"Love the Way You Lie\" tại **Effigy Studios ở Ferndale, Michigan**, và quá trình này diễn ra trong **hai ngày**.\n- Rihanna thu âm vocal cho ca khúc này tại **Sun Studios ở Dublin, Ireland**, nhưng không có thông tin cụ thể về thời lượng thu âm của cô.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6728,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "\"Love the Way You Lie\" thuộc thể loại nào và những nhạc cụ nào được sử dụng trong phần rap của Eminem?",
+    "ground_truth": "Bài hát là một midtempo hip hop ballad với pop refrain. Phần rap của Eminem được hỗ trợ bởi acoustic guitar, violin và drums.",
+    "extracted_entities": [
+      "Love the Way You Lie",
+      "Eminem"
+    ],
+    "answer": "\"Love the Way You Lie\" thuộc thể loại hip hop ballad. Những nhạc cụ được sử dụng trong phần rap của Eminem bao gồm guitar acoustic, violin và drums.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.5386,
+      "context_relevance": 5,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Bài hát được viết ở giọng nào, có tempo bao nhiêu và quãng giọng là bao nhiêu?",
+    "ground_truth": "Bài hát được viết ở giọng G minor, có tempo 87 beats per minute và quãng giọng từ B♭3 đến D5.",
+    "extracted_entities": [],
+    "answer": "Dựa vào thông tin đã cung cấp, câu hỏi về giọng bài hát, tempo và quãng giọng không thể được trả lời. Những nội dung trong tóm tắt chỉ đề cập đến ý nghĩa, nội dung, phản ứng của công chúng và giới phê bình đối với ca khúc \"Love the Way You Lie\", chứ không có thông tin liên quan đến các yếu tố âm nhạc như giọng hát, tempo hay quãng giọng.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.203,
+      "context_relevance": 1,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Rihanna và Eminem đảm nhận những phần nào trong cấu trúc vocal của bài hát?",
+    "ground_truth": "Rihanna đảm nhận phần pop refrain/điệp khúc, còn Eminem thể hiện các verse bằng rap.",
+    "extracted_entities": [
+      "Rihanna",
+      "Eminem"
+    ],
+    "answer": "Trong cấu trúc vocal của bài hát \"Love the Way You Lie\", Rihanna đảm nhận phần ca khúc chính (hook) và thể hiện giọng hát buồn, không sử dụng vibrato. Eminem đảm nhận phần rap, thể hiện sự tức giận và nỗi đau trong mối quan hệ độc hại.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2794,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 4,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Theo tài liệu, mối quan hệ được mô tả trong bài hát phát triển như thế nào?",
+    "ground_truth": "Mối quan hệ chuyển từ những khía cạnh tích cực của tình yêu sang giận dữ, xung đột và cuối cùng là bạo lực gia đình, trong khi hai người vẫn không chịu chia tay.",
+    "extracted_entities": [],
+    "answer": "Theo tài liệu, mối quan hệ được mô tả trong bài hát \"Love the Way You Lie\" của Eminem và Rihanna là một mối quan hệ độc hại và bạo lực. Mối quan hệ này phát triển theo hướng đầy xung đột, với sự hiện diện của các hành vi bạo lực gia đình, phản ánh những vấn đề nghiêm trọng trong tình yêu và cuộc sống hôn nhân.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.3219,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "David Browne nhận xét thế nào về cách Rihanna thể hiện cảm xúc trong bài hát?",
+    "ground_truth": "Ông nhận xét rằng dù Rihanna hát không có vibrato, giọng hát của cô vẫn thể hiện một cách tinh tế sự đau buồn và hối tiếc.",
+    "extracted_entities": [
+      "David Browne",
+      "Rihanna"
+    ],
+    "answer": "Theo context, David Browne của The New York Times nhận xét rằng giọng hát của Rihanna \"subtly shows grief and regret\" (thể hiện nỗi buồn và sự hối tiếc một cách tinh tế).",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6417,
+      "context_relevance": 3,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Alex da Kid muốn thay đổi phần acoustic guitar trong bản demo như thế nào và Eminem đã quyết định ra sao?",
+    "ground_truth": "Alex da Kid muốn thay acoustic guitar trong bản demo, nhưng Eminem quyết định giữ lại phần acoustic guitar đó.",
+    "extracted_entities": [
+      "Alex da Kid",
+      "Eminem"
+    ],
+    "answer": "Dựa trên context được cung cấp, Alex da Kid muốn thay đổi phần acoustic guitar trong bản demo bằng cách loại bỏ nó. Tuy nhiên, Eminem đã quyết định giữ lại phần acoustic guitar này.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6499,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai đạo diễn music video và hai diễn viên chính đóng vai những ai?",
+    "ground_truth": "Joseph Kahn đạo diễn music video; Dominic Monaghan và Megan Fox đóng vai một cặp tình nhân trong một mối quan hệ bạo lực.",
+    "extracted_entities": [
+      "music video",
+      "hai diễn viên chính"
+    ],
+    "answer": "Người đạo diễn music video là Joseph Kahn. Hai diễn viên chính đóng vai hai người yêu trong mối quan hệ bạo lực là Dominic Monaghan và Megan Fox.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.7033,
+      "context_relevance": 3,
+      "context_sufficiency": 4,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Tại sao music video của \"Love the Way You Lie\" nhận được phản ứng trái chiều?",
+    "ground_truth": "Music video nhận phản ứng trái chiều do có các cảnh mô tả bạo lực gia đình và một mối quan hệ tình cảm bạo lực.",
+    "extracted_entities": [
+      "Love the Way You Lie"
+    ],
+    "answer": "Context không cung cấp đủ thông tin để trả lời câu hỏi về lý do tại sao music video của \"Love the Way You Lie\" nhận được phản ứng trái chiều.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2537,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "\"Love the Way You Lie\" được phát hành làm single thứ mấy của Recovery và khi nào?",
+    "ground_truth": "Bài hát được phát hành làm single thứ hai của Recovery vào tháng 6 năm 2010.",
+    "extracted_entities": [
+      "Love the Way You Lie",
+      "Recovery",
+      "2010"
+    ],
+    "answer": "\"Love the Way You Lie\" được phát hành làm single thứ hai của album *Recovery* và ra mắt vào tháng 6 năm 2010.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.8046,
+      "context_relevance": 4,
+      "context_sufficiency": 4,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Hãy sắp xếp các sự kiện chính trong quá trình phát triển bài hát theo trình tự thời gian.",
+    "ground_truth": "Cuối năm 2009 Skylar Grey bắt đầu viết và hợp tác với Alex da Kid; Grey viết chorus và thu demo; đầu năm 2010 Alex da Kid đưa backing tracks cho Rigo Morales và Morales gửi chúng cho Eminem; Eminem chọn bài và muốn Rihanna tham gia; sau đó các phần vocal được thu âm và bài hát được phát hành vào tháng 6 năm 2010.",
+    "extracted_entities": [],
+    "answer": "Không có đủ thông tin để xác định các sự kiện liên quan đến bài hát trong văn bản đã cung cấp. Văn bản trên là một đoạn trích từ sử thi hoặc truyền thuyết Việt Nam, không đề cập đến việc phát triển của một bài hát cụ thể. Do đó, câu hỏi về sắp xếp các sự kiện chính trong quá trình phát triển bài hát không thể được trả lời dựa trên nội dung đã cho.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1033,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Skylar Grey viết chorus trước hay Eminem chọn \"Love the Way You Lie\" trước?",
+    "ground_truth": "Skylar Grey viết chorus trước; sau đó Eminem nghe và chọn bài hát vào đầu năm 2010.",
+    "extracted_entities": [
+      "Skylar Grey",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "answer": "Skylar Grey đã viết chorus của bài hát \"Love the Way You Lie\" trước khi Eminem chọn bài này. Theo thông tin trong chunk 099af939213f, Skylar Grey đã sáng tác và ghi âm phần demo của ca khúc cùng với sản xuất Alex da Kid. Sau đó, Eminem mới chọn Rihanna để hát chorus và quyết định đưa bài hát vào album Recovery.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.3281,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Những người nào đóng vai trò trong quá trình đưa bài hát từ bản demo đến bản phát hành?",
+    "ground_truth": "Các nhân vật chính gồm Skylar Grey, Alex da Kid, Rigo Morales, Eminem và Rihanna. Grey viết và thu demo; Alex da Kid tạo backing track và sản xuất; Morales chuyển backing tracks tới Eminem; Eminem viết verse và chọn bài; Rihanna tham gia thể hiện refrain.",
+    "extracted_entities": [],
+    "answer": "Không có thông tin về bài hát hoặc quy trình đưa bài hát từ bản demo đến bản phát hành trong nội dung được cung cấp. Do đó, câu hỏi này không thể trả lời dựa trên tài liệu đã cho.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0667,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Bài hát đứng đầu Billboard Hot 100 trong bao nhiêu tuần và đã bán được bao nhiêu bản tại Mỹ và Anh?",
+    "ground_truth": "Bài hát đứng đầu Billboard Hot 100 của Mỹ trong bảy tuần, bán hơn 12 triệu bản tại Mỹ và 1,5 triệu bản tại Anh.",
+    "extracted_entities": [
+      "US Billboard Hot 100",
+      "Mỹ",
+      "Anh"
+    ],
+    "answer": "Bài hát đứng đầu Billboard Hot 100 trong 7 tuần và đã bán được hơn 12 triệu bản tại Mỹ và 1.5 triệu bản tại Anh.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.9901,
+      "context_relevance": 3,
+      "context_sufficiency": 4,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Nếu cộng các con số doanh số được nêu cho Mỹ và Anh, tổng số bản được đề cập là bao nhiêu?",
+    "ground_truth": "Hơn 13,5 triệu bản, được tính từ hơn 12 triệu bản tại Mỹ cộng với 1,5 triệu bản tại Anh.",
+    "extracted_entities": [
+      "Mỹ",
+      "Anh"
+    ],
+    "answer": "Không tìm thấy đủ thông tin.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "Những người nào được tài liệu mô tả là có liên quan đến quá trình sản xuất, thu âm hoặc hình ảnh của bài hát?",
+    "ground_truth": "Các nhân vật được đề cập gồm Eminem, Rihanna, Skylar Grey, Alex da Kid, Jennifer Blakeman, Rigo Morales, Paul Rosenberg, Mike Strange, Joe Strange, Marcos Tovar, Makeba Riddick và Joseph Kahn.",
+    "extracted_entities": [],
+    "answer": "Không ai được mô tả trong tài liệu có liên quan đến quá trình sản xuất, thu âm hoặc hình ảnh của bài hát.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0389,
+      "context_relevance": 3,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ai là người viết phần violin được sử dụng trong \"Love the Way You Lie\"?",
+    "ground_truth": null,
+    "extracted_entities": [
+      "Love the Way You Lie"
+    ],
+    "answer": "Không tìm thấy đủ thông tin.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "context_relevance": 3,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Ngày cụ thể nào trong tháng 6 năm 2010 \"Love the Way You Lie\" được phát hành làm single thứ hai?",
+    "ground_truth": null,
+    "extracted_entities": [
+      "Love the Way You Lie",
+      "6",
+      "2010"
+    ],
+    "answer": "Ngày 16 tháng 6 năm 2010.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "context_relevance": 3,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 1
+    }
+  }
+]

@@ -1,0 +1,672 @@
+[
+  {
+    "id": 1,
+    "question": "\"Love the Way You Lie\" là bài hát của những nghệ sĩ nào và xuất hiện trong album nào?",
+    "ground_truth": "\"Love the Way You Lie\" là bài hát của rapper người Mỹ Eminem, có sự góp giọng của ca sĩ người Barbados Rihanna, và nằm trong album phòng thu thứ bảy của Eminem là Recovery (2010).",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần giới thiệu xác định Eminem là nghệ sĩ chính, Rihanna là nghệ sĩ góp giọng và bài hát thuộc album Recovery."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "Rihanna",
+      "Recovery"
+    ],
+    "supporting_relations": [
+      "PERFORMED_BY",
+      "FEATURES",
+      "APPEARS_ON"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Ai là người viết và thu âm bản demo ban đầu của \"Love the Way You Lie\"?",
+    "ground_truth": "Skylar Grey là người viết và thu âm bản demo của bài hát cùng với nhà sản xuất Alex da Kid.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần giới thiệu và phần Writing and production nói Skylar Grey viết và thu âm demo cùng Alex da Kid."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "RECORDED_DEMO_WITH"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Ai đã tạo backing track và hook melody ban đầu của \"Love the Way You Lie\"?",
+    "ground_truth": "Alex da Kid đã tạo backing track và hook melody ban đầu của bài hát.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Writing and production xác định Alex da Kid là người tạo backing track và hook melody ban đầu."
+    ],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "CREATED_BACKING_TRACK",
+      "CREATED_HOOK_MELODY"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Skylar Grey đã viết phần điệp khúc của \"Love the Way You Lie\" trong bao lâu?",
+    "ground_truth": "Skylar Grey viết phần điệp khúc trong khoảng 15 phút.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Writing and production cho biết Skylar Grey viết chorus trong 15 phút."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE_CHORUS"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Ai đã gợi ý cho Skylar Grey hợp tác với Alex da Kid?",
+    "ground_truth": "Jennifer Blakeman, người phụ trách xuất bản âm nhạc của Universal Music, đã gợi ý Skylar Grey hợp tác với Alex da Kid.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Skylar Grey tìm đến Jennifer Blakeman tại Universal Music và được Blakeman đề xuất hợp tác với Alex da Kid."
+    ],
+    "supporting_entities": [
+      "Jennifer Blakeman",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Universal Music"
+    ],
+    "supporting_relations": [
+      "WORKED_AT",
+      "SUGGESTED_COLLABORATION",
+      "COLLABORATED_WITH"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Điều gì trong track của Alex da Kid đã khiến Skylar Grey nảy sinh ý tưởng về một mối quan hệ tình cảm bị lạm dụng?",
+    "ground_truth": "Track mà Alex da Kid gửi cho Skylar Grey gợi lên chủ đề về những mối quan hệ tình cảm bị lạm dụng, từ đó Grey phát triển ý tưởng cho bài hát.",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Alex da Kid gửi track cho Grey; track gợi ý chủ đề abusive romantic relationships và Grey ứng tác lời theo melody."
+    ],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Skylar Grey",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "SENT_TRACK_TO",
+      "INSPIRED",
+      "WROTE"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Hãy mô tả chuỗi sự kiện từ khi Skylar Grey bắt đầu hợp tác với Alex da Kid cho đến khi Eminem chọn \"Love the Way You Lie\".",
+    "ground_truth": "Jennifer Blakeman giới thiệu Skylar Grey với Alex da Kid; Alex da Kid gửi track cho Grey; Grey viết chorus và thu demo; sau đó vào đầu năm 2010 Alex da Kid đưa backing tracks cho Rigo Morales; Morales gửi chúng cho Eminem; Eminem nghe \"Love the Way You Lie\" và chọn bài.",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Writing and production mô tả việc Blakeman giới thiệu Grey với Alex da Kid.",
+      "Alex da Kid gửi track cho Grey và Grey viết chorus, thu demo.",
+      "Đầu năm 2010 Alex da Kid đưa backing tracks cho Rigo Morales, người sau đó gửi chúng cho Eminem.",
+      "Eminem nghe và chọn Love the Way You Lie."
+    ],
+    "supporting_entities": [
+      "Jennifer Blakeman",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "SUGGESTED_COLLABORATION",
+      "COLLABORATED_WITH",
+      "SENT_TRACK_TO",
+      "CREATED_BACKING_TRACK",
+      "GAVE_TRACKS_TO",
+      "SENT_TRACKS_TO",
+      "SELECTED"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Tại sao Eminem chọn Rihanna để thể hiện phần điệp khúc của bài hát?",
+    "ground_truth": "Eminem chọn Rihanna vì ông cảm thấy cô là người đặc biệt phù hợp và là người có thể thể hiện bài hát này.",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Sau khi chọn bài, Eminem nói với quản lý rằng ông muốn hợp tác với Rihanna và cho rằng chỉ cô ấy mới có thể thể hiện track."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "CHOSE",
+      "WANTED_TO_COLLABORATE_WITH"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Rihanna đồng ý tham gia bài hát vì những trải nghiệm nào của cô có liên quan đến chủ đề?",
+    "ground_truth": "Rihanna cho biết cô có thể đồng cảm với chủ đề của bài hát vì cô từng trải qua một mối quan hệ khó khăn; tài liệu liên hệ điều này với mối quan hệ của cô với Chris Brown.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Rihanna nói cô và Eminem từng ở trong những mối quan hệ khó khăn ở hai vị trí khác nhau.",
+      "Tài liệu cho biết mối quan hệ của Rihanna với Chris Brown kết thúc sau vụ Chris Brown tấn công cô vào năm 2009."
+    ],
+    "supporting_entities": [
+      "Rihanna",
+      "Eminem",
+      "Chris Brown",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "EXPERIENCED",
+      "HAD_RELATIONSHIP_WITH",
+      "RELATES_TO_THEME"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Những trải nghiệm cá nhân nào của Eminem và Rihanna được tài liệu liên hệ với chủ đề của bài hát?",
+    "ground_truth": "Eminem từng có mối quan hệ với Kim Scott, trong khi Rihanna từng có mối quan hệ với Chris Brown kết thúc sau vụ Chris Brown tấn công cô vào năm 2009.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Tài liệu liên hệ Eminem với Kim Scott và Rihanna với Chris Brown khi giải thích sự đồng cảm với chủ đề bạo lực gia đình."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Kim Scott",
+      "Rihanna",
+      "Chris Brown"
+    ],
+    "supporting_relations": [
+      "HAD_RELATIONSHIP_WITH",
+      "EX_PARTNER_OF",
+      "RELATED_TO_THEME"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Các buổi thu âm vocal của Eminem và Rihanna diễn ra ở đâu?",
+    "ground_truth": "Eminem thu âm tại Effigy Studios ở Ferndale, Michigan, còn Rihanna thu âm tại Sun Studios ở Dublin, Ireland.",
+    "question_type": "comparison",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Recording xác định địa điểm thu âm vocal của Eminem tại Effigy Studios.",
+      "Phần Recording xác định địa điểm thu âm của Rihanna tại Sun Studios."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Effigy Studios",
+      "Sun Studios",
+      "Ferndale",
+      "Dublin"
+    ],
+    "supporting_relations": [
+      "RECORDED_AT",
+      "LOCATED_IN"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Ai chịu trách nhiệm kỹ thuật cho các buổi thu âm vocal của Eminem và Rihanna?",
+    "ground_truth": "Mike Strange phụ trách ghi âm và mix vocal của Eminem, còn Marcos Tovar là kỹ sư cho các buổi thu âm của Rihanna.",
+    "question_type": "comparison",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Mike Strange ghi âm và mix vocal của Eminem.",
+      "Marcos Tovar phụ trách kỹ thuật cho các buổi thu âm của Rihanna."
+    ],
+    "supporting_entities": [
+      "Mike Strange",
+      "Marcos Tovar",
+      "Eminem",
+      "Rihanna"
+    ],
+    "supporting_relations": [
+      "ENGINEERED",
+      "RECORDED",
+      "MIXED"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "So sánh quá trình thu âm vocal của Eminem và Rihanna về địa điểm và thời lượng được nêu trong tài liệu.",
+    "ground_truth": "Eminem thu âm và mix vocal tại Effigy Studios ở Ferndale, Michigan trong hai ngày. Rihanna thu âm tại Sun Studios ở Dublin, Ireland; tài liệu không nêu thời lượng của các buổi thu âm của Rihanna.",
+    "question_type": "comparison",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Recording cho biết các session của Eminem kéo dài hai ngày tại Effigy Studios.",
+      "Phần Recording xác định Rihanna thu âm tại Sun Studios nhưng không cung cấp thời lượng."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Effigy Studios",
+      "Sun Studios"
+    ],
+    "supporting_relations": [
+      "RECORDED_AT",
+      "MIXED_AT",
+      "SESSION_DURATION"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "\"Love the Way You Lie\" thuộc thể loại nào và những nhạc cụ nào được sử dụng trong phần rap của Eminem?",
+    "ground_truth": "Bài hát là một midtempo hip hop ballad với pop refrain. Phần rap của Eminem được hỗ trợ bởi acoustic guitar, violin và drums.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Composition xác định thể loại midtempo hip hop ballad với pop refrain.",
+      "Phần rap của Eminem được mô tả cùng acoustic guitar, violin và drums."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "acoustic guitar",
+      "violin",
+      "drums"
+    ],
+    "supporting_relations": [
+      "HAS_GENRE",
+      "HAS_REFRain",
+      "ACCOMPANIED_BY"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Bài hát được viết ở giọng nào, có tempo bao nhiêu và quãng giọng là bao nhiêu?",
+    "ground_truth": "Bài hát được viết ở giọng G minor, có tempo 87 beats per minute và quãng giọng từ B♭3 đến D5.",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Composition cung cấp key, tempo và vocal range của bài hát."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "G minor",
+      "87 BPM",
+      "B♭3",
+      "D5"
+    ],
+    "supporting_relations": [
+      "HAS_KEY",
+      "HAS_TEMPO",
+      "HAS_VOCAL_RANGE"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Rihanna và Eminem đảm nhận những phần nào trong cấu trúc vocal của bài hát?",
+    "ground_truth": "Rihanna đảm nhận phần pop refrain/điệp khúc, còn Eminem thể hiện các verse bằng rap.",
+    "question_type": "relation_reasoning",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Composition mô tả Rihanna hát refrain và Eminem bắt đầu các verse bằng rap."
+    ],
+    "supporting_entities": [
+      "Rihanna",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "SINGS_REFRAIN",
+      "PERFORMS_VERSE"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Theo tài liệu, mối quan hệ được mô tả trong bài hát phát triển như thế nào?",
+    "ground_truth": "Mối quan hệ chuyển từ những khía cạnh tích cực của tình yêu sang giận dữ, xung đột và cuối cùng là bạo lực gia đình, trong khi hai người vẫn không chịu chia tay.",
+    "question_type": "summarization",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần giới thiệu mô tả hai người không chịu chia tay dù đang trong mối quan hệ bị lạm dụng.",
+      "Phần Composition mô tả sự chuyển tiếp từ những mặt tích cực của tình yêu sang các sự kiện bạo lực."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "abusive relationship",
+      "domestic violence"
+    ],
+    "supporting_relations": [
+      "DESCRIBES",
+      "INVOLVES",
+      "TRANSITIONS_TO"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "David Browne nhận xét thế nào về cách Rihanna thể hiện cảm xúc trong bài hát?",
+    "ground_truth": "Ông nhận xét rằng dù Rihanna hát không có vibrato, giọng hát của cô vẫn thể hiện một cách tinh tế sự đau buồn và hối tiếc.",
+    "question_type": "single_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Composition dẫn nhận xét của David Browne về giọng hát không vibrato nhưng vẫn thể hiện grief và regret."
+    ],
+    "supporting_entities": [
+      "David Browne",
+      "Rihanna",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "REVIEWED",
+      "DESCRIBED_VOCAL_PERFORMANCE"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Alex da Kid muốn thay đổi phần acoustic guitar trong bản demo như thế nào và Eminem đã quyết định ra sao?",
+    "ground_truth": "Alex da Kid muốn thay acoustic guitar trong bản demo, nhưng Eminem quyết định giữ lại phần acoustic guitar đó.",
+    "question_type": "relation_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Recording cho biết Alex da Kid muốn thay acoustic guitar nhưng Eminem chọn giữ lại."
+    ],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Eminem",
+      "acoustic guitar",
+      "demo"
+    ],
+    "supporting_relations": [
+      "WANTED_TO_REPLACE",
+      "DECIDED_TO_KEEP"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Ai đạo diễn music video và hai diễn viên chính đóng vai những ai?",
+    "ground_truth": "Joseph Kahn đạo diễn music video; Dominic Monaghan và Megan Fox đóng vai một cặp tình nhân trong một mối quan hệ bạo lực.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần mô tả music video xác định đạo diễn Joseph Kahn và hai diễn viên Dominic Monaghan, Megan Fox."
+    ],
+    "supporting_entities": [
+      "Joseph Kahn",
+      "Dominic Monaghan",
+      "Megan Fox",
+      "Love the Way You Lie music video"
+    ],
+    "supporting_relations": [
+      "DIRECTED",
+      "STARRED_IN",
+      "PORTRAYED"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Tại sao music video của \"Love the Way You Lie\" nhận được phản ứng trái chiều?",
+    "ground_truth": "Music video nhận phản ứng trái chiều do có các cảnh mô tả bạo lực gia đình và một mối quan hệ tình cảm bạo lực.",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Release and response nói video có phản ứng trái chiều do các cảnh domestic violence."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie music video",
+      "domestic violence"
+    ],
+    "supporting_relations": [
+      "RECEIVED_MIXED_RECEPTION",
+      "DEPICTS"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "\"Love the Way You Lie\" được phát hành làm single thứ mấy của Recovery và khi nào?",
+    "ground_truth": "Bài hát được phát hành làm single thứ hai của Recovery vào tháng 6 năm 2010.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Release and response xác định bài hát là single thứ hai và được phát hành vào tháng 6 năm 2010."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Recovery",
+      "Interscope Records"
+    ],
+    "supporting_relations": [
+      "SECOND_SINGLE_FROM",
+      "RELEASED_BY",
+      "RELEASED_IN"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Hãy sắp xếp các sự kiện chính trong quá trình phát triển bài hát theo trình tự thời gian.",
+    "ground_truth": "Cuối năm 2009 Skylar Grey bắt đầu viết và hợp tác với Alex da Kid; Grey viết chorus và thu demo; đầu năm 2010 Alex da Kid đưa backing tracks cho Rigo Morales và Morales gửi chúng cho Eminem; Eminem chọn bài và muốn Rihanna tham gia; sau đó các phần vocal được thu âm và bài hát được phát hành vào tháng 6 năm 2010.",
+    "question_type": "temporal_reasoning",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Writing and production cung cấp các sự kiện cuối năm 2009 và đầu năm 2010.",
+      "Phần Recording mô tả các session thu âm sau quá trình lựa chọn và hợp tác.",
+      "Phần Release and response xác định phát hành tháng 6 năm 2010."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Rihanna",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "RECORDED_DEMO",
+      "GAVE_TRACKS_TO",
+      "SELECTED",
+      "COLLABORATED_WITH",
+      "RECORDED",
+      "RELEASED"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Skylar Grey viết chorus trước hay Eminem chọn \"Love the Way You Lie\" trước?",
+    "ground_truth": "Skylar Grey viết chorus trước; sau đó Eminem nghe và chọn bài hát vào đầu năm 2010.",
+    "question_type": "temporal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Grey viết chorus và thu demo trong giai đoạn phát triển ban đầu.",
+      "Eminem nghe và chọn bài sau khi Alex da Kid đưa backing tracks cho Rigo Morales."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE_CHORUS",
+      "SELECTED"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Những người nào đóng vai trò trong quá trình đưa bài hát từ bản demo đến bản phát hành?",
+    "ground_truth": "Các nhân vật chính gồm Skylar Grey, Alex da Kid, Rigo Morales, Eminem và Rihanna. Grey viết và thu demo; Alex da Kid tạo backing track và sản xuất; Morales chuyển backing tracks tới Eminem; Eminem viết verse và chọn bài; Rihanna tham gia thể hiện refrain.",
+    "question_type": "aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Writing and production mô tả vai trò của Grey, Alex da Kid, Morales, Eminem và Rihanna trong quá trình phát triển."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Rihanna"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "RECORDED_DEMO",
+      "PRODUCED",
+      "TRANSFERRED_TRACKS",
+      "SELECTED",
+      "WROTE_VERSES",
+      "PERFORMED"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Bài hát đứng đầu Billboard Hot 100 trong bao nhiêu tuần và đã bán được bao nhiêu bản tại Mỹ và Anh?",
+    "ground_truth": "Bài hát đứng đầu Billboard Hot 100 của Mỹ trong bảy tuần, bán hơn 12 triệu bản tại Mỹ và 1,5 triệu bản tại Anh.",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Phần Release and response cung cấp thời gian đứng đầu Billboard Hot 100 và số lượng bản bán tại Mỹ và Anh."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Billboard Hot 100",
+      "United States",
+      "United Kingdom"
+    ],
+    "supporting_relations": [
+      "PEAKED_AT_NUMBER_ONE",
+      "SOLD_IN"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Nếu cộng các con số doanh số được nêu cho Mỹ và Anh, tổng số bản được đề cập là bao nhiêu?",
+    "ground_truth": "Hơn 13,5 triệu bản, được tính từ hơn 12 triệu bản tại Mỹ cộng với 1,5 triệu bản tại Anh.",
+    "question_type": "numerical_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Tài liệu nêu hơn 12 triệu bản tại Mỹ và 1,5 triệu bản tại Anh."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "United States",
+      "United Kingdom"
+    ],
+    "supporting_relations": [
+      "SOLD_IN"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Những người nào được tài liệu mô tả là có liên quan đến quá trình sản xuất, thu âm hoặc hình ảnh của bài hát?",
+    "ground_truth": "Các nhân vật được đề cập gồm Eminem, Rihanna, Skylar Grey, Alex da Kid, Jennifer Blakeman, Rigo Morales, Paul Rosenberg, Mike Strange, Joe Strange, Marcos Tovar, Makeba Riddick và Joseph Kahn.",
+    "question_type": "entity_aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "Các phần Writing and production, Recording và music video đề cập nhiều nhân vật với các vai trò khác nhau."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Jennifer Blakeman",
+      "Rigo Morales",
+      "Paul Rosenberg",
+      "Mike Strange",
+      "Joe Strange",
+      "Marcos Tovar",
+      "Makeba Riddick",
+      "Joseph Kahn"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "PRODUCED",
+      "MANAGED",
+      "ENGINEERED",
+      "RECORDED",
+      "MIXED",
+      "DIRECTED"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Ai là người viết phần violin được sử dụng trong \"Love the Way You Lie\"?",
+    "ground_truth": null,
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "supporting_evidence": [
+      "Tài liệu chỉ nói violin được sử dụng để hỗ trợ các verse của Eminem nhưng không xác định người viết hoặc biểu diễn phần violin."
+    ],
+    "supporting_entities": [
+      "violin",
+      "Eminem"
+    ],
+    "supporting_relations": [
+      "USED_IN"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Ngày cụ thể nào trong tháng 6 năm 2010 \"Love the Way You Lie\" được phát hành làm single thứ hai?",
+    "ground_truth": null,
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "supporting_evidence": [
+      "Tài liệu chỉ nói bài hát được phát hành làm single thứ hai vào tháng 6 năm 2010 và không cung cấp ngày cụ thể cho lần phát hành này."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Interscope Records",
+      "June 2010"
+    ],
+    "supporting_relations": [
+      "RELEASED_IN",
+      "SECOND_SINGLE_FROM"
+    ]
+  }
+]

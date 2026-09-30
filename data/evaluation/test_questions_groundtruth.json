@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "Kinh Dương Vương có tên húy là gì và là con của ai?",
+    "ground_truth": "Kinh Dương Vương tên húy là Lộc Tục, là con của Đế Minh và con gái Vụ Tiên."
+  },
+  {
+    "id": 2,
+    "question": "Nước Xích Quỷ do ai cai quản và nằm ở phương nào?",
+    "ground_truth": "Do Kinh Dương Vương cai quản ở phương Nam."
+  },
+  {
+    "id": 3,
+    "question": "Lạc Long Quân có tên húy là gì, cha và mẹ là ai?",
+    "ground_truth": "Lạc Long Quân tên húy là Sùng Lãm, là con của Kinh Dương Vương và con gái Động Đình Quân tên là Thần Long."
+  },
+  {
+    "id": 4,
+    "question": "Lạc Long Quân kết hôn với ai và sinh ra bao nhiêu người con?",
+    "ground_truth": "Lạc Long Quân lấy con gái của Đế Lai là Âu Cơ, sinh ra một trăm người con trai (sinh trăm trứng)."
+  },
+  {
+    "id": 5,
+    "question": "Khi chia tay nhau, Lạc Long Quân và Âu Cơ đã phân chia các con như thế nào?",
+    "ground_truth": "50 con theo mẹ về núi, 50 con theo cha về ở miền Nam (hoặc Nam Hải), phong con trưởng làm Hùng Vương nối ngôi."
+  },
+  {
+    "id": 6,
+    "question": "Mối quan hệ họ hàng giữa Kinh Dương Vương và vợ của Lạc Long Quân (Âu Cơ) theo nhận xét của sử thần Ngô Sĩ Liên là gì?",
+    "ground_truth": "Đế Lai là con Đế Nghi, mà Kinh Dương Vương là em ruột Đế Nghi; do đó Âu Cơ là cháu gọi Kinh Dương Vương bằng chú/bác."
+  },
+  {
+    "id": 7,
+    "question": "Hùng Vương đặt quốc hiệu nước ta là gì và đóng đô ở đâu?",
+    "ground_truth": "Quốc hiệu là Văn Lang, đóng đô ở Phong Châu (huyện Bạch Hạc)."
+  },
+  {
+    "id": 8,
+    "question": "Dưới thời Hùng Vương, nước được chia thành bao nhiêu bộ? Kể tên bộ nơi vua đóng đô.",
+    "ground_truth": "Chia làm 15 bộ; nơi vua đóng đô là bộ Văn Lang."
+  },
+  {
+    "id": 9,
+    "question": "Thời Hùng Vương, tướng văn và tướng võ được gọi là gì?",
+    "ground_truth": "Tướng văn gọi là Lạc Hầu, tướng võ gọi là Lạc Tướng."
+  },
+  {
+    "id": 10,
+    "question": "Con trai và con gái của Hùng Vương được gọi là gì?",
+    "ground_truth": "Con trai gọi là Quan Lang, con gái gọi là Mị Nương."
+  },
+  {
+    "id": 11,
+    "question": "Quan coi việc dưới thời Hùng Vương gọi là gì và có đặc điểm thế tập ra sao?",
+    "ground_truth": "Gọi là Bồ Chính, đời đời cha truyền con nối gọi là phụ đạo."
+  },
+  {
+    "id": 12,
+    "question": "Nguồn gốc của tục vẽ mình của người Bách Việt bắt đầu từ sự việc nào?",
+    "ground_truth": "Do dân đi bắt cá hay bị thuồng luồng làm hại, Hùng Vương bảo vẽ hình thủy quái vào mình để chúng tưởng cùng loài không cắn hại nữa."
+  },
+  {
+    "id": 13,
+    "question": "Đứa trẻ ở hương Phù Đổng đánh tan giặc vào đời vua Hùng thứ mấy và ở đâu?",
+    "ground_truth": "Vào đời Hùng Vương thứ 6, đánh tan quân giặc ở chân núi Vũ Ninh."
+  },
+  {
+    "id": 14,
+    "question": "Sau khi đánh tan giặc, đứa trẻ làng Phù Đổng đã làm gì và về sau được vua Lý Thái Tổ phong danh hiệu gì?",
+    "ground_truth": "Đứa trẻ phi ngựa lên trời mà đi; về sau được Lý Thái Tổ phong là Xung Thiên Thần Vương."
+  },
+  {
+    "id": 15,
+    "question": "Nước ta lần đầu sang thăm nhà Chu vào thời vua Chu nào và đã hiến vật gì?",
+    "ground_truth": "Vào thời Thành Vương nhà Chu, xưng là Việt Thường thị, hiến chim trĩ trắng."
+  },
+  {
+    "id": 16,
+    "question": "Vì sao Thục Vương lại đem lòng oán giận vua Hùng?",
+    "ground_truth": "Vì Thục Vương đến cầu hôn Mị Nương nhưng Hùng Hầu can ngăn, cho rằng Thục Vương lấy cớ hôn nhân để chiếm nước nên vua không gả."
+  },
+  {
+    "id": 17,
+    "question": "Hai nhân vật đến cầu hôn Mị Nương cùng lúc là ai, và vua Hùng đưa ra điều kiện gì?",
+    "ground_truth": "Là Sơn Tinh và Thủy Tinh; vua Hùng hẹn ai đem đủ sính lễ đến trước thì gả cho."
+  },
+  {
+    "id": 18,
+    "question": "Khi Thủy Tinh dâng nước đánh Tản Viên, Sơn Tinh đã dùng những cách gì để chống lại?",
+    "ground_truth": "Sơn Tinh gọi người man đan tre làm rào chắn nước và lấy nỏ bắn xuống khiến các loài thủy tộc tháo chạy."
+  },
+  {
+    "id": 19,
+    "question": "Ai là người sau này kế thừa sự oán giận của Thục Vương để đánh lấy nước Văn Lang?",
+    "ground_truth": "Thục Phán (cháu của Thục Vương)."
+  },
+  {
+    "id": 20,
+    "question": "Kỷ Hồng Bàng thị kéo dài tổng cộng bao nhiêu năm, bắt đầu và kết thúc vào các năm nào?",
+    "ground_truth": "Kéo dài 2.622 năm, từ năm Nhâm Tuất (2879 TCN) đến năm Quý Mão (258 TCN)."
+  },
+  {
+    "id": 21,
+    "question": "Quang Trung sinh năm nào và tên khai sinh là gì?",
+    "ground_truth": "Quang Trung sinh năm 1753 (Quý Dậu, niên hiệu Cảnh Hưng thứ 13), tên khai sinh là Hồ Thơm, sau đổi tên thành Nguyễn Huệ."
+  },
+  {
+    "id": 22,
+    "question": "Ba anh em Tây Sơn tam kiệt gồm những ai?",
+    "ground_truth": "Gồm Nguyễn Nhạc, Nguyễn Huệ (Quang Trung) và Nguyễn Lữ."
+  },
+  {
+    "id": 23,
+    "question": "Ai là người kế vị Quang Trung và lúc đó bao nhiêu tuổi?",
+    "ground_truth": "Quang Toản kế vị, khi đó mới 9 tuổi."
+  },
+  {
+    "id": 24,
+    "question": "Quang Trung qua đời ở tuổi bao nhiêu và sau khi ông mất Nhà Tây Sơn ra sao?",
+    "ground_truth": "Ông qua đời đột ngột ở tuổi 39; sau đó Nhà Tây Sơn suy yếu nhanh chóng, triều đình mâu thuẫn nội bộ và thất bại trước Nguyễn Ánh."
+  },
+  {
+    "id": 25,
+    "question": "Quang Trung đã đánh bại những cuộc xâm lược nào?",
+    "ground_truth": "Đánh bại quân Xiêm La từ phía nam và quân Đại Thanh từ phía bắc."
+  },
+  {
+    "id": 26,
+    "question": "Người thầy nào đã phát hiện khả năng của Nguyễn Huệ và khuyên ba anh em khởi nghĩa?",
+    "ground_truth": "Thầy Trương Văn Hiến, người được cho là đã nói câu sấm \"Tây khởi nghĩa, Bắc thu công\"."
+  },
+  {
+    "id": 27,
+    "question": "Nguyễn Huệ khai sáng ra võ phái/bài quyền nào, và ba anh em cùng sáng tạo bài binh khí nào?",
+    "ground_truth": "Nguyễn Huệ khai sáng Yến phi quyền; cả ba anh em cùng sáng tạo Độc lư thương."
+  },
+  {
+    "id": 28,
+    "question": "Trương Văn Hiến có quan hệ thế nào với Nguyễn Phúc Luân, cha của Nguyễn Ánh?",
+    "ground_truth": "Trương Văn Hiến là môn khách của Trương Văn Hạnh, còn Trương Văn Hạnh là thầy dạy của Nguyễn Phúc Luân (cha Nguyễn Ánh)."
+  },
+  {
+    "id": 29,
+    "question": "Tóm tắt các cải cách chính của Quang Trung trong thời gian trị vì.",
+    "ground_truth": "Ông đề ra cải cách về nhân sự (chiếu cầu hiền, trọng dụng Ngô Thì Nhậm, Phan Huy Ích, Nguyễn Thiếp...), quân sự (quân đội trang bị hiện đại), kinh tế (cải cách đinh điền, ruộng đất, khuyến khích thủ công nghiệp, mở rộng ngoại thương), giáo dục (cải tiến thi cử, khuyến học, dùng chữ Nôm thay chữ Hán, sắp xếp lại chùa chiền, bài trừ mê tín)."
+  },
+  {
+    "id": 30,
+    "question": "Tổng quan nội dung chính của tài liệu về Quang Trung nói về những gì?",
+    "ground_truth": "Tài liệu nói về cuộc đời và sự nghiệp của Quang Trung - Nguyễn Huệ: nguồn gốc gia đình họ Hồ/Nguyễn ở Tây Sơn, giáo dục và võ nghệ, vai trò trong khởi nghĩa Tây Sơn chấm dứt Trịnh - Nguyễn phân tranh, đánh bại Xiêm và Thanh, các cải cách khi làm vua, và sự suy yếu của Tây Sơn sau khi ông mất."
+  }
+]
