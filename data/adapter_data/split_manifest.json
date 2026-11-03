@@ -1,0 +1,1056 @@
+{
+  "train": [
+    {
+      "group": "history",
+      "requested": "Trần Thuận Tông",
+      "title": "Trần Thuận Tông",
+      "url": "https://en.wikipedia.org/wiki/Trần_Thuận_Tông",
+      "words": 758,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_thuan_tong.txt",
+      "slug": "tran_thuan_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lý Chiêu Hoàng",
+      "title": "Lý Chiêu Hoàng",
+      "url": "https://en.wikipedia.org/wiki/Lý_Chiêu_Hoàng",
+      "words": 1311,
+      "file_path": "D:\\Lab\\data\\train_docs\\ly_chieu_hoang.txt",
+      "slug": "ly_chieu_hoang",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Mongol invasions of Vietnam",
+      "title": "Mongol invasions of Vietnam",
+      "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Vietnam",
+      "words": 5597,
+      "file_path": "D:\\Lab\\data\\train_docs\\mongol_invasions_of_vietnam.txt",
+      "slug": "mongol_invasions_of_vietnam",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Dương Tam Kha",
+      "title": "Dương Tam Kha",
+      "url": "https://en.wikipedia.org/wiki/Dương_Tam_Kha",
+      "words": 645,
+      "file_path": "D:\\Lab\\data\\train_docs\\duong_tam_kha.txt",
+      "slug": "duong_tam_kha",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Khánh Dư",
+      "title": "Trần Khánh Dư",
+      "url": "https://en.wikipedia.org/wiki/Trần_Khánh_Dư",
+      "words": 1103,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_khanh_du.txt",
+      "slug": "tran_khanh_du",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trịnh Tạc",
+      "title": "Trịnh Tạc",
+      "url": "https://en.wikipedia.org/wiki/Trịnh_Tạc",
+      "words": 847,
+      "file_path": "D:\\Lab\\data\\train_docs\\trinh_tac.txt",
+      "slug": "trinh_tac",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Mạc Đăng Dung",
+      "title": "Mạc Đăng Dung",
+      "url": "https://en.wikipedia.org/wiki/Mạc_Đăng_Dung",
+      "words": 877,
+      "file_path": "D:\\Lab\\data\\train_docs\\mac_dang_dung.txt",
+      "slug": "mac_dang_dung",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Phạm Ngũ Lão",
+      "title": "Phạm Ngũ Lão",
+      "url": "https://en.wikipedia.org/wiki/Phạm_Ngũ_Lão",
+      "words": 1085,
+      "file_path": "D:\\Lab\\data\\train_docs\\pham_ngu_lao.txt",
+      "slug": "pham_ngu_lao",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Duệ Tông",
+      "title": "Trần Duệ Tông",
+      "url": "https://en.wikipedia.org/wiki/Trần_Duệ_Tông",
+      "words": 831,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_due_tong.txt",
+      "slug": "tran_due_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lý dynasty",
+      "title": "Lý dynasty",
+      "url": "https://en.wikipedia.org/wiki/Lý_dynasty",
+      "words": 4792,
+      "file_path": "D:\\Lab\\data\\train_docs\\ly_dynasty.txt",
+      "slug": "ly_dynasty",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần dynasty",
+      "title": "Trần dynasty",
+      "url": "https://en.wikipedia.org/wiki/Trần_dynasty",
+      "words": 6173,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_dynasty.txt",
+      "slug": "tran_dynasty",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trịnh Kiểm",
+      "title": "Trịnh Kiểm",
+      "url": "https://en.wikipedia.org/wiki/Trịnh_Kiểm",
+      "words": 5050,
+      "file_path": "D:\\Lab\\data\\train_docs\\trinh_kiem.txt",
+      "slug": "trinh_kiem",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Hồ Quý Ly",
+      "title": "Hồ Quý Ly",
+      "url": "https://en.wikipedia.org/wiki/Hồ_Quý_Ly",
+      "words": 1490,
+      "file_path": "D:\\Lab\\data\\train_docs\\ho_quy_ly.txt",
+      "slug": "ho_quy_ly",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Nghệ Tông",
+      "title": "Trần Nghệ Tông",
+      "url": "https://en.wikipedia.org/wiki/Trần_Nghệ_Tông",
+      "words": 1705,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_nghe_tong.txt",
+      "slug": "tran_nghe_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Khúc Thừa Dụ",
+      "title": "Khúc Thừa Dụ",
+      "url": "https://en.wikipedia.org/wiki/Khúc_Thừa_Dụ",
+      "words": 664,
+      "file_path": "D:\\Lab\\data\\train_docs\\khuc_thua_du.txt",
+      "slug": "khuc_thua_du",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Triệu Việt Vương",
+      "title": "Triệu Việt Vương",
+      "url": "https://en.wikipedia.org/wiki/Triệu_Việt_Vương",
+      "words": 804,
+      "file_path": "D:\\Lab\\data\\train_docs\\trieu_viet_vuong.txt",
+      "slug": "trieu_viet_vuong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trịnh Tùng",
+      "title": "Trịnh Tùng",
+      "url": "https://en.wikipedia.org/wiki/Trịnh_Tùng",
+      "words": 654,
+      "file_path": "D:\\Lab\\data\\train_docs\\trinh_tung.txt",
+      "slug": "trinh_tung",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Ngô dynasty",
+      "title": "Ngô dynasty",
+      "url": "https://en.wikipedia.org/wiki/Ngô_dynasty",
+      "words": 1566,
+      "file_path": "D:\\Lab\\data\\train_docs\\ngo_dynasty.txt",
+      "slug": "ngo_dynasty",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lý Thái Tổ",
+      "title": "Lý Thái Tổ",
+      "url": "https://en.wikipedia.org/wiki/Lý_Thái_Tổ",
+      "words": 5714,
+      "file_path": "D:\\Lab\\data\\train_docs\\ly_thai_to.txt",
+      "slug": "ly_thai_to",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lý Nam Đế",
+      "title": "Lý Nam Đế",
+      "url": "https://en.wikipedia.org/wiki/Lý_Nam_Đế",
+      "words": 878,
+      "file_path": "D:\\Lab\\data\\train_docs\\ly_nam_de.txt",
+      "slug": "ly_nam_de",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Đinh Bộ Lĩnh",
+      "title": "Đinh Bộ Lĩnh",
+      "url": "https://en.wikipedia.org/wiki/Đinh_Bộ_Lĩnh",
+      "words": 710,
+      "file_path": "D:\\Lab\\data\\train_docs\\dinh_bo_linh.txt",
+      "slug": "dinh_bo_linh",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Đinh dynasty",
+      "title": "Đinh dynasty",
+      "url": "https://en.wikipedia.org/wiki/Đinh_dynasty",
+      "words": 1222,
+      "file_path": "D:\\Lab\\data\\train_docs\\dinh_dynasty.txt",
+      "slug": "dinh_dynasty",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lam Sơn uprising",
+      "title": "Lam Sơn uprising",
+      "url": "https://en.wikipedia.org/wiki/Lam_Sơn_uprising",
+      "words": 12528,
+      "file_path": "D:\\Lab\\data\\train_docs\\lam_son_uprising.txt",
+      "slug": "lam_son_uprising",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Phan Châu Trinh",
+      "title": "Phan Châu Trinh",
+      "url": "https://en.wikipedia.org/wiki/Phan_Châu_Trinh",
+      "words": 1583,
+      "file_path": "D:\\Lab\\data\\train_docs\\phan_chau_trinh.txt",
+      "slug": "phan_chau_trinh",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Early Lê dynasty",
+      "title": "Anterior Lê dynasty",
+      "url": "https://en.wikipedia.org/wiki/Anterior_Lê_dynasty",
+      "words": 2221,
+      "file_path": "D:\\Lab\\data\\train_docs\\anterior_le_dynasty.txt",
+      "slug": "anterior_le_dynasty",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lý Nhân Tông",
+      "title": "Lý Nhân Tông",
+      "url": "https://en.wikipedia.org/wiki/Lý_Nhân_Tông",
+      "words": 1991,
+      "file_path": "D:\\Lab\\data\\train_docs\\ly_nhan_tong.txt",
+      "slug": "ly_nhan_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Fourth Chinese domination of Vietnam",
+      "title": "Fourth Era of Northern Domination",
+      "url": "https://en.wikipedia.org/wiki/Fourth_Era_of_Northern_Domination",
+      "words": 2447,
+      "file_path": "D:\\Lab\\data\\train_docs\\fourth_era_of_northern_domination.txt",
+      "slug": "fourth_era_of_northern_domination",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Thái Tông",
+      "title": "Trần Thái Tông",
+      "url": "https://en.wikipedia.org/wiki/Trần_Thái_Tông",
+      "words": 1137,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_thai_tong.txt",
+      "slug": "tran_thai_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Battle of Bạch Đằng (1288)",
+      "title": "Battle of Bạch Đằng (1288)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Bạch_Đằng_(1288)",
+      "words": 1464,
+      "file_path": "D:\\Lab\\data\\train_docs\\battle_of_bach_dang_1288.txt",
+      "slug": "battle_of_bach_dang_1288",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Thánh Tông",
+      "title": "Trần Thánh Tông",
+      "url": "https://en.wikipedia.org/wiki/Trần_Thánh_Tông",
+      "words": 2422,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_thanh_tong.txt",
+      "slug": "tran_thanh_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Hưng Đạo",
+      "title": "Trần Hưng Đạo",
+      "url": "https://en.wikipedia.org/wiki/Trần_Hưng_Đạo",
+      "words": 1948,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_hung_dao.txt",
+      "slug": "tran_hung_dao",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lê Lợi",
+      "title": "Lê Lợi",
+      "url": "https://en.wikipedia.org/wiki/Lê_Lợi",
+      "words": 4535,
+      "file_path": "D:\\Lab\\data\\train_docs\\le_loi.txt",
+      "slug": "le_loi",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lê Thánh Tông",
+      "title": "Lê Thánh Tông",
+      "url": "https://en.wikipedia.org/wiki/Lê_Thánh_Tông",
+      "words": 3150,
+      "file_path": "D:\\Lab\\data\\train_docs\\le_thanh_tong.txt",
+      "slug": "le_thanh_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Dương Vân Nga",
+      "title": "Dương Vân Nga",
+      "url": "https://en.wikipedia.org/wiki/Dương_Vân_Nga",
+      "words": 1012,
+      "file_path": "D:\\Lab\\data\\train_docs\\duong_van_nga.txt",
+      "slug": "duong_van_nga",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Lý Thái Tông",
+      "title": "Lý Thái Tông",
+      "url": "https://en.wikipedia.org/wiki/Lý_Thái_Tông",
+      "words": 1151,
+      "file_path": "D:\\Lab\\data\\train_docs\\ly_thai_tong.txt",
+      "slug": "ly_thai_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Nhân Tông",
+      "title": "Trần Nhân Tông",
+      "url": "https://en.wikipedia.org/wiki/Trần_Nhân_Tông",
+      "words": 1571,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_nhan_tong.txt",
+      "slug": "tran_nhan_tong",
+      "split": "train"
+    },
+    {
+      "group": "history",
+      "requested": "Mạc dynasty",
+      "title": "Mạc dynasty",
+      "url": "https://en.wikipedia.org/wiki/Mạc_dynasty",
+      "words": 1409,
+      "file_path": "D:\\Lab\\data\\train_docs\\mac_dynasty.txt",
+      "slug": "mac_dynasty",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Poker Face (Lady Gaga song)",
+      "title": "Poker Face (song)",
+      "url": "https://en.wikipedia.org/wiki/Poker_Face_(song)",
+      "words": 4133,
+      "file_path": "D:\\Lab\\data\\train_docs\\poker_face_song.txt",
+      "slug": "poker_face_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Get Lucky (Daft Punk song)",
+      "title": "Get Lucky (Daft Punk song)",
+      "url": "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)",
+      "words": 2993,
+      "file_path": "D:\\Lab\\data\\train_docs\\get_lucky_daft_punk_song.txt",
+      "slug": "get_lucky_daft_punk_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "If I Were a Boy",
+      "title": "If I Were a Boy",
+      "url": "https://en.wikipedia.org/wiki/If_I_Were_a_Boy",
+      "words": 6900,
+      "file_path": "D:\\Lab\\data\\train_docs\\if_i_were_a_boy.txt",
+      "slug": "if_i_were_a_boy",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Everything I Wanted (song)",
+      "title": "Everything I Wanted",
+      "url": "https://en.wikipedia.org/wiki/Everything_I_Wanted",
+      "words": 2546,
+      "file_path": "D:\\Lab\\data\\train_docs\\everything_i_wanted.txt",
+      "slug": "everything_i_wanted",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Maps (Maroon 5 song)",
+      "title": "Maps (Maroon 5 song)",
+      "url": "https://en.wikipedia.org/wiki/Maps_(Maroon_5_song)",
+      "words": 1356,
+      "file_path": "D:\\Lab\\data\\train_docs\\maps_maroon_5_song.txt",
+      "slug": "maps_maroon_5_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Tik Tok (song)",
+      "title": "Tik Tok (song)",
+      "url": "https://en.wikipedia.org/wiki/Tik_Tok_(song)",
+      "words": 3637,
+      "file_path": "D:\\Lab\\data\\train_docs\\tik_tok_song.txt",
+      "slug": "tik_tok_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Under Pressure",
+      "title": "Under Pressure",
+      "url": "https://en.wikipedia.org/wiki/Under_Pressure",
+      "words": 2970,
+      "file_path": "D:\\Lab\\data\\train_docs\\under_pressure.txt",
+      "slug": "under_pressure",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Hey Jude",
+      "title": "Hey Jude",
+      "url": "https://en.wikipedia.org/wiki/Hey_Jude",
+      "words": 6616,
+      "file_path": "D:\\Lab\\data\\train_docs\\hey_jude.txt",
+      "slug": "hey_jude",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Payphone (song)",
+      "title": "Payphone (song)",
+      "url": "https://en.wikipedia.org/wiki/Payphone_(song)",
+      "words": 3131,
+      "file_path": "D:\\Lab\\data\\train_docs\\payphone_song.txt",
+      "slug": "payphone_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Thinking Out Loud",
+      "title": "Thinking Out Loud",
+      "url": "https://en.wikipedia.org/wiki/Thinking_Out_Loud",
+      "words": 2691,
+      "file_path": "D:\\Lab\\data\\train_docs\\thinking_out_loud.txt",
+      "slug": "thinking_out_loud",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Bad Guy (Billie Eilish song)",
+      "title": "Bad Guy (Billie Eilish song)",
+      "url": "https://en.wikipedia.org/wiki/Bad_Guy_(Billie_Eilish_song)",
+      "words": 2854,
+      "file_path": "D:\\Lab\\data\\train_docs\\bad_guy_billie_eilish_song.txt",
+      "slug": "bad_guy_billie_eilish_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "She Will Be Loved",
+      "title": "She Will Be Loved",
+      "url": "https://en.wikipedia.org/wiki/She_Will_Be_Loved",
+      "words": 935,
+      "file_path": "D:\\Lab\\data\\train_docs\\she_will_be_loved.txt",
+      "slug": "she_will_be_loved",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Black or White (song)",
+      "title": "Black or White",
+      "url": "https://en.wikipedia.org/wiki/Black_or_White",
+      "words": 3197,
+      "file_path": "D:\\Lab\\data\\train_docs\\black_or_white.txt",
+      "slug": "black_or_white",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "California Gurls",
+      "title": "California Gurls",
+      "url": "https://en.wikipedia.org/wiki/California_Gurls",
+      "words": 2612,
+      "file_path": "D:\\Lab\\data\\train_docs\\california_gurls.txt",
+      "slug": "california_gurls",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Viva la Vida",
+      "title": "Viva la Vida",
+      "url": "https://en.wikipedia.org/wiki/Viva_la_Vida",
+      "words": 3729,
+      "file_path": "D:\\Lab\\data\\train_docs\\viva_la_vida.txt",
+      "slug": "viva_la_vida",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Need You Now (Lady Antebellum song)",
+      "title": "Need You Now (Lady Antebellum song)",
+      "url": "https://en.wikipedia.org/wiki/Need_You_Now_(Lady_Antebellum_song)",
+      "words": 1668,
+      "file_path": "D:\\Lab\\data\\train_docs\\need_you_now_lady_antebellum_song.txt",
+      "slug": "need_you_now_lady_antebellum_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Sugar (Maroon 5 song)",
+      "title": "Sugar (Maroon 5 song)",
+      "url": "https://en.wikipedia.org/wiki/Sugar_(Maroon_5_song)",
+      "words": 3598,
+      "file_path": "D:\\Lab\\data\\train_docs\\sugar_maroon_5_song.txt",
+      "slug": "sugar_maroon_5_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Photograph (Ed Sheeran song)",
+      "title": "Photograph (Ed Sheeran song)",
+      "url": "https://en.wikipedia.org/wiki/Photograph_(Ed_Sheeran_song)",
+      "words": 2842,
+      "file_path": "D:\\Lab\\data\\train_docs\\photograph_ed_sheeran_song.txt",
+      "slug": "photograph_ed_sheeran_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Smooth Criminal",
+      "title": "Smooth Criminal",
+      "url": "https://en.wikipedia.org/wiki/Smooth_Criminal",
+      "words": 1426,
+      "file_path": "D:\\Lab\\data\\train_docs\\smooth_criminal.txt",
+      "slug": "smooth_criminal",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Crazy in Love",
+      "title": "Crazy in Love",
+      "url": "https://en.wikipedia.org/wiki/Crazy_in_Love",
+      "words": 5126,
+      "file_path": "D:\\Lab\\data\\train_docs\\crazy_in_love.txt",
+      "slug": "crazy_in_love",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Adventure of a Lifetime",
+      "title": "Adventure of a Lifetime",
+      "url": "https://en.wikipedia.org/wiki/Adventure_of_a_Lifetime",
+      "words": 945,
+      "file_path": "D:\\Lab\\data\\train_docs\\adventure_of_a_lifetime.txt",
+      "slug": "adventure_of_a_lifetime",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Treasure (Bruno Mars song)",
+      "title": "Treasure (song)",
+      "url": "https://en.wikipedia.org/wiki/Treasure_(song)",
+      "words": 3063,
+      "file_path": "D:\\Lab\\data\\train_docs\\treasure_song.txt",
+      "slug": "treasure_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Yesterday (Beatles song)",
+      "title": "Yesterday (song)",
+      "url": "https://en.wikipedia.org/wiki/Yesterday_(song)",
+      "words": 3448,
+      "file_path": "D:\\Lab\\data\\train_docs\\yesterday_song.txt",
+      "slug": "yesterday_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Shake It Off",
+      "title": "Shake It Off",
+      "url": "https://en.wikipedia.org/wiki/Shake_It_Off",
+      "words": 4955,
+      "file_path": "D:\\Lab\\data\\train_docs\\shake_it_off.txt",
+      "slug": "shake_it_off",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Levitating (song)",
+      "title": "Levitating (song)",
+      "url": "https://en.wikipedia.org/wiki/Levitating_(song)",
+      "words": 7103,
+      "file_path": "D:\\Lab\\data\\train_docs\\levitating_song.txt",
+      "slug": "levitating_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Firework (song)",
+      "title": "Firework (song)",
+      "url": "https://en.wikipedia.org/wiki/Firework_(song)",
+      "words": 2648,
+      "file_path": "D:\\Lab\\data\\train_docs\\firework_song.txt",
+      "slug": "firework_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Royals (song)",
+      "title": "Royals (song)",
+      "url": "https://en.wikipedia.org/wiki/Royals_(song)",
+      "words": 4167,
+      "file_path": "D:\\Lab\\data\\train_docs\\royals_song.txt",
+      "slug": "royals_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Don't Start Now",
+      "title": "Don't Start Now",
+      "url": "https://en.wikipedia.org/wiki/Don't_Start_Now",
+      "words": 4195,
+      "file_path": "D:\\Lab\\data\\train_docs\\don_t_start_now.txt",
+      "slug": "don_t_start_now",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Come Together (song)",
+      "title": "Come Together",
+      "url": "https://en.wikipedia.org/wiki/Come_Together",
+      "words": 2471,
+      "file_path": "D:\\Lab\\data\\train_docs\\come_together.txt",
+      "slug": "come_together",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "You Belong with Me",
+      "title": "You Belong with Me",
+      "url": "https://en.wikipedia.org/wiki/You_Belong_with_Me",
+      "words": 5059,
+      "file_path": "D:\\Lab\\data\\train_docs\\you_belong_with_me.txt",
+      "slug": "you_belong_with_me",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Somebody That I Used to Know",
+      "title": "Somebody That I Used to Know",
+      "url": "https://en.wikipedia.org/wiki/Somebody_That_I_Used_to_Know",
+      "words": 4291,
+      "file_path": "D:\\Lab\\data\\train_docs\\somebody_that_i_used_to_know.txt",
+      "slug": "somebody_that_i_used_to_know",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Bad Romance",
+      "title": "Bad Romance",
+      "url": "https://en.wikipedia.org/wiki/Bad_Romance",
+      "words": 5192,
+      "file_path": "D:\\Lab\\data\\train_docs\\bad_romance.txt",
+      "slug": "bad_romance",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Fearless (Taylor Swift song)",
+      "title": "Fearless (Taylor Swift song)",
+      "url": "https://en.wikipedia.org/wiki/Fearless_(Taylor_Swift_song)",
+      "words": 2308,
+      "file_path": "D:\\Lab\\data\\train_docs\\fearless_taylor_swift_song.txt",
+      "slug": "fearless_taylor_swift_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Somebody to Love (Queen song)",
+      "title": "Somebody to Love (Queen song)",
+      "url": "https://en.wikipedia.org/wiki/Somebody_to_Love_(Queen_song)",
+      "words": 1426,
+      "file_path": "D:\\Lab\\data\\train_docs\\somebody_to_love_queen_song.txt",
+      "slug": "somebody_to_love_queen_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "The Scientist (song)",
+      "title": "The Scientist (song)",
+      "url": "https://en.wikipedia.org/wiki/The_Scientist_(song)",
+      "words": 1679,
+      "file_path": "D:\\Lab\\data\\train_docs\\the_scientist_song.txt",
+      "slug": "the_scientist_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Billie Jean",
+      "title": "Billie Jean",
+      "url": "https://en.wikipedia.org/wiki/Billie_Jean",
+      "words": 5368,
+      "file_path": "D:\\Lab\\data\\train_docs\\billie_jean.txt",
+      "slug": "billie_jean",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Beat It",
+      "title": "Beat It",
+      "url": "https://en.wikipedia.org/wiki/Beat_It",
+      "words": 3909,
+      "file_path": "D:\\Lab\\data\\train_docs\\beat_it.txt",
+      "slug": "beat_it",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Blank Space",
+      "title": "Blank Space",
+      "url": "https://en.wikipedia.org/wiki/Blank_Space",
+      "words": 3662,
+      "file_path": "D:\\Lab\\data\\train_docs\\blank_space.txt",
+      "slug": "blank_space",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Don't Stop Me Now",
+      "title": "Don't Stop Me Now",
+      "url": "https://en.wikipedia.org/wiki/Don't_Stop_Me_Now",
+      "words": 1541,
+      "file_path": "D:\\Lab\\data\\train_docs\\don_t_stop_me_now.txt",
+      "slug": "don_t_stop_me_now",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Telephone (Lady Gaga song)",
+      "title": "Telephone (song)",
+      "url": "https://en.wikipedia.org/wiki/Telephone_(song)",
+      "words": 5429,
+      "file_path": "D:\\Lab\\data\\train_docs\\telephone_song.txt",
+      "slug": "telephone_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Yellow (Coldplay song)",
+      "title": "Yellow (Coldplay song)",
+      "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+      "words": 2983,
+      "file_path": "D:\\Lab\\data\\train_docs\\yellow_coldplay_song.txt",
+      "slug": "yellow_coldplay_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Teenage Dream (Katy Perry song)",
+      "title": "Teenage Dream (Katy Perry song)",
+      "url": "https://en.wikipedia.org/wiki/Teenage_Dream_(Katy_Perry_song)",
+      "words": 4089,
+      "file_path": "D:\\Lab\\data\\train_docs\\teenage_dream_katy_perry_song.txt",
+      "slug": "teenage_dream_katy_perry_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Bohemian Rhapsody",
+      "title": "Bohemian Rhapsody",
+      "url": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
+      "words": 8514,
+      "file_path": "D:\\Lab\\data\\train_docs\\bohemian_rhapsody.txt",
+      "slug": "bohemian_rhapsody",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Castle on the Hill",
+      "title": "Castle on the Hill",
+      "url": "https://en.wikipedia.org/wiki/Castle_on_the_Hill",
+      "words": 1082,
+      "file_path": "D:\\Lab\\data\\train_docs\\castle_on_the_hill.txt",
+      "slug": "castle_on_the_hill",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Happier Than Ever (song)",
+      "title": "Happier Than Ever (song)",
+      "url": "https://en.wikipedia.org/wiki/Happier_Than_Ever_(song)",
+      "words": 2880,
+      "file_path": "D:\\Lab\\data\\train_docs\\happier_than_ever_song.txt",
+      "slug": "happier_than_ever_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Easy on Me",
+      "title": "Easy on Me",
+      "url": "https://en.wikipedia.org/wiki/Easy_on_Me",
+      "words": 3168,
+      "file_path": "D:\\Lab\\data\\train_docs\\easy_on_me.txt",
+      "slug": "easy_on_me",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Let It Be (song)",
+      "title": "Let It Be (song)",
+      "url": "https://en.wikipedia.org/wiki/Let_It_Be_(song)",
+      "words": 3141,
+      "file_path": "D:\\Lab\\data\\train_docs\\let_it_be_song.txt",
+      "slug": "let_it_be_song",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Back to December",
+      "title": "Back to December",
+      "url": "https://en.wikipedia.org/wiki/Back_to_December",
+      "words": 2800,
+      "file_path": "D:\\Lab\\data\\train_docs\\back_to_december.txt",
+      "slug": "back_to_december",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Radio Ga Ga",
+      "title": "Radio Ga Ga",
+      "url": "https://en.wikipedia.org/wiki/Radio_Ga_Ga",
+      "words": 1744,
+      "file_path": "D:\\Lab\\data\\train_docs\\radio_ga_ga.txt",
+      "slug": "radio_ga_ga",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Counting Stars (OneRepublic song)",
+      "title": "Counting Stars",
+      "url": "https://en.wikipedia.org/wiki/Counting_Stars",
+      "words": 1111,
+      "file_path": "D:\\Lab\\data\\train_docs\\counting_stars.txt",
+      "slug": "counting_stars",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Hey, Soul Sister",
+      "title": "Hey, Soul Sister",
+      "url": "https://en.wikipedia.org/wiki/Hey,_Soul_Sister",
+      "words": 1851,
+      "file_path": "D:\\Lab\\data\\train_docs\\hey_soul_sister.txt",
+      "slug": "hey_soul_sister",
+      "split": "train"
+    },
+    {
+      "group": "song",
+      "requested": "Fix You",
+      "title": "Fix You",
+      "url": "https://en.wikipedia.org/wiki/Fix_You",
+      "words": 2107,
+      "file_path": "D:\\Lab\\data\\train_docs\\fix_you.txt",
+      "slug": "fix_you",
+      "split": "train"
+    }
+  ],
+  "val": [
+    {
+      "group": "history",
+      "requested": "Trần Thủ Độ",
+      "title": "Trần Thủ Độ",
+      "url": "https://en.wikipedia.org/wiki/Trần_Thủ_Độ",
+      "words": 2154,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_thu_do.txt",
+      "slug": "tran_thu_do",
+      "split": "val"
+    },
+    {
+      "group": "history",
+      "requested": "Lý Thường Kiệt",
+      "title": "Lý Thường Kiệt",
+      "url": "https://en.wikipedia.org/wiki/Lý_Thường_Kiệt",
+      "words": 1343,
+      "file_path": "D:\\Lab\\data\\train_docs\\ly_thuong_kiet.txt",
+      "slug": "ly_thuong_kiet",
+      "split": "val"
+    },
+    {
+      "group": "history",
+      "requested": "Trần Quang Khải",
+      "title": "Trần Quang Khải",
+      "url": "https://en.wikipedia.org/wiki/Trần_Quang_Khải",
+      "words": 993,
+      "file_path": "D:\\Lab\\data\\train_docs\\tran_quang_khai.txt",
+      "slug": "tran_quang_khai",
+      "split": "val"
+    },
+    {
+      "group": "history",
+      "requested": "Bình Ngô đại cáo",
+      "title": "Bình Ngô đại cáo",
+      "url": "https://en.wikipedia.org/wiki/Bình_Ngô_đại_cáo",
+      "words": 1161,
+      "file_path": "D:\\Lab\\data\\train_docs\\binh_ngo_dai_cao.txt",
+      "slug": "binh_ngo_dai_cao",
+      "split": "val"
+    },
+    {
+      "group": "history",
+      "requested": "Hồ dynasty",
+      "title": "Hồ dynasty",
+      "url": "https://en.wikipedia.org/wiki/Hồ_dynasty",
+      "words": 1283,
+      "file_path": "D:\\Lab\\data\\train_docs\\ho_dynasty.txt",
+      "slug": "ho_dynasty",
+      "split": "val"
+    },
+    {
+      "group": "history",
+      "requested": "Lady Triệu",
+      "title": "Lady Triệu",
+      "url": "https://en.wikipedia.org/wiki/Lady_Triệu",
+      "words": 1951,
+      "file_path": "D:\\Lab\\data\\train_docs\\lady_trieu.txt",
+      "slug": "lady_trieu",
+      "split": "val"
+    },
+    {
+      "group": "history",
+      "requested": "Nguyễn Phúc Nguyên",
+      "title": "Nguyễn Phúc Nguyên",
+      "url": "https://en.wikipedia.org/wiki/Nguyễn_Phúc_Nguyên",
+      "words": 892,
+      "file_path": "D:\\Lab\\data\\train_docs\\nguyen_phuc_nguyen.txt",
+      "slug": "nguyen_phuc_nguyen",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "Thriller (song)",
+      "title": "Thriller (song)",
+      "url": "https://en.wikipedia.org/wiki/Thriller_(song)",
+      "words": 2052,
+      "file_path": "D:\\Lab\\data\\train_docs\\thriller_song.txt",
+      "slug": "thriller_song",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "A Sky Full of Stars",
+      "title": "A Sky Full of Stars",
+      "url": "https://en.wikipedia.org/wiki/A_Sky_Full_of_Stars",
+      "words": 1931,
+      "file_path": "D:\\Lab\\data\\train_docs\\a_sky_full_of_stars.txt",
+      "slug": "a_sky_full_of_stars",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "Love Story (Taylor Swift song)",
+      "title": "Love Story (Taylor Swift song)",
+      "url": "https://en.wikipedia.org/wiki/Love_Story_(Taylor_Swift_song)",
+      "words": 5144,
+      "file_path": "D:\\Lab\\data\\train_docs\\love_story_taylor_swift_song.txt",
+      "slug": "love_story_taylor_swift_song",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "Single Ladies (Put a Ring on It)",
+      "title": "Single Ladies (Put a Ring on It)",
+      "url": "https://en.wikipedia.org/wiki/Single_Ladies_(Put_a_Ring_on_It)",
+      "words": 7069,
+      "file_path": "D:\\Lab\\data\\train_docs\\single_ladies_put_a_ring_on_it.txt",
+      "slug": "single_ladies_put_a_ring_on_it",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "Just the Way You Are (Bruno Mars song)",
+      "title": "Just the Way You Are (Bruno Mars song)",
+      "url": "https://en.wikipedia.org/wiki/Just_the_Way_You_Are_(Bruno_Mars_song)",
+      "words": 3473,
+      "file_path": "D:\\Lab\\data\\train_docs\\just_the_way_you_are_bruno_mars_song.txt",
+      "slug": "just_the_way_you_are_bruno_mars_song",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "New Rules (song)",
+      "title": "New Rules",
+      "url": "https://en.wikipedia.org/wiki/New_Rules",
+      "words": 4347,
+      "file_path": "D:\\Lab\\data\\train_docs\\new_rules.txt",
+      "slug": "new_rules",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "Water Under the Bridge",
+      "title": "Water Under the Bridge",
+      "url": "https://en.wikipedia.org/wiki/Water_Under_the_Bridge",
+      "words": 1906,
+      "file_path": "D:\\Lab\\data\\train_docs\\water_under_the_bridge.txt",
+      "slug": "water_under_the_bridge",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "When We Were Young (Adele song)",
+      "title": "When We Were Young (Adele song)",
+      "url": "https://en.wikipedia.org/wiki/When_We_Were_Young_(Adele_song)",
+      "words": 2312,
+      "file_path": "D:\\Lab\\data\\train_docs\\when_we_were_young_adele_song.txt",
+      "slug": "when_we_were_young_adele_song",
+      "split": "val"
+    },
+    {
+      "group": "song",
+      "requested": "Mine (Taylor Swift song)",
+      "title": "Mine (Taylor Swift song)",
+      "url": "https://en.wikipedia.org/wiki/Mine_(Taylor_Swift_song)",
+      "words": 2691,
+      "file_path": "D:\\Lab\\data\\train_docs\\mine_taylor_swift_song.txt",
+      "slug": "mine_taylor_swift_song",
+      "split": "val"
+    }
+  ]
+}

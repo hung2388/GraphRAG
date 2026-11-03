@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Quang Trung">
+      <data key="d0">Quang Trung</data>
+      <data key="d1">person</data>
+      <data key="d2">A historical figure in Vietnamese history, known by his regnal name Quang Trung, who was a prominent politician and military leader. He was the second emperor of the Tây Sơn dynasty.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Hồ Thơm">
+      <data key="d0">Hồ Thơm</data>
+      <data key="d1">person</data>
+      <data key="d2">A former name of Quang Trung, used before he changed his name to Nguyễn Huệ.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Nguyễn Huệ">
+      <data key="d0">Nguyễn Huệ</data>
+      <data key="d1">person</data>
+      <data key="d2">The regnal name of Quang Trung, which he adopted later in his life. He was a key figure in Vietnamese history and the second emperor of the Tây Sơn dynasty.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Nguyễn Nhạc">
+      <data key="d0">Nguyễn Nhạc</data>
+      <data key="d1">person</data>
+      <data key="d2">One of the brothers of Nguyễn Huệ, known as one of the Tây Sơn tam kiệt. He was a leader of the Tây Sơn uprising.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Nguyễn Lữ">
+      <data key="d0">Nguyễn Lữ</data>
+      <data key="d1">person</data>
+      <data key="d2">Another brother of Nguyễn Huệ, known as one of the Tây Sơn tam kiệt. He was a leader of the Tây Sơn uprising.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Tây Sơn tam kiệt">
+      <data key="d0">Tây Sơn tam kiệt</data>
+      <data key="d1">concept</data>
+      <data key="d2">A term referring to the three brothers-Nguyễn Nhạc, Nguyễn Huệ, and Nguyễn Lữ-who were leaders of the Tây Sơn uprising and played a significant role in unifying Vietnam.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Tây Sơn">
+      <data key="d0">Tây Sơn</data>
+      <data key="d1">organization</data>
+      <data key="d2">A revolutionary movement and subsequent dynasty in Vietnamese history, led by the Tây Sơn tam kiệt. It aimed to overthrow the existing ruling powers and unify the country.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Đàng Trong">
+      <data key="d0">Đàng Trong</data>
+      <data key="d1">location</data>
+      <data key="d2">A historical region in Vietnam, specifically referring to the southern part of the country, which was ruled by the Nguyễn lords before being overthrown by the Tây Sơn rebels.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Đàng Ngoài">
+      <data key="d0">Đàng Ngoài</data>
+      <data key="d1">location</data>
+      <data key="d2">A historical region in Vietnam, specifically referring to the northern part of the country, which was ruled by the Trịnh lords and the Later Lê dynasty before being overthrown by the Tây Sơn rebels.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Cuộc khởi nghĩa Tây Sơn">
+      <data key="d0">Cuộc khởi nghĩa Tây Sơn</data>
+      <data key="d1">event</data>
+      <data key="d2">The uprising led by the Tây Sơn tam kiệt, which aimed to overthrow the Nguyễn lords in Đàng Trong, the Trịnh lords, and the Later Lê dynasty in Đàng Ngoài, ultimately leading to the unification of Vietnam.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Quân Xiêm La">
+      <data key="d0">Quân Xiêm La</data>
+      <data key="d1">organization</data>
+      <data key="d2">The military force of Siam (modern-day Thailand) that invaded Vietnam during the late 18th century.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Quân Mãn Thanh">
+      <data key="d0">Quân Mãn Thanh</data>
+      <data key="d1">organization</data>
+      <data key="d2">The military force of the Qing dynasty (China) that invaded Vietnam during the late 18th century.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <node id="Trận Ngọc Hồi - Đống Đa">
+      <data key="d0">Trận Ngọc Hồi - Đống Đa</data>
+      <data key="d1">event</data>
+      <data key="d2">A significant battle in 1789 where Quang Trung defeated both the Siamese and Qing armies, marking a major victory in the Tây Sơn dynasty's military campaigns.</data>
+      <data key="d3">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1792462409</data>
+      <data key="d6" />
+    </node>
+    <edge source="Quang Trung" target="Hồ Thơm">
+      <data key="d7">1.0</data>
+      <data key="d8">Quang Trung was known by the name Hồ Thơm before he changed it to Nguyễn Huệ.</data>
+      <data key="d9">name_change</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Quang Trung" target="Nguyễn Huệ">
+      <data key="d7">1.0</data>
+      <data key="d8">Nguyễn Huệ is the regnal name adopted by Quang Trung during his reign as emperor.</data>
+      <data key="d9">regnal_name</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Quang Trung" target="Cuộc khởi nghĩa Tây Sơn">
+      <data key="d7">1.0</data>
+      <data key="d8">Quang Trung was a key participant in the Tây Sơn uprising, which aimed to unify Vietnam.</data>
+      <data key="d9">participant</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Quang Trung" target="Trận Ngọc Hồi - Đống Đa">
+      <data key="d7">1.0</data>
+      <data key="d8">Quang Trung was a participant in the battle of Ngọc Hồi - Đống Đa, where he defeated both the Siamese and Qing armies.</data>
+      <data key="d9">participant</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Quang Trung" target="Quân Xiêm La">
+      <data key="d7">1.0</data>
+      <data key="d8">Quang Trung defeated the Siamese military force during the battle of Ngọc Hồi - Đống Đa.</data>
+      <data key="d9">defeated</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Quang Trung" target="Quân Mãn Thanh">
+      <data key="d7">1.0</data>
+      <data key="d8">Quang Trung defeated the Qing military force during the battle of Ngọc Hồi - Đống Đa.</data>
+      <data key="d9">defeated</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nguyễn Huệ" target="Tây Sơn tam kiệt">
+      <data key="d7">1.0</data>
+      <data key="d8">Nguyễn Huệ was one of the three brothers known as the Tây Sơn tam kiệt, who led the Tây Sơn uprising.</data>
+      <data key="d9">member</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nguyễn Nhạc" target="Tây Sơn tam kiệt">
+      <data key="d7">1.0</data>
+      <data key="d8">Nguyễn Nhạc was one of the three brothers known as the Tây Sơn tam kiệt, who led the Tây Sơn uprising.</data>
+      <data key="d9">member</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Nguyễn Lữ" target="Tây Sơn tam kiệt">
+      <data key="d7">1.0</data>
+      <data key="d8">Nguyễn Lữ was one of the three brothers known as the Tây Sơn tam kiệt, who led the Tây Sơn uprising.</data>
+      <data key="d9">member</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Tây Sơn" target="Đàng Trong">
+      <data key="d7">1.0</data>
+      <data key="d8">The Tây Sơn movement successfully overthrew the Nguyễn lords who ruled Đàng Trong.</data>
+      <data key="d9">overthrow</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Tây Sơn" target="Đàng Ngoài">
+      <data key="d7">1.0</data>
+      <data key="d8">The Tây Sơn movement successfully overthrew the Trịnh lords and the Later Lê dynasty who ruled Đàng Ngoài.</data>
+      <data key="d9">overthrow</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Tây Sơn" target="Cuộc khởi nghĩa Tây Sơn">
+      <data key="d7">1.0</data>
+      <data key="d8">The Tây Sơn dynasty was led by the Tây Sơn tam kiệt, who were the leaders of the Tây Sơn uprising.</data>
+      <data key="d9">leadership</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Quân Xiêm La" target="Trận Ngọc Hồi - Đống Đa">
+      <data key="d7">1.0</data>
+      <data key="d8">The Siamese military force was involved in the battle of Ngọc Hồi - Đống Đa against the Tây Sơn forces.</data>
+      <data key="d9">involved</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Quân Mãn Thanh" target="Trận Ngọc Hồi - Đống Đa">
+      <data key="d7">1.0</data>
+      <data key="d8">The Qing military force was involved in the battle of Ngọc Hồi - Đống Đa against the Tây Sơn forces.</data>
+      <data key="d9">involved</data>
+      <data key="d10">doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1792462409</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

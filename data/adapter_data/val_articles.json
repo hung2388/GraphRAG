@@ -1,0 +1,162 @@
+[
+  {
+    "group": "history",
+    "requested": "Trần Thủ Độ",
+    "title": "Trần Thủ Độ",
+    "url": "https://en.wikipedia.org/wiki/Trần_Thủ_Độ",
+    "words": 2154,
+    "file_path": "D:\\Lab\\data\\train_docs\\tran_thu_do.txt",
+    "slug": "tran_thu_do",
+    "split": "val"
+  },
+  {
+    "group": "history",
+    "requested": "Lý Thường Kiệt",
+    "title": "Lý Thường Kiệt",
+    "url": "https://en.wikipedia.org/wiki/Lý_Thường_Kiệt",
+    "words": 1343,
+    "file_path": "D:\\Lab\\data\\train_docs\\ly_thuong_kiet.txt",
+    "slug": "ly_thuong_kiet",
+    "split": "val"
+  },
+  {
+    "group": "history",
+    "requested": "Trần Quang Khải",
+    "title": "Trần Quang Khải",
+    "url": "https://en.wikipedia.org/wiki/Trần_Quang_Khải",
+    "words": 993,
+    "file_path": "D:\\Lab\\data\\train_docs\\tran_quang_khai.txt",
+    "slug": "tran_quang_khai",
+    "split": "val"
+  },
+  {
+    "group": "history",
+    "requested": "Bình Ngô đại cáo",
+    "title": "Bình Ngô đại cáo",
+    "url": "https://en.wikipedia.org/wiki/Bình_Ngô_đại_cáo",
+    "words": 1161,
+    "file_path": "D:\\Lab\\data\\train_docs\\binh_ngo_dai_cao.txt",
+    "slug": "binh_ngo_dai_cao",
+    "split": "val"
+  },
+  {
+    "group": "history",
+    "requested": "Hồ dynasty",
+    "title": "Hồ dynasty",
+    "url": "https://en.wikipedia.org/wiki/Hồ_dynasty",
+    "words": 1283,
+    "file_path": "D:\\Lab\\data\\train_docs\\ho_dynasty.txt",
+    "slug": "ho_dynasty",
+    "split": "val"
+  },
+  {
+    "group": "history",
+    "requested": "Lady Triệu",
+    "title": "Lady Triệu",
+    "url": "https://en.wikipedia.org/wiki/Lady_Triệu",
+    "words": 1951,
+    "file_path": "D:\\Lab\\data\\train_docs\\lady_trieu.txt",
+    "slug": "lady_trieu",
+    "split": "val"
+  },
+  {
+    "group": "history",
+    "requested": "Nguyễn Phúc Nguyên",
+    "title": "Nguyễn Phúc Nguyên",
+    "url": "https://en.wikipedia.org/wiki/Nguyễn_Phúc_Nguyên",
+    "words": 892,
+    "file_path": "D:\\Lab\\data\\train_docs\\nguyen_phuc_nguyen.txt",
+    "slug": "nguyen_phuc_nguyen",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "Thriller (song)",
+    "title": "Thriller (song)",
+    "url": "https://en.wikipedia.org/wiki/Thriller_(song)",
+    "words": 2052,
+    "file_path": "D:\\Lab\\data\\train_docs\\thriller_song.txt",
+    "slug": "thriller_song",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "A Sky Full of Stars",
+    "title": "A Sky Full of Stars",
+    "url": "https://en.wikipedia.org/wiki/A_Sky_Full_of_Stars",
+    "words": 1931,
+    "file_path": "D:\\Lab\\data\\train_docs\\a_sky_full_of_stars.txt",
+    "slug": "a_sky_full_of_stars",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "Love Story (Taylor Swift song)",
+    "title": "Love Story (Taylor Swift song)",
+    "url": "https://en.wikipedia.org/wiki/Love_Story_(Taylor_Swift_song)",
+    "words": 5144,
+    "file_path": "D:\\Lab\\data\\train_docs\\love_story_taylor_swift_song.txt",
+    "slug": "love_story_taylor_swift_song",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "Single Ladies (Put a Ring on It)",
+    "title": "Single Ladies (Put a Ring on It)",
+    "url": "https://en.wikipedia.org/wiki/Single_Ladies_(Put_a_Ring_on_It)",
+    "words": 7069,
+    "file_path": "D:\\Lab\\data\\train_docs\\single_ladies_put_a_ring_on_it.txt",
+    "slug": "single_ladies_put_a_ring_on_it",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "Just the Way You Are (Bruno Mars song)",
+    "title": "Just the Way You Are (Bruno Mars song)",
+    "url": "https://en.wikipedia.org/wiki/Just_the_Way_You_Are_(Bruno_Mars_song)",
+    "words": 3473,
+    "file_path": "D:\\Lab\\data\\train_docs\\just_the_way_you_are_bruno_mars_song.txt",
+    "slug": "just_the_way_you_are_bruno_mars_song",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "New Rules (song)",
+    "title": "New Rules",
+    "url": "https://en.wikipedia.org/wiki/New_Rules",
+    "words": 4347,
+    "file_path": "D:\\Lab\\data\\train_docs\\new_rules.txt",
+    "slug": "new_rules",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "Water Under the Bridge",
+    "title": "Water Under the Bridge",
+    "url": "https://en.wikipedia.org/wiki/Water_Under_the_Bridge",
+    "words": 1906,
+    "file_path": "D:\\Lab\\data\\train_docs\\water_under_the_bridge.txt",
+    "slug": "water_under_the_bridge",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "When We Were Young (Adele song)",
+    "title": "When We Were Young (Adele song)",
+    "url": "https://en.wikipedia.org/wiki/When_We_Were_Young_(Adele_song)",
+    "words": 2312,
+    "file_path": "D:\\Lab\\data\\train_docs\\when_we_were_young_adele_song.txt",
+    "slug": "when_we_were_young_adele_song",
+    "split": "val"
+  },
+  {
+    "group": "song",
+    "requested": "Mine (Taylor Swift song)",
+    "title": "Mine (Taylor Swift song)",
+    "url": "https://en.wikipedia.org/wiki/Mine_(Taylor_Swift_song)",
+    "words": 2691,
+    "file_path": "D:\\Lab\\data\\train_docs\\mine_taylor_swift_song.txt",
+    "slug": "mine_taylor_swift_song",
+    "split": "val"
+  }
+]

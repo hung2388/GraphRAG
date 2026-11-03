@@ -8,38 +8,43 @@ Dự án xây dựng và đánh giá hệ thống **GraphRAG (Knowledge Graph Re
 
 ```text
 d:\Lab\
-├── data/
-│   ├── input/                     # Dữ liệu văn bản nguồn (.txt) để trích xuất tri thức
-│   │   ├── src.txt
-│   │   └── quang_trung.txt
-│   ├── cache/                     # Bộ nhớ đệm và nhật ký xử lý KG
-│   │   ├── kg_cache/              # Cache JSON trích xuất thực thể & quan hệ theo chunk
-│   │   ├── community_summaries.json # Tóm tắt phân cụm đồ thị (Global Search)
-│   │   └── failed_chunks.txt      # Ghi nhận các chunk xử lý lỗi/cần retry
-│   └── evaluation/                # Tập dữ liệu kiểm thử
-│       └── test_questions_groundtruth.json
+├── data/                           # Dữ liệu dùng chung cho cả 4 hệ thống RAG
+│   ├── input/                     # Văn bản nguồn: quang_trung.txt, src.txt, love.txt
+│   ├── evaluation/                # Bộ câu hỏi đánh giá benchmark (merged_questions.json, eval_v2.json)
+│   └── cache/                     # Cache trung gian (token logs, v.v.)
 │
-├── reports/                       # Báo cáo và kết quả thực nghiệm
-│   └── evaluation_report.json     # Kết quả benchmark chi tiết từng câu hỏi
+├── eval_data_tools.py              # Tool kiểm tra span, schema và tính Hit@k / Recall@k
+├── evaluation_metrics.py           # Module thước đo benchmark chuẩn hóa dùng chung
+├── config.py                       # Cấu hình môi trường chung
+├── tools/                          # Script tiện ích (dọn dẹp, so sánh token tiêu thụ)
 │
-├── docs/                          # Tài liệu & Trực quan hóa
-│   ├── slides/                    # Các bài thuyết trình về GraphRAG
-│   │   ├── graphRAG2.pptx
-│   │   ├── graphRAG2 [Autosaved].pptx
-│   │   └── graphRAG_KG.pptx
-│   └── pipeline_visual.html       # Giao diện trực quan hóa quy trình pipeline
+├── HiRAG/                          # [1] HiRAG (Hierarchical Graph RAG)
+│   ├── hirag/                     # Mã nguồn lõi HiRAG
+│   ├── config.yaml                # Cấu hình mô hình cho HiRAG
+│   ├── hi_Search_ollama.py        # Adapter chạy HiRAG với Ollama
+│   ├── run_small_test.py          # Script kiểm thử pipeline HiRAG
+│   ├── plots/                     # Biểu đồ đánh giá của HiRAG
+│   └── reports/                   # Báo cáo đánh giá JSON của HiRAG
 │
-├── tests/                         # Scripts kiểm tra kết nối & module thử nghiệm
-│   ├── test_connection.py         # Kiểm tra kết nối Neo4j
-│   ├── test_graphrag.py           # Thử nghiệm truy vấn GraphRAG với Gemini
-│   └── testolama.py               # Kiểm tra gọi mô hình qua Ollama
+├── light/                          # [2] LightRAG
+│   ├── rag_light.py               # Pipeline LightRAG
+│   ├── evaluation_light.py        # Đánh giá LightRAG
+│   ├── lightrag_storage/          # Lưu trữ graph & vector riêng của LightRAG
+│   ├── plots/                     # Biểu đồ đánh giá của LightRAG (plot_light.py)
+│   └── reports/                   # Báo cáo đánh giá JSON của LightRAG
 │
-├── kg_construction2.py            # Pipeline chính: Phân đoạn văn bản, trích xuất KG, nạp vào Neo4j & truy vấn
-├── evaluation.py                  # Script đánh giá chất lượng (LLM-as-a-Judge, F1, EM)
-├── result_plot.py                 # Vẽ biểu đồ trực quan hóa kết quả đánh giá
-├── graph_traversal.py             # Script duyệt láng giềng / truy vấn đồ thị
-├── .env                           # Cấu hình biến môi trường (Neo4j, API Keys,...)
-└── README.md                      # Hướng dẫn dự án
+├── microsoft/                      # [3] Microsoft GraphRAG (Bản chuẩn Microsoft)
+│   ├── ms_graphrag.py             # Script điều khiển GraphRAG CLI với Ollama
+│   ├── evaluation_microsoft.py    # Đánh giá Microsoft GraphRAG
+│   ├── ragtest_ms/                # Workspace riêng của Microsoft GraphRAG
+│   ├── plots/                     # Biểu đồ đánh giá (plot_microsoft.py)
+│   └── reports/                   # Báo cáo đánh giá JSON (evaluation_report_microsoft.json)
+│
+└── my_rag_microsoft_style/         # [4] Bản tự phát triển (Custom Neo4j + MS Style)
+    ├── rag_microsoft.py           # Pipeline trích xuất KG nạp Neo4j và truy vấn
+    ├── evaluation_ms_graphrag.py   # Benchmark cho bản Custom Neo4j
+    ├── plots/                     # Biểu đồ đánh giá (plot_ms_graphrag.py)
+    └── reports/                   # Báo cáo đánh giá JSON (evaluation_report_ms_graphrag.json)
 ```
 
 ---

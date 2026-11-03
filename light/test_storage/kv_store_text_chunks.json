@@ -1,0 +1,15 @@
+{
+  "doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000": {
+    "tokens": 186,
+    "content": "Quang Trung (1753 – 16 tháng 9 năm 1792), tên húy là Hồ Thơm, sau đổi thành Nguyễn Huệ, là một chính trị gia, nhà quân sự tiêu biểu của Việt Nam. Ông là vị hoàng đế thứ hai của triều đại Tây Sơn.\nNguyễn Huệ cùng hai người anh em của mình là Nguyễn Nhạc và Nguyễn Lữ được gọi là Tây Sơn tam kiệt. Họ là lãnh tụ của cuộc khởi nghĩa Tây Sơn lật đổ chúa Nguyễn ở Đàng Trong, lật đổ chúa Trịnh và nhà Hậu Lê ở Đàng Ngoài, thống nhất đất nước.\nQuang Trung đánh bại cuộc xâm lăng của quân Xiêm La từ phía Nam và quân Mãn Thanh từ phía Bắc trong trận Ngọc Hồi - Đống Đa năm 1789.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-aa29d86774521f5349a5ac2b6b4e6482",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:66cb91029e7840a27f935cb5648f7367"
+    ],
+    "create_time": 1792462372,
+    "update_time": 1792462409,
+    "_id": "doc-aa29d86774521f5349a5ac2b6b4e6482-chunk-000"
+  }
+}

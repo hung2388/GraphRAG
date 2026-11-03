@@ -33,8 +33,9 @@ def call_ollama(prompt, format_json=False, temperature=0.0, model=None, debug_ta
     return response_text
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-TEST_FILE = os.path.join(BASE_DIR, "data", "evaluation", "test_ques_2.json")
-REPORT_FILE = os.path.join(BASE_DIR, "reports", "evaluation_report_light.json")
+EVAL_DIR = os.path.join(BASE_DIR, "data", "evaluation")
+TEST_FILE = os.path.join(EVAL_DIR, "eval_v2.json") if os.path.exists(os.path.join(EVAL_DIR, "eval_v2.json")) else os.path.join(EVAL_DIR, "merged_questions.json")
+REPORT_FILE = os.path.join(os.path.dirname(__file__), "reports", "evaluation_report_light.json")
 os.makedirs(os.path.dirname(REPORT_FILE) or ".", exist_ok=True)
 
 # ============================================================

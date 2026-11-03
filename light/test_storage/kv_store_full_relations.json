@@ -1,0 +1,66 @@
+{
+  "doc-aa29d86774521f5349a5ac2b6b4e6482": {
+    "relation_pairs": [
+      [
+        "Cuộc khởi nghĩa Tây Sơn",
+        "Quang Trung"
+      ],
+      [
+        "Cuộc khởi nghĩa Tây Sơn",
+        "Tây Sơn"
+      ],
+      [
+        "Hồ Thơm",
+        "Quang Trung"
+      ],
+      [
+        "Nguyễn Huệ",
+        "Quang Trung"
+      ],
+      [
+        "Nguyễn Huệ",
+        "Tây Sơn tam kiệt"
+      ],
+      [
+        "Nguyễn Lữ",
+        "Tây Sơn tam kiệt"
+      ],
+      [
+        "Nguyễn Nhạc",
+        "Tây Sơn tam kiệt"
+      ],
+      [
+        "Quang Trung",
+        "Quân Mãn Thanh"
+      ],
+      [
+        "Quang Trung",
+        "Quân Xiêm La"
+      ],
+      [
+        "Quang Trung",
+        "Trận Ngọc Hồi - Đống Đa"
+      ],
+      [
+        "Quân Mãn Thanh",
+        "Trận Ngọc Hồi - Đống Đa"
+      ],
+      [
+        "Quân Xiêm La",
+        "Trận Ngọc Hồi - Đống Đa"
+      ],
+      [
+        "Tây Sơn",
+        "Đàng Ngoài"
+      ],
+      [
+        "Tây Sơn",
+        "Đàng Trong"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1792462409,
+    "update_time": 1792462409,
+    "_id": "doc-aa29d86774521f5349a5ac2b6b4e6482"
+  }
+}

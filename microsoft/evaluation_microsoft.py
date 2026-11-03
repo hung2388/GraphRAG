@@ -16,7 +16,7 @@ JUDGE_MODEL = "llama3.1:8b"
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 EVAL_DIR = os.path.join(BASE_DIR, "data", "evaluation")
-REPORT_FILE = os.path.join(BASE_DIR, "reports", "evaluation_report_microsoft.json")
+REPORT_FILE = os.path.join(os.path.dirname(__file__), "reports", "evaluation_report_microsoft.json")
 os.makedirs(os.path.dirname(REPORT_FILE) or ".", exist_ok=True)
 
 # ============================================================
@@ -147,16 +147,16 @@ def _print_summary(results, total_q):
         print("\nChưa có câu hỏi nào hoàn thành để kết xuất báo cáo.")
 
 def run_evaluation():
-    test_files = glob.glob(os.path.join(EVAL_DIR, "*.json"))
-    if not test_files:
+    target_file = os.path.join(EVAL_DIR, "eval_v2.json")
+    if not os.path.exists(target_file):
+        target_file = os.path.join(EVAL_DIR, "merged_questions.json")
+    if not os.path.exists(target_file):
         print(f"Không tìm thấy file JSON nào trong '{EVAL_DIR}'!")
         return
 
-    test_data = []
-    for tf in test_files:
-        print(f"Đang nạp câu hỏi từ: {tf}")
-        with open(tf, "r", encoding="utf-8") as f:
-            test_data.extend(json.load(f))
+    print(f"Đang nạp câu hỏi từ: {target_file}")
+    with open(target_file, "r", encoding="utf-8") as f:
+        test_data = json.load(f)
 
     # Resume nếu có kết quả cũ
     results = []

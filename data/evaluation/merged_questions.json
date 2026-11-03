@@ -1,0 +1,822 @@
+[
+  {
+    "id": 1,
+    "question": "What is the taboo name (birth name) of Kinh Duong Vuong and whose son is he?",
+    "ground_truth": "Kinh Duong Vuong's taboo name is Loc Tuc; he is the son of De Minh and the daughter of Vu Tien."
+  },
+  {
+    "id": 2,
+    "question": "Who ruled the kingdom of Xich Quy and in which direction was it located?",
+    "ground_truth": "It was ruled by Kinh Duong Vuong in the South."
+  },
+  {
+    "id": 3,
+    "question": "What is the taboo name of Lac Long Quan, and who are his father and mother?",
+    "ground_truth": "Lac Long Quan's taboo name is Sung Lam; he is the son of Kinh Duong Vuong and the daughter of Dong Dinh Quan named Than Long."
+  },
+  {
+    "id": 4,
+    "question": "Who did Lac Long Quan marry and how many children did they have?",
+    "ground_truth": "Lac Long Quan married De Lai's daughter, Au Co, and they had one hundred sons (born from a hundred eggs)."
+  },
+  {
+    "id": 5,
+    "question": "When they separated, how did Lac Long Quan and Au Co divide their children?",
+    "ground_truth": "50 children followed their mother to the mountains, 50 children followed their father to the South (or Nam Hai), and the eldest son was titled Hung Vuong to succeed the throne."
+  },
+  {
+    "id": 6,
+    "question": "According to historian Ngo Si Lien, what is the kinship relationship between Kinh Duong Vuong and Lac Long Quan's wife (Au Co)?",
+    "ground_truth": "De Lai is the son of De Nghi, and Kinh Duong Vuong is the biological younger brother of De Nghi; therefore, Au Co is Kinh Duong Vuong's niece (calling him uncle)."
+  },
+  {
+    "id": 7,
+    "question": "What did Hung Vuong name our country and where did he establish the capital?",
+    "ground_truth": "The national name was Van Lang, with the capital in Phong Chau (Bach Hac district)."
+  },
+  {
+    "id": 8,
+    "question": "During the Hung Vuong era, how many regions was the country divided into? Name the region where the king established the capital.",
+    "ground_truth": "It was divided into 15 regions; the region where the king established the capital was Van Lang."
+  },
+  {
+    "id": 9,
+    "question": "In the Hung Vuong era, what were the civil and military generals called?",
+    "ground_truth": "Civil generals were called Lac Hau, and military generals were called Lac Tuong."
+  },
+  {
+    "id": 10,
+    "question": "What were Hung Vuong's sons and daughters called?",
+    "ground_truth": "Sons were called Quan Lang, and daughters were called Mi Nuong."
+  },
+  {
+    "id": 11,
+    "question": "What were the officials in charge of affairs under Hung Vuong called and what were their hereditary characteristics?",
+    "ground_truth": "They were called Bo Chinh, and their hereditary succession from father to son was called phu dao."
+  },
+  {
+    "id": 12,
+    "question": "What event originated the tattooing custom of the Bach Viet people?",
+    "ground_truth": "Because people catching fish were often harmed by water monsters (thuong luong), Hung Vuong told them to tattoo images of sea monsters on their bodies so the monsters would think they were of the same species and not harm them."
+  },
+  {
+    "id": 13,
+    "question": "In which Hung King's reign did the child from Phu Dong village defeat the enemy, and where?",
+    "ground_truth": "During the reign of the 6th Hung King, he defeated the enemy troops at the foot of Vu Ninh mountain."
+  },
+  {
+    "id": 14,
+    "question": "After defeating the enemy, what did the child from Phu Dong village do and what title was he later granted by King Ly Thai To?",
+    "ground_truth": "The child rode his horse into the sky and departed; later, he was granted the title Xung Thien Than Vuong by Ly Thai To."
+  },
+  {
+    "id": 15,
+    "question": "During which Zhou king's reign did our country first visit the Zhou dynasty, and what was offered?",
+    "ground_truth": "During the reign of King Cheng of Zhou, claiming to be Viet Thuong thi, and offering a white pheasant."
+  },
+  {
+    "id": 16,
+    "question": "Why did Thuc Vuong harbor resentment towards Hung Vuong?",
+    "ground_truth": "Because Thuc Vuong came to propose to Mi Nuong, but Hung Hau advised against it, believing Thuc Vuong was using marriage as an excuse to seize the country, so the king refused the marriage."
+  },
+  {
+    "id": 17,
+    "question": "Who were the two figures that came to propose to Mi Nuong at the same time, and what condition did Hung Vuong set?",
+    "ground_truth": "They were Son Tinh and Thuy Tinh; Hung Vuong declared that whoever brought sufficient betrothal gifts first would marry her."
+  },
+  {
+    "id": 18,
+    "question": "When Thuy Tinh raised the waters to attack Tan Vien, what methods did Son Tinh use to fight back?",
+    "ground_truth": "Son Tinh called the barbarians to weave bamboo into water barriers and used crossbows to shoot down, causing the aquatic creatures to flee."
+  },
+  {
+    "id": 19,
+    "question": "Who later inherited Thuc Vuong's resentment and conquered Van Lang?",
+    "ground_truth": "Thuc Phan (Thuc Vuong's nephew)."
+  },
+  {
+    "id": 20,
+    "question": "How many years did the Hong Bang dynasty last in total, and in which years did it begin and end?",
+    "ground_truth": "It lasted 2,622 years, from the year of Nham Tuat (2879 BC) to the year of Quy Mao (258 BC)."
+  },
+  {
+    "id": 21,
+    "question": "What year was Quang Trung born and what was his birth name?",
+    "ground_truth": "Quang Trung was born in 1753 (Year of Quy Dau, 13th year of Canh Hung's reign); his birth name was Ho Thom, later changed to Nguyen Hue."
+  },
+  {
+    "id": 22,
+    "question": "Who were the three brothers of the Tay Son movement?",
+    "ground_truth": "They were Nguyen Nhac, Nguyen Hue (Quang Trung), and Nguyen Lu."
+  },
+  {
+    "id": 23,
+    "question": "Who succeeded Quang Trung and how old was he at that time?",
+    "ground_truth": "Quang Toan succeeded him, being only 9 years old at the time."
+  },
+  {
+    "id": 24,
+    "question": "At what age did Quang Trung die, and what happened to the Tay Son Dynasty after his death?",
+    "ground_truth": "He died suddenly at the age of 39; afterwards, the Tay Son Dynasty weakened rapidly, faced internal conflicts, and was defeated by Nguyen Anh."
+  },
+  {
+    "id": 25,
+    "question": "Which invasions did Quang Trung defeat?",
+    "ground_truth": "He defeated the Siamese army from the south and the Great Qing army from the north."
+  },
+  {
+    "id": 26,
+    "question": "Which teacher discovered Nguyen Hue's abilities and advised the three brothers to rebel?",
+    "ground_truth": "Teacher Truong Van Hien, who is said to have spoken the prophecy 'Tay khoi nghia, Bac thu cong' (Rebel in the West, achieve success in the North)."
+  },
+  {
+    "id": 27,
+    "question": "Which martial arts sect/form did Nguyen Hue found, and what weapon form did the three brothers create together?",
+    "ground_truth": "Nguyen Hue founded the Yen Phi Quyen (Swallow Flight Form); all three brothers co-created the Doc Lu Thuong (Single Censer Spear)."
+  },
+  {
+    "id": 28,
+    "question": "What was Truong Van Hien's relationship with Nguyen Phuc Luan, Nguyen Anh's father?",
+    "ground_truth": "Truong Van Hien was a retainer of Truong Van Hanh, and Truong Van Hanh was the teacher of Nguyen Phuc Luan (Nguyen Anh's father)."
+  },
+  {
+    "id": 29,
+    "question": "Summarize the main reforms of Quang Trung during his reign.",
+    "ground_truth": "He proposed personnel reforms (edict seeking talents, heavily utilizing Ngo Thi Nham, Phan Huy Ich, Nguyen Thiep...), military reforms (modernly equipped army), economic reforms (tax and land reforms, encouraging handicrafts, expanding foreign trade), and educational/cultural reforms (improving examinations, promoting learning, using Nom script instead of Han script, reorganizing temples, and eliminating superstitions)."
+  },
+  {
+    "id": 30,
+    "question": "What is the general overview of the document about Quang Trung?",
+    "ground_truth": "The document covers the life and career of Quang Trung - Nguyen Hue: the Ho/Nguyen family's origins in Tay Son, education and martial arts, his role in the Tay Son uprising ending the Trinh-Nguyen conflict, defeating Siam and Qing, reforms as king, and the decline of Tay Son after his death."
+  },
+  {
+    "id": 31,
+    "question": "\"Love the Way You Lie\" is a song by which artists and appears on which album?",
+    "ground_truth": "\"Love the Way You Lie\" is a song by American rapper Eminem, featuring Barbadian singer Rihanna, and is included in Eminem's seventh studio album, Recovery (2010).",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The introduction identifies Eminem as the lead artist, Rihanna as the featured artist, and the song as part of the Recovery album."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "Rihanna",
+      "Recovery"
+    ],
+    "supporting_relations": [
+      "PERFORMED_BY",
+      "FEATURES",
+      "APPEARS_ON"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Who wrote and recorded the original demo of \"Love the Way You Lie\"?",
+    "ground_truth": "Skylar Grey wrote and recorded the demo of the song along with producer Alex da Kid.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The introduction and the Writing and production section state that Skylar Grey wrote and recorded the demo with Alex da Kid."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "RECORDED_DEMO_WITH"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Who created the original backing track and hook melody of \"Love the Way You Lie\"?",
+    "ground_truth": "Alex da Kid created the original backing track and hook melody of the song.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Writing and production section identifies Alex da Kid as the creator of the original backing track and hook melody."
+    ],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "CREATED_BACKING_TRACK",
+      "CREATED_HOOK_MELODY"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "How long did it take Skylar Grey to write the chorus of \"Love the Way You Lie\"?",
+    "ground_truth": "Skylar Grey wrote the chorus in about 15 minutes.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Writing and production section states that Skylar Grey wrote the chorus in 15 minutes."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE_CHORUS"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Who suggested that Skylar Grey collaborate with Alex da Kid?",
+    "ground_truth": "Jennifer Blakeman, the music publisher at Universal Music, suggested Skylar Grey collaborate with Alex da Kid.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "Skylar Grey approached Jennifer Blakeman at Universal Music and Blakeman suggested collaborating with Alex da Kid."
+    ],
+    "supporting_entities": [
+      "Jennifer Blakeman",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Universal Music"
+    ],
+    "supporting_relations": [
+      "WORKED_AT",
+      "SUGGESTED_COLLABORATION",
+      "COLLABORATED_WITH"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "What in Alex da Kid's track inspired Skylar Grey's idea about an abusive romantic relationship?",
+    "ground_truth": "The track Alex da Kid sent to Skylar Grey evoked the theme of abusive romantic relationships, from which Grey developed the idea for the song.",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Alex da Kid sent the track to Grey; the track suggested the theme of abusive romantic relationships and Grey improvised lyrics to the melody."
+    ],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Skylar Grey",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "SENT_TRACK_TO",
+      "INSPIRED",
+      "WROTE"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Describe the sequence of events from when Skylar Grey started collaborating with Alex da Kid until Eminem chose \"Love the Way You Lie\".",
+    "ground_truth": "Jennifer Blakeman introduced Skylar Grey to Alex da Kid; Alex da Kid sent a track to Grey; Grey wrote the chorus and recorded a demo; then in early 2010 Alex da Kid gave backing tracks to Rigo Morales; Morales sent them to Eminem; Eminem heard \"Love the Way You Lie\" and chose the song.",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Writing and production section describes Blakeman introducing Grey to Alex da Kid.",
+      "Alex da Kid sent the track to Grey, and Grey wrote the chorus and recorded a demo.",
+      "In early 2010, Alex da Kid gave the backing tracks to Rigo Morales, who then sent them to Eminem.",
+      "Eminem heard and selected Love the Way You Lie."
+    ],
+    "supporting_entities": [
+      "Jennifer Blakeman",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "SUGGESTED_COLLABORATION",
+      "COLLABORATED_WITH",
+      "SENT_TRACK_TO",
+      "CREATED_BACKING_TRACK",
+      "GAVE_TRACKS_TO",
+      "SENT_TRACKS_TO",
+      "SELECTED"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Why did Eminem choose Rihanna to perform the chorus of the song?",
+    "ground_truth": "Eminem chose Rihanna because he felt she was particularly suited for it and was the one who could pull off this song.",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "After selecting the song, Eminem told his manager that he wanted to collaborate with Rihanna and believed only she could pull off the track."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "CHOSE",
+      "WANTED_TO_COLLABORATE_WITH"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Which of Rihanna's experiences relating to the theme made her agree to participate in the song?",
+    "ground_truth": "Rihanna stated she could relate to the theme of the song because she had been through a difficult relationship; the document links this to her relationship with Chris Brown.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Rihanna said she and Eminem had been in difficult relationships on different ends of the spectrum.",
+      "The document states that Rihanna's relationship with Chris Brown ended after he assaulted her in 2009."
+    ],
+    "supporting_entities": [
+      "Rihanna",
+      "Eminem",
+      "Chris Brown",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "EXPERIENCED",
+      "HAD_RELATIONSHIP_WITH",
+      "RELATES_TO_THEME"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "What personal experiences of Eminem and Rihanna does the document relate to the theme of the song?",
+    "ground_truth": "Eminem had a relationship with Kim Scott, while Rihanna had a relationship with Chris Brown that ended after Brown assaulted her in 2009.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The document links Eminem with Kim Scott and Rihanna with Chris Brown when explaining their empathy with the domestic violence theme."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Kim Scott",
+      "Rihanna",
+      "Chris Brown"
+    ],
+    "supporting_relations": [
+      "HAD_RELATIONSHIP_WITH",
+      "EX_PARTNER_OF",
+      "RELATED_TO_THEME"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Where did the vocal recording sessions for Eminem and Rihanna take place?",
+    "ground_truth": "Eminem recorded at Effigy Studios in Ferndale, Michigan, while Rihanna recorded at Sun Studios in Dublin, Ireland.",
+    "question_type": "comparison",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Recording section identifies the recording location for Eminem's vocals as Effigy Studios.",
+      "The Recording section identifies Rihanna's recording location as Sun Studios."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Effigy Studios",
+      "Sun Studios",
+      "Ferndale",
+      "Dublin"
+    ],
+    "supporting_relations": [
+      "RECORDED_AT",
+      "LOCATED_IN"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Who was responsible for the engineering of Eminem and Rihanna's vocal recording sessions?",
+    "ground_truth": "Mike Strange was in charge of recording and mixing Eminem's vocals, while Marcos Tovar engineered Rihanna's recording sessions.",
+    "question_type": "comparison",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Mike Strange recorded and mixed Eminem's vocals.",
+      "Marcos Tovar was the engineer for Rihanna's recording sessions."
+    ],
+    "supporting_entities": [
+      "Mike Strange",
+      "Marcos Tovar",
+      "Eminem",
+      "Rihanna"
+    ],
+    "supporting_relations": [
+      "ENGINEERED",
+      "RECORDED",
+      "MIXED"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Compare Eminem and Rihanna's vocal recording processes in terms of location and duration as stated in the document.",
+    "ground_truth": "Eminem recorded and mixed vocals at Effigy Studios in Ferndale, Michigan over two days. Rihanna recorded at Sun Studios in Dublin, Ireland; the document does not mention the duration of Rihanna's recording sessions.",
+    "question_type": "comparison",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Recording section notes that Eminem's sessions lasted two days at Effigy Studios.",
+      "The Recording section identifies that Rihanna recorded at Sun Studios but does not provide a duration."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Effigy Studios",
+      "Sun Studios"
+    ],
+    "supporting_relations": [
+      "RECORDED_AT",
+      "MIXED_AT",
+      "SESSION_DURATION"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "What genre is \"Love the Way You Lie\" and what instruments are used in Eminem's rap sections?",
+    "ground_truth": "The song is a midtempo hip hop ballad with a pop refrain. Eminem's rap sections are backed by acoustic guitar, violin, and drums.",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Composition section identifies the genre as a midtempo hip hop ballad with a pop refrain.",
+      "Eminem's rap section is described as accompanied by acoustic guitar, violin, and drums."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "acoustic guitar",
+      "violin",
+      "drums"
+    ],
+    "supporting_relations": [
+      "HAS_GENRE",
+      "HAS_REFRain",
+      "ACCOMPANIED_BY"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "What key is the song written in, what is its tempo, and what is its vocal range?",
+    "ground_truth": "The song is written in G minor, has a tempo of 87 beats per minute, and a vocal range from B♭3 to D5.",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Composition section provides the key, tempo, and vocal range of the song."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "G minor",
+      "87 BPM",
+      "B♭3",
+      "D5"
+    ],
+    "supporting_relations": [
+      "HAS_KEY",
+      "HAS_TEMPO",
+      "HAS_VOCAL_RANGE"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Which parts do Rihanna and Eminem handle in the vocal structure of the song?",
+    "ground_truth": "Rihanna handles the pop refrain/chorus, while Eminem performs the verses by rapping.",
+    "question_type": "relation_reasoning",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Composition section describes Rihanna singing the refrain and Eminem beginning the verses with rap."
+    ],
+    "supporting_entities": [
+      "Rihanna",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "SINGS_REFRAIN",
+      "PERFORMS_VERSE"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "According to the document, how does the relationship described in the song develop?",
+    "ground_truth": "The relationship transitions from the positive aspects of love to anger, conflict, and finally domestic violence, while the two still refuse to break up.",
+    "question_type": "summarization",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The introduction describes two people who refuse to break up despite being in an abusive relationship.",
+      "The Composition section describes the transition from positive aspects of love to violent events."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "abusive relationship",
+      "domestic violence"
+    ],
+    "supporting_relations": [
+      "DESCRIBES",
+      "INVOLVES",
+      "TRANSITIONS_TO"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "How did David Browne comment on Rihanna's expression of emotion in the song?",
+    "ground_truth": "He commented that even though Rihanna sings without vibrato, her vocals subtly express grief and regret.",
+    "question_type": "single_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Composition section quotes David Browne's remark about the vibrato-less singing that still conveys grief and regret."
+    ],
+    "supporting_entities": [
+      "David Browne",
+      "Rihanna",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "REVIEWED",
+      "DESCRIBED_VOCAL_PERFORMANCE"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "How did Alex da Kid want to change the acoustic guitar part in the demo, and what did Eminem decide?",
+    "ground_truth": "Alex da Kid wanted to replace the acoustic guitar in the demo, but Eminem decided to keep that acoustic guitar part.",
+    "question_type": "relation_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Recording section states that Alex da Kid wanted to replace the acoustic guitar but Eminem chose to keep it."
+    ],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Eminem",
+      "acoustic guitar",
+      "demo"
+    ],
+    "supporting_relations": [
+      "WANTED_TO_REPLACE",
+      "DECIDED_TO_KEEP"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Who directed the music video and who did the two main actors play?",
+    "ground_truth": "Joseph Kahn directed the music video; Dominic Monaghan and Megan Fox played a couple in an abusive relationship.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The music video description identifies director Joseph Kahn and actors Dominic Monaghan and Megan Fox."
+    ],
+    "supporting_entities": [
+      "Joseph Kahn",
+      "Dominic Monaghan",
+      "Megan Fox",
+      "Love the Way You Lie music video"
+    ],
+    "supporting_relations": [
+      "DIRECTED",
+      "STARRED_IN",
+      "PORTRAYED"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Why did the music video for \"Love the Way You Lie\" receive mixed reactions?",
+    "ground_truth": "The music video received mixed reactions due to scenes depicting domestic violence and an abusive romantic relationship.",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Release and response section mentions the video received mixed reception due to scenes of domestic violence."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie music video",
+      "domestic violence"
+    ],
+    "supporting_relations": [
+      "RECEIVED_MIXED_RECEPTION",
+      "DEPICTS"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "\"Love the Way You Lie\" was released as which single from Recovery and when?",
+    "ground_truth": "The song was released as the second single from Recovery in June 2010.",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Release and response section identifies the song as the second single and states it was released in June 2010."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Recovery",
+      "Interscope Records"
+    ],
+    "supporting_relations": [
+      "SECOND_SINGLE_FROM",
+      "RELEASED_BY",
+      "RELEASED_IN"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Arrange the main events in the song's development in chronological order.",
+    "ground_truth": "In late 2009, Skylar Grey started writing and collaborating with Alex da Kid; Grey wrote the chorus and recorded a demo; in early 2010, Alex da Kid gave backing tracks to Rigo Morales and Morales sent them to Eminem; Eminem selected the song and wanted Rihanna to join; afterwards, the vocals were recorded and the song was released in June 2010.",
+    "question_type": "temporal_reasoning",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Writing and production section provides events from late 2009 and early 2010.",
+      "The Recording section describes recording sessions following the selection and collaboration.",
+      "The Release and response section identifies the release in June 2010."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Rihanna",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "RECORDED_DEMO",
+      "GAVE_TRACKS_TO",
+      "SELECTED",
+      "COLLABORATED_WITH",
+      "RECORDED",
+      "RELEASED"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Did Skylar Grey write the chorus first or did Eminem choose \"Love the Way You Lie\" first?",
+    "ground_truth": "Skylar Grey wrote the chorus first; Eminem then heard and selected the song in early 2010.",
+    "question_type": "temporal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "Grey wrote the chorus and recorded the demo during the early development phase.",
+      "Eminem heard and selected the song after Alex da Kid gave the backing tracks to Rigo Morales."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "supporting_relations": [
+      "WROTE_CHORUS",
+      "SELECTED"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Who played a role in taking the song from demo to release?",
+    "ground_truth": "The main figures include Skylar Grey, Alex da Kid, Rigo Morales, Eminem, and Rihanna. Grey wrote and recorded the demo; Alex da Kid created the backing track and produced; Morales transferred the backing tracks to Eminem; Eminem wrote verses and selected the song; Rihanna participated by performing the refrain.",
+    "question_type": "aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Writing and production section describes the roles of Grey, Alex da Kid, Morales, Eminem, and Rihanna in the development process."
+    ],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Rihanna"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "RECORDED_DEMO",
+      "PRODUCED",
+      "TRANSFERRED_TRACKS",
+      "SELECTED",
+      "WROTE_VERSES",
+      "PERFORMED"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "How many weeks did the song top the Billboard Hot 100 and how many copies did it sell in the US and the UK?",
+    "ground_truth": "The song topped the US Billboard Hot 100 for seven weeks, selling over 12 million copies in the US and 1.5 million copies in the UK.",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Release and response section provides the duration topping the Billboard Hot 100 and the number of copies sold in the US and UK."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Billboard Hot 100",
+      "United States",
+      "United Kingdom"
+    ],
+    "supporting_relations": [
+      "PEAKED_AT_NUMBER_ONE",
+      "SOLD_IN"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "If you add up the sales figures stated for the US and the UK, what is the total number of copies mentioned?",
+    "ground_truth": "Over 13.5 million copies, calculated from over 12 million copies in the US plus 1.5 million copies in the UK.",
+    "question_type": "numerical_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "supporting_evidence": [
+      "The document states over 12 million copies in the US and 1.5 million copies in the UK."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "United States",
+      "United Kingdom"
+    ],
+    "supporting_relations": [
+      "SOLD_IN"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Who does the document describe as being involved in the production, recording, or visual aspects of the song?",
+    "ground_truth": "The mentioned figures include Eminem, Rihanna, Skylar Grey, Alex da Kid, Jennifer Blakeman, Rigo Morales, Paul Rosenberg, Mike Strange, Joe Strange, Marcos Tovar, Makeba Riddick, and Joseph Kahn.",
+    "question_type": "entity_aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "supporting_evidence": [
+      "The Writing and production, Recording, and music video sections mention multiple figures with various roles."
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Jennifer Blakeman",
+      "Rigo Morales",
+      "Paul Rosenberg",
+      "Mike Strange",
+      "Joe Strange",
+      "Marcos Tovar",
+      "Makeba Riddick",
+      "Joseph Kahn"
+    ],
+    "supporting_relations": [
+      "WROTE",
+      "PRODUCED",
+      "MANAGED",
+      "ENGINEERED",
+      "RECORDED",
+      "MIXED",
+      "DIRECTED"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Who wrote the violin part used in \"Love the Way You Lie\"?",
+    "ground_truth": null,
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "supporting_evidence": [
+      "The document only states that the violin was used to support Eminem's verses but does not identify the writer or performer of the violin part."
+    ],
+    "supporting_entities": [
+      "violin",
+      "Eminem"
+    ],
+    "supporting_relations": [
+      "USED_IN"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "On what specific date in June 2010 was \"Love the Way You Lie\" released as the second single?",
+    "ground_truth": null,
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "supporting_evidence": [
+      "The document only states the song was released as the second single in June 2010 and does not provide a specific date for this release."
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Interscope Records",
+      "June 2010"
+    ],
+    "supporting_relations": [
+      "RELEASED_IN",
+      "SECOND_SINGLE_FROM"
+    ]
+  }
+]

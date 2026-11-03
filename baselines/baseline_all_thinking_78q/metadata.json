@@ -1,0 +1,16 @@
+{
+  "tag": "baseline_all_thinking_78q",
+  "timestamp": "2026-10-22T07:10:59.963818Z",
+  "description": "All systems (LightRAG, MS GraphRAG, HiRAG) 78 questions on eval_v2 (with thinking)",
+  "git_commits": {
+    "root": "c72441d8f285fe0321ef6262363b50998d2158ee",
+    "hirag": "67b2dfa928f89d5ab13f7602544a42352f262806"
+  },
+  "config": {
+    "llm_model": "qwen3:8b",
+    "embed_model": "nomic-embed-text",
+    "judge_model": "llama3.1:8b",
+    "temperature": 0.0,
+    "num_ctx": 4096
+  }
+}

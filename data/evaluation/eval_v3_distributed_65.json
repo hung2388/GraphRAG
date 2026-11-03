@@ -1,0 +1,1537 @@
+[
+  {
+    "id": 1,
+    "global_chunk_index": 0,
+    "chunk_id": "eval-chunk-00-src-0-d01f8bae",
+    "doc": "src",
+    "file_name": "src.txt",
+    "chunk_order_index": 0,
+    "question": "What is the taboo name (birth name) of Kinh Duong Vuong and whose son is he?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "gold_spans": [
+      "His taboo name was Loc Tuc",
+      "married the daughter of Vu Tien, and fathered the king"
+    ],
+    "short_answer": "Loc Tuc; son of De Minh and Vu Tien's daughter",
+    "ground_truth": "Kinh Duong Vuong's taboo name is Loc Tuc; he is the son of De Minh and the daughter of Vu Tien.",
+    "supporting_entities": [
+      "Kinh Duong Vuong",
+      "Loc Tuc",
+      "De Minh",
+      "Vu Tien"
+    ]
+  },
+  {
+    "id": 2,
+    "global_chunk_index": 1,
+    "chunk_id": "eval-chunk-01-src-1-96d1bab9",
+    "doc": "src",
+    "file_name": "src.txt",
+    "chunk_order_index": 1,
+    "question": "In which Hung King's reign did the child from Phu Dong village defeat the enemy, and where?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "gold_spans": [
+      "During the reign of the 6th Hung King, in Phu Dong village, Vu Ninh region",
+      "defeating the enemy troops at the foot of Vu Ninh mountain"
+    ],
+    "short_answer": "6th Hung King; foot of Vu Ninh mountain",
+    "ground_truth": "During the reign of the 6th Hung King, he defeated the enemy troops at the foot of Vu Ninh mountain.",
+    "supporting_entities": [
+      "Phu Dong village",
+      "6th Hung King",
+      "Vu Ninh mountain"
+    ]
+  },
+  {
+    "id": 3,
+    "global_chunk_index": 2,
+    "chunk_id": "eval-chunk-02-src-2-36048177",
+    "doc": "src",
+    "file_name": "src.txt",
+    "chunk_order_index": 2,
+    "question": "How many years did the Hong Bang dynasty last in total, and in which years did it begin and end?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "gold_spans": [
+      "starting from Kinh Duong Vuong being enfeoffed in the year of Nham Tuat",
+      "which was the year of Quy Mao, totaling 2,622 years [2879 - 258 BC]"
+    ],
+    "short_answer": "2,622 years (2879 BC to 258 BC)",
+    "ground_truth": "It lasted 2,622 years, from the year of Nham Tuat (2879 BC) to the year of Quy Mao (258 BC).",
+    "supporting_entities": [
+      "Hong Bang dynasty",
+      "Nham Tuat",
+      "Quy Mao",
+      "Kinh Duong Vuong"
+    ]
+  },
+  {
+    "id": 4,
+    "global_chunk_index": 3,
+    "chunk_id": "eval-chunk-03-quang_trung-0-9780548a",
+    "doc": "quang_trung",
+    "file_name": "quang_trung.txt",
+    "chunk_order_index": 0,
+    "question": "Who succeeded Quang Trung and how old was he at that time?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "gold_spans": [
+      "His successor, Quang Toan, was still too young (9 years old) to lead Dai Viet"
+    ],
+    "short_answer": "Quang Toan; 9 years old",
+    "ground_truth": "Quang Toan succeeded him, being only 9 years old at the time.",
+    "supporting_entities": [
+      "Quang Trung",
+      "Quang Toan"
+    ]
+  },
+  {
+    "id": 5,
+    "global_chunk_index": 4,
+    "chunk_id": "eval-chunk-04-quang_trung-1-de6b95ac",
+    "doc": "quang_trung",
+    "file_name": "quang_trung.txt",
+    "chunk_order_index": 1,
+    "question": "Which teacher discovered Nguyen Hue's abilities and advised the three brothers to rebel?",
+    "question_type": "single_hop",
+    "difficulty": "medium",
+    "gold_spans": [
+      "It was this teacher who discovered Nguyen Hue's abilities and advised the three brothers to rebel to build a great enterprise",
+      "originated from Truong Van Hien"
+    ],
+    "short_answer": "Truong Van Hien",
+    "ground_truth": "Teacher Truong Van Hien, who is said to have spoken the prophecy 'Tay khoi nghia, Bac thu cong' (Rebel in the West, achieve success in the North).",
+    "supporting_entities": [
+      "Truong Van Hien",
+      "Nguyen Hue",
+      "Nguyen Nhac",
+      "Nguyen Lu"
+    ]
+  },
+  {
+    "id": 6,
+    "global_chunk_index": 5,
+    "chunk_id": "eval-chunk-05-love-0-2bcd1c5f",
+    "doc": "love",
+    "file_name": "love.txt",
+    "chunk_order_index": 0,
+    "question": "\"Love the Way You Lie\" is a song by which artists and appears on which album?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "gold_spans": [
+      "is a song by American rapper Eminem featuring Barbadian singer Rihanna from Eminem's seventh studio album Recovery (2010)"
+    ],
+    "short_answer": "Eminem featuring Rihanna; Recovery",
+    "ground_truth": "\"Love the Way You Lie\" is a song by American rapper Eminem, featuring Barbadian singer Rihanna, and is included in Eminem's seventh studio album, Recovery (2010).",
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "Rihanna",
+      "Recovery"
+    ]
+  },
+  {
+    "id": 7,
+    "global_chunk_index": 6,
+    "chunk_id": "eval-chunk-06-love-1-09881a1a",
+    "doc": "love",
+    "file_name": "love.txt",
+    "chunk_order_index": 1,
+    "question": "Where did the vocal recording sessions for Eminem and Rihanna take place?",
+    "question_type": "comparison",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Mike Strange recorded and mixed Eminem's vocals at Effigy Studios in Ferndale, Michigan",
+      "Rihanna's recording sessions took place at Sun Studios in Dublin, Ireland"
+    ],
+    "short_answer": "Eminem: Effigy Studios (Ferndale, Michigan); Rihanna: Sun Studios (Dublin, Ireland)",
+    "ground_truth": "Eminem recorded at Effigy Studios in Ferndale, Michigan, while Rihanna recorded at Sun Studios in Dublin, Ireland.",
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Effigy Studios",
+      "Sun Studios",
+      "Ferndale",
+      "Dublin"
+    ]
+  },
+  {
+    "id": 8,
+    "global_chunk_index": 7,
+    "chunk_id": "eval-chunk-07-love-2-4ec9a09d",
+    "doc": "love",
+    "file_name": "love.txt",
+    "chunk_order_index": 2,
+    "question": "Summarize how critics received \"Love the Way You Lie\" and the contributions of Eminem and Rihanna.",
+    "question_type": "summarization",
+    "difficulty": "hard",
+    "gold_spans": [
+      "received generally favorable reviews",
+      "An editor for Rap-Up listed it among the four best tracks from the album",
+      "Critics especially praised Rihanna's contribution",
+      "Editors of The A.V. Club compared the single with",
+      "Michael Menachem of Billboard complimented her",
+      "Houston Chronicle pop critic Joey Guerra commented that Rihanna brought"
+    ],
+    "short_answer": null,
+    "ground_truth": "The song received generally favorable reviews. Rap-Up listed it among the album's four best tracks; Jon Caramanica of The New York Times called it one of the album's most engaging songs and praised Eminem's ability to assess issues from both sexes' perspectives; MTV's Rodriguez found Eminem more mature and the song his closest approach to a love song; The A.V. Club found him more tempered than in \"Kim\" and \"'97 Bonnie & Clyde\" and said Rihanna's involvement creates an eerie mood. Critics especially praised Rihanna's contribution, including Billboard's Michael Menachem and the Houston Chronicle's Joey Guerra.",
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Rap-Up",
+      "Jon Caramanica",
+      "Rodriguez",
+      "The A.V. Club",
+      "Michael Menachem",
+      "Joey Guerra",
+      "Rihanna",
+      "Eminem"
+    ]
+  },
+  {
+    "id": 9,
+    "global_chunk_index": 8,
+    "chunk_id": "eval-chunk-08-tran_thu_do-0-a3772e48",
+    "doc": "tran_thu_do",
+    "file_name": "tran_thu_do.txt",
+    "chunk_order_index": 0,
+    "question": "What were two key actions taken by Trần Thủ Độ that led to his controversial reputation in Vietnamese history?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "his ruthlessness in massacring members of the deposed Lý royal family",
+      "his responsibility in the forced marriage between Trần Thái Tông and his brother Trần Liễu's wife, Princess Thuận Thiên"
+    ],
+    "short_answer": "Trần Thủ Độ was controversial for his ruthlessness in massacring members of the deposed Lý royal family and for the forced marriage between Trần Thái Tông and Princess Thuận Thiên.",
+    "ground_truth": "Trần Thủ Độ is considered a controversial figure in Vietnamese history due to his ruthless massacre of the deposed Lý royal family and his role in the forced marriage between Trần Thái Tông and Princess Thuận Thiên.",
+    "supporting_entities": [
+      "Trần Thủ Độ",
+      "Lý dynasty",
+      "Trần dynasty",
+      "Trần Thái Tông",
+      "Princess Thuận Thiên"
+    ]
+  },
+  {
+    "id": 10,
+    "global_chunk_index": 9,
+    "chunk_id": "eval-chunk-09-tran_thu_do-1-e3784ecc",
+    "doc": "tran_thu_do",
+    "file_name": "tran_thu_do.txt",
+    "chunk_order_index": 1,
+    "question": "What event led Trần Thủ Độ to force Trần Liễu to give up his wife Princess Thuận Thiên for the Emperor in 1237?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "he had profited in the same circumstances of the Emperor Lý Huệ Tông to overthrow the Lý dynasty"
+    ],
+    "short_answer": "The lack of a first son for Trần Thái Tông and Empress Chiêu Thánh led Trần Thủ Độ to force Trần Liễu to give up Princess Thuận Thiên for the Emperor.",
+    "ground_truth": "Trần Thủ Độ forced Trần Liễu to give up Princess Thuận Thiên for the Emperor in 1237 because Trần Thái Tông and Empress Chiêu Thánh had not had their first son for a while, and he feared a similar situation to the Emperor Lý Huệ Tông's circumstances that led to the overthrow of the Lý dynasty.",
+    "supporting_entities": [
+      "Trần Thái Tông",
+      "Empress Chiêu Thánh",
+      "Trần Thủ Độ",
+      "Trần Liễu",
+      "Princess Thuận Thiên",
+      "Lý Huệ Tông"
+    ]
+  },
+  {
+    "id": 11,
+    "global_chunk_index": 10,
+    "chunk_id": "eval-chunk-10-tran_thu_do-2-e4d9802e",
+    "doc": "tran_thu_do",
+    "file_name": "tran_thu_do.txt",
+    "chunk_order_index": 2,
+    "question": "What was the reason historical accounts attribute the birth of the Trần dynasty to Trần Thủ Độ?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Almost all historical accounts agree that it was no one else but Trần Thủ Độ who deserved credit for the birth of the Trần dynasty",
+      "the temple name of the first emperor of the Trần dynasty was Thái Tông, which was often used for the second emperor of a dynasty, instead of Thái Tổ as usual"
+    ],
+    "short_answer": "Trần Thủ Độ is credited with the birth of the Trần dynasty because he founded it through his own efforts.",
+    "ground_truth": "Historical accounts attribute the birth of the Trần dynasty to Trần Thủ Độ because he founded it through his own efforts, and the temple name of the first emperor was Thái Tông, which is typically used for the second emperor of a dynasty.",
+    "supporting_entities": [
+      "Trần dynasty",
+      "Trần Thủ Độ",
+      "Thái Tông",
+      "Khâm định Việt sử Thông giám cương mục"
+    ]
+  },
+  {
+    "id": 12,
+    "global_chunk_index": 11,
+    "chunk_id": "eval-chunk-11-ly_thuong_kiet-0-ab077e4f",
+    "doc": "ly_thuong_kiet",
+    "file_name": "ly_thuong_kiet.txt",
+    "chunk_order_index": 0,
+    "question": "What were the names of the three Song dynasty provinces that Lý Thường Kiệt raided between 1075 and 1076?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Yongzhou, Qinzhou, Lianzhou (1075–1076)"
+    ],
+    "short_answer": "Yongzhou, Qinzhou, and Lianzhou",
+    "ground_truth": "Lý Thường Kiệt raided the three Song dynasty provinces of Yongzhou, Qinzhou, and Lianzhou between 1075 and 1076.",
+    "supporting_entities": [
+      "Lý Thường Kiệt",
+      "Song dynasty",
+      "Yongzhou",
+      "Qinzhou",
+      "Lianzhou"
+    ]
+  },
+  {
+    "id": 13,
+    "global_chunk_index": 12,
+    "chunk_id": "eval-chunk-12-ly_thuong_kiet-1-7f68fc5a",
+    "doc": "ly_thuong_kiet",
+    "file_name": "ly_thuong_kiet.txt",
+    "chunk_order_index": 1,
+    "question": "What is the significance of the name 'Thường Hiến' in the context of Lý Thường Kiệt's family?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "it is customary in the old days that the name after maturation has a similar or opposite meaning to the real name and is used to call outside as an understanding of the politeness, only in the home to call the real name."
+    ],
+    "short_answer": "The name 'Thường Hiến' is a name after maturity, not the real name, and was used to call outside as an understanding of the politeness, while the real name was used at home.",
+    "ground_truth": "In the context of Lý Thường Kiệt's family, 'Thường Hiến' is a name after maturity, not the real name, and was used to call outside as an understanding of the politeness, while the real name was used at home.",
+    "supporting_entities": [
+      "Lý Thường Kiệt",
+      "Lý Thượng Cát",
+      "Lý Thường Hiến",
+      "Thường Hiến",
+      "real name",
+      "name after maturity",
+      "politeness",
+      "family"
+    ]
+  },
+  {
+    "id": 14,
+    "global_chunk_index": 13,
+    "chunk_id": "eval-chunk-13-tran_quang_khai-0-52a09c39",
+    "doc": "tran_quang_khai",
+    "file_name": "tran_quang_khai.txt",
+    "chunk_order_index": 0,
+    "question": "What were two key roles that Prince Chiêu Minh Trần Quang Khải played during the second war of resistance against the Mongol invasion?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Trần Quang Khải and Trần Hưng Đạo were two key commanders of the Đại Việt army",
+      "helped the Emperor defeat the troops of Kublai Khan's son prince Toghan"
+    ],
+    "short_answer": "Prince Chiêu Minh Trần Quang Khải was a key commander of the Đại Việt army and helped the Emperor defeat the troops of Kublai Khan's son prince Toghan.",
+    "ground_truth": "During the second war of resistance against the Mongol invasion, Prince Chiêu Minh Trần Quang Khải was a key commander of the Đại Việt army and helped the Emperor defeat the troops of Kublai Khan's son prince Toghan.",
+    "supporting_entities": [
+      "Prince Chiêu Minh Trần Quang Khải",
+      "second war of resistance",
+      "Mongol invasion",
+      "Trần Hưng Đạo",
+      "Kublai Khan's son prince Toghan"
+    ]
+  },
+  {
+    "id": 15,
+    "global_chunk_index": 14,
+    "chunk_id": "eval-chunk-14-tran_quang_khai-1-1ea6120e",
+    "doc": "tran_quang_khai",
+    "file_name": "tran_quang_khai.txt",
+    "chunk_order_index": 1,
+    "question": "What are two examples of Vietnamese patriotic literature that were considered among the finest during the feudal era, and what is one traditional dance attributed to Trần Quang Khải and his brother?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "As Nam quốc sơn hà by Lý Thường Kiệt, Tụng giá hoàn kinh was considered one of the finest example for Vietnamese patriotic literature during feudal era.",
+      "Besides his poems, Trần Quang Khải and his brother Trần Nhật Duật were credited as creators of dance of flowers (múa bài bông), a traditional dance which is still preserved in Nam Định."
+    ],
+    "short_answer": "Tụng giá hoàn kinh and Nam quốc sơn hà are examples of Vietnamese patriotic literature, and múa bài bông is the traditional dance attributed to Trần Quang Khải and his brother.",
+    "ground_truth": "Tụng giá hoàn kinh and Nam quốc sơn hà are considered among the finest examples of Vietnamese patriotic literature during the feudal era, and múa bài bông is a traditional dance created by Trần Quang Khải and his brother Trần Nhật Duật.",
+    "supporting_entities": [
+      "Tụng giá hoàn kinh",
+      "Nam quốc sơn hà",
+      "múa bài bông",
+      "Trần Quang Khải",
+      "Trần Nhật Duật"
+    ]
+  },
+  {
+    "id": 16,
+    "global_chunk_index": 15,
+    "chunk_id": "eval-chunk-15-binh_ngo_dai_cao-0-4f5f7c31",
+    "doc": "binh_ngo_dai_cao",
+    "file_name": "binh_ngo_dai_cao.txt",
+    "chunk_order_index": 0,
+    "question": "Why did Nguyễn Trãi choose to name his work 'Pacification of the Wu' instead of 'Pacification of the Ming'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Therefore, one could reason that Nguyễn Trãi named his work Pacification of the Wu instead of Pacification of the Ming in order to subtly emphasize the victory of Đại Việt and the failure of the Ming dynasty which was called, in the proclamation, merely by the name Wu after its founder's ancestral land.",
+      "The second part of the name, đại cáo (大誥) is commonly understood as the denotement of its literary genre, a great edict (cáo), or the announcement's great scale (đại cáo)."
+    ],
+    "short_answer": "Nguyễn Trãi chose 'Pacification of the Wu' to subtly emphasize the victory of Đại Việt and the failure of the Ming dynasty, which was referred to as Wu after its founder's ancestral land.",
+    "ground_truth": "Nguyễn Trãi named his work 'Pacification of the Wu' to subtly emphasize the victory of Đại Việt and the failure of the Ming dynasty, which was called Wu after its founder's ancestral land.",
+    "supporting_entities": [
+      "Nguyễn Trãi",
+      "Bình Ngô đại cáo",
+      "Lê Lợi",
+      "Đại Việt",
+      "Ming dynasty",
+      "Zhu Yuanzhang",
+      "Wu"
+    ]
+  },
+  {
+    "id": 17,
+    "global_chunk_index": 16,
+    "chunk_id": "eval-chunk-16-binh_ngo_dai_cao-1-f2c45a03",
+    "doc": "binh_ngo_dai_cao",
+    "file_name": "binh_ngo_dai_cao.txt",
+    "chunk_order_index": 1,
+    "question": "According to the text, what was the original interpretation of the terms 'north' and 'south' in the Bình Ngô đại cáo, and how did translations affect the understanding of these terms?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "(Thiên cổ hùng văn) in the History of Vietnam. With Bình Ngô đại cáo, Nguyễn Trã"
+    ],
+    "short_answer": "The original terms 'north' and 'south' referred to the Ming collaborationist Hanoi scholars and Thanh Hóa, respectively, but translations altered these to 'China' and 'Vietnam'.",
+    "ground_truth": "The original text referred to 'north' as the Ming collaborationist Hanoi scholars and 'south' as Thanh Hóa, but English and French translations altered these terms to 'China' and 'Vietnam', respectively.",
+    "supporting_entities": [
+      "Bình Ngô đại cáo",
+      "Nguyễn Trãi",
+      "Lê Lợi",
+      "Ming collaborationist Hanoi scholars",
+      "Thanh Hóa",
+      "John Whitmore",
+      "Le Minh Khai",
+      "University of Hawaiʻi at Mānoa"
+    ]
+  },
+  {
+    "id": 18,
+    "global_chunk_index": 17,
+    "chunk_id": "eval-chunk-17-ho_dynasty-0-35c6d592",
+    "doc": "ho_dynasty",
+    "file_name": "ho_dynasty.txt",
+    "chunk_order_index": 0,
+    "question": "Which two monarchs ruled the Hồ dynasty, and what was the name of the dynasty's official title?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "The Hồ dynasty (Vietnamese: Nhà Hồ, chữ Nôm: 茹胡; Vietnamese: triều Hồ, chữ Hán: 朝胡, Chinese characters: 胡朝), officially Đại Ngu (Vietnamese: Đại Ngu; chữ Hán:  大虞), was a short-lived Vietnamese dynasty consisting of the reigns of two monarchs, Hồ Quý Ly and his second son, Hồ Hán Thương.",
+      "The Hồ dynasty was conquered by the Chinese Ming dynasty in 1407."
+    ],
+    "short_answer": "The Hồ dynasty was ruled by Hồ Quý Ly and his second son, Hồ Hán Thương, and its official title was Đại Ngu.",
+    "ground_truth": "The Hồ dynasty, officially known as Đại Ngu, was ruled by two monarchs: Hồ Quý Ly and his second son, Hồ Hán Thương.",
+    "supporting_entities": [
+      "Hồ Quý Ly",
+      "Hồ Hán Thương",
+      "Đại Ngu",
+      "Hồ dynasty"
+    ]
+  },
+  {
+    "id": 19,
+    "global_chunk_index": 18,
+    "chunk_id": "eval-chunk-18-ho_dynasty-1-42edf9cf",
+    "doc": "ho_dynasty",
+    "file_name": "ho_dynasty.txt",
+    "chunk_order_index": 1,
+    "question": "What was the reason the Ming dynasty did not act against the Hồ dynasty when a Trần prince claimed the throne in 1395?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "the Yongle Emperor's father, the Hongwu Emperor, specifically ordered that China should never attack Annam",
+      "the Yongle Emperor thus took no action until early 1405, when a Vietnamese envoy confirmed the pretender's story"
+    ],
+    "short_answer": "The Ming dynasty did not act against the Hồ dynasty because the Hongwu Emperor had ordered China to never attack Annam.",
+    "ground_truth": "The Ming dynasty did not act against the Hồ dynasty in 1395 because the Hongwu Emperor had issued an order prohibiting China from attacking Annam, and the Yongle Emperor followed this directive until the pretender's claim was confirmed in 1405.",
+    "supporting_entities": [
+      "Ming dynasty",
+      "Hồ dynasty",
+      "Trần dynasty",
+      "Hongwu Emperor",
+      "Yongle Emperor",
+      "Trần Thiên Bính"
+    ]
+  },
+  {
+    "id": 20,
+    "global_chunk_index": 19,
+    "chunk_id": "eval-chunk-19-lady_trieu-0-ea085967",
+    "doc": "lady_trieu",
+    "file_name": "lady_trieu.txt",
+    "chunk_order_index": 0,
+    "question": "What did Lady Triệu say about her intentions during her rebellion against the Chinese Eastern Wu dynasty?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "I want to ride storms, slay orcas in the open sea, drive out the aggressors, reconquer the country and undo the ties of serfdom, not to bend my back to be the concubine of whatever man."
+    ],
+    "short_answer": "Lady Triệu expressed her intention to drive out the aggressors, reconquer the country, and undo the ties of serfdom.",
+    "ground_truth": "Lady Triệu stated, 'I want to ride storms, slay orcas in the open sea, drive out the aggressors, reconquer the country and undo the ties of serfdom, not to bend my back to be the concubine of whatever man.'",
+    "supporting_entities": [
+      "Lady Triệu",
+      "Chinese Eastern Wu dynasty",
+      "rebellion",
+      "reconquer the country",
+      "undo the ties of serfdom"
+    ]
+  },
+  {
+    "id": 21,
+    "global_chunk_index": 20,
+    "chunk_id": "eval-chunk-20-lady_trieu-1-8c77a7f8",
+    "doc": "lady_trieu",
+    "file_name": "lady_trieu.txt",
+    "chunk_order_index": 1,
+    "question": "What were two specific physical characteristics of Lady Trieu according to the text?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Ẩu has breasts 3 thước [1.2 m] long, tied them behind her back, often rides elephants to fight",
+      "often wore gilded coarse tunics and toothed footwears (or toothed footwears made from gilded coarse clothes?)"
+    ],
+    "short_answer": "Lady Trieu had breasts 3 thước long and wore gilded coarse tunics with toothed footwears.",
+    "ground_truth": "According to the text, Lady Trieu had breasts 3 thước long and wore gilded coarse tunics with toothed footwears.",
+    "supporting_entities": [
+      "Lady Trieu",
+      "Cửu Chân commandery",
+      "Giao Chỉ records",
+      "Trần Trọng Kim",
+      "Việt Nam sử lược"
+    ]
+  },
+  {
+    "id": 22,
+    "global_chunk_index": 21,
+    "chunk_id": "eval-chunk-21-lady_trieu-2-fdc0482a",
+    "doc": "lady_trieu",
+    "file_name": "lady_trieu.txt",
+    "chunk_order_index": 2,
+    "question": "What specific actions did Lu Yin take to subdue the rebels in Jiaozhi and Jiuzhen according to the text?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "He used his craftiness to convince them to accept his terms.",
+      "He announced his sincerity [to the aborigines] and distributed gifts."
+    ],
+    "short_answer": "Lu Yin used his craftiness to convince the rebels to accept his terms and announced his sincerity to the aborigines while distributing gifts.",
+    "ground_truth": "Lu Yin used his craftiness to convince the rebels to accept his terms and announced his sincerity to the aborigines while distributing gifts, which led to the rebels kowtowing to him.",
+    "supporting_entities": [
+      "Lu Yin",
+      "Jiaozhi",
+      "Jiuzhen",
+      "rebel leaders",
+      "aborigines"
+    ]
+  },
+  {
+    "id": 23,
+    "global_chunk_index": 22,
+    "chunk_id": "eval-chunk-22-nguyen_phuc_nguyen-0-5e856930",
+    "doc": "nguyen_phuc_nguyen",
+    "file_name": "nguyen_phuc_nguyen.txt",
+    "chunk_order_index": 0,
+    "question": "What was the title that Nguyễn Phúc Nguyên used instead of Vương, and what does it translate to?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Nhơn quốc công (仁國公) which translates roughly to Duke of Nhơn",
+      "Unlike his father he did not take the title Vương (王) but instead called himself Nhơn quốc công (仁國公)"
+    ],
+    "short_answer": "Nhơn quốc công, which translates to Duke of Nhơn",
+    "ground_truth": "Nguyễn Phúc Nguyên did not take the title Vương (王) but instead called himself Nhơn quốc công (仁國公), which translates roughly to Duke of Nhơn.",
+    "supporting_entities": [
+      "Nguyễn Phúc Nguyên",
+      "Vương",
+      "Nhơn quốc công",
+      "Duke of Nhơn"
+    ]
+  },
+  {
+    "id": 24,
+    "global_chunk_index": 23,
+    "chunk_id": "eval-chunk-23-thriller_song-0-6a771028",
+    "doc": "thriller_song",
+    "file_name": "thriller_song.txt",
+    "chunk_order_index": 0,
+    "question": "Which music video for 'Thriller' was directed by John Landis and features Jackson dancing with zombies?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "The \"Thriller\" music video, directed by John Landis, depicts Jackson dancing with a horde of zombies.",
+      "It has been named the greatest music video of all time by various publications and readers' polls"
+    ],
+    "short_answer": "The 'Thriller' music video directed by John Landis features Jackson dancing with zombies.",
+    "ground_truth": "The 'Thriller' music video, directed by John Landis, depicts Jackson dancing with a horde of zombies and has been named the greatest music video of all time by various publications and readers' polls.",
+    "supporting_entities": [
+      "Thriller music video",
+      "John Landis",
+      "Michael Jackson",
+      "zombies"
+    ]
+  },
+  {
+    "id": 25,
+    "global_chunk_index": 24,
+    "chunk_id": "eval-chunk-24-thriller_song-1-f0033934",
+    "doc": "thriller_song",
+    "file_name": "thriller_song.txt",
+    "chunk_order_index": 1,
+    "question": "Which instruments were used to create the 'Froggie' SFX and the Bass Sweep/Synth Fall in the bridge of the song 'Thriller'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "the \"Froggie\" SFX was performed on a Casio keyboard",
+      "the Bass Sweep/Synth Fall in the bridge was performed on a Minimoog Model D"
+    ],
+    "short_answer": "The 'Froggie' SFX was performed on a Casio keyboard and the Bass Sweep/Synth Fall in the bridge was performed on a Minimoog Model D.",
+    "ground_truth": "The 'Froggie' SFX was performed on a Casio keyboard and the Bass Sweep/Synth Fall in the bridge was performed on a Minimoog Model D.",
+    "supporting_entities": [
+      "Froggie SFX",
+      "Bass Sweep/Synth Fall",
+      "Casio keyboard",
+      "Minimoog Model D"
+    ]
+  },
+  {
+    "id": 26,
+    "global_chunk_index": 25,
+    "chunk_id": "eval-chunk-25-thriller_song-2-cb7f75f8",
+    "doc": "thriller_song",
+    "file_name": "thriller_song.txt",
+    "chunk_order_index": 2,
+    "question": "In which year did 'Thriller' reach number 10 on the US Billboard 100 chart for the first time since 1984?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "It also peaked at number ten on the US Billboard 100 chart in November 2025, making",
+      "In 2025, the single returned to the top ten at number 10."
+    ],
+    "short_answer": "2025",
+    "ground_truth": "In November 2025, 'Thriller' reached number 10 on the US Billboard 100 chart for the first time since 1984.",
+    "supporting_entities": [
+      "Thriller",
+      "US Billboard 100 chart",
+      "2025"
+    ]
+  },
+  {
+    "id": 27,
+    "global_chunk_index": 26,
+    "chunk_id": "eval-chunk-26-a_sky_full_of_stars-0-1bb5e8f7",
+    "doc": "a_sky_full_of_stars",
+    "file_name": "a_sky_full_of_stars.txt",
+    "chunk_order_index": 0,
+    "question": "What is the key of the song 'A Sky Full of Stars' and what is its tempo?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "the key of G♭ major",
+      "tempo of 125 beats per minute"
+    ],
+    "short_answer": "The song is in the key of G♭ major with a tempo of 125 beats per minute.",
+    "ground_truth": "The song 'A Sky Full of Stars' is composed in the key of G♭ major and has a tempo of 125 beats per minute.",
+    "supporting_entities": [
+      "A Sky Full of Stars",
+      "key of G♭ major",
+      "tempo of 125 beats per minute"
+    ]
+  },
+  {
+    "id": 28,
+    "global_chunk_index": 27,
+    "chunk_id": "eval-chunk-27-a_sky_full_of_stars-1-0c8ecc50",
+    "doc": "a_sky_full_of_stars",
+    "file_name": "a_sky_full_of_stars.txt",
+    "chunk_order_index": 1,
+    "question": "What did Zane Lowe of BBC Radio 1 say about the song 'A Sky Full of Stars'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Zane Lowe of BBC Radio 1 named the track his 'Hottest Record' for 29 April 2014."
+    ],
+    "short_answer": "Zane Lowe of BBC Radio 1 named the track his 'Hottest Record' for 29 April 2014.",
+    "ground_truth": "Zane Lowe of BBC Radio 1 named the track his 'Hottest Record' for 29 April 2014.",
+    "supporting_entities": [
+      "Zane Lowe",
+      "BBC Radio 1",
+      "A Sky Full of Stars",
+      "Hottest Record",
+      "29 April 2014"
+    ]
+  },
+  {
+    "id": 29,
+    "global_chunk_index": 28,
+    "chunk_id": "eval-chunk-28-a_sky_full_of_stars-2-339b63d9",
+    "doc": "a_sky_full_of_stars",
+    "file_name": "a_sky_full_of_stars.txt",
+    "chunk_order_index": 2,
+    "question": "Which event in 2023 included the song in a tribute video to the SEC on CBS?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "In 2023, American television network CBS, and its sports division CBS Sports, included the song in a six-minute long video tribute to the SEC on CBS that they posted on social media, as the network's contract with the conference expired following the 2023 SEC Championship Game.",
+      "The tribute video, which also included High Hopes by Panic! at the Disco and Hall of Fame by The Script, later aired during CBS's pregame show."
+    ],
+    "short_answer": "The 2023 SEC Championship Game",
+    "ground_truth": "In 2023, American television network CBS, and its sports division CBS Sports, included the song in a six-minute long video tribute to the SEC on CBS that they posted on social media, as the network's contract with the conference expired following the 2023 SEC Championship Game.",
+    "supporting_entities": [
+      "CBS",
+      "SEC",
+      "2023 SEC Championship Game",
+      "CBS Sports",
+      "tribute video"
+    ]
+  },
+  {
+    "id": 30,
+    "global_chunk_index": 29,
+    "chunk_id": "eval-chunk-29-love_story_taylor_swift_song-0-cb8afd76",
+    "doc": "love_story_taylor_swift_song",
+    "file_name": "love_story_taylor_swift_song.txt",
+    "chunk_order_index": 0,
+    "question": "Which historical periods did the music video for 'Love Story' draw from?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Drawing from historical periods such as the"
+    ],
+    "short_answer": "The music video for 'Love Story' drew from historical periods such as the",
+    "ground_truth": "The music video for 'Love Story' drew from historical periods such as the Renaissance and the 1920s.",
+    "supporting_entities": [
+      "Love Story",
+      "music video",
+      "historical periods",
+      "Renaissance",
+      "1920s"
+    ]
+  },
+  {
+    "id": 31,
+    "global_chunk_index": 30,
+    "chunk_id": "eval-chunk-30-love_story_taylor_swift_song-1-7f241f5a",
+    "doc": "love_story_taylor_swift_song",
+    "file_name": "love_story_taylor_swift_song.txt",
+    "chunk_order_index": 1,
+    "question": "Which two entities were responsible for mastering and releasing 'Love Story' to US country radio?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Big Machine Records released it to US country radio as Fearless's lead single on September 15, 2008.",
+      "Big Machine in partnership with Republic Records released \"Love Story\" to US pop radio on October 14, 2008."
+    ],
+    "short_answer": "Big Machine Records",
+    "ground_truth": "Big Machine Records was responsible for releasing 'Love Story' to US country radio as Fearless's lead single on September 15, 2008.",
+    "supporting_entities": [
+      "Big Machine Records",
+      "Fearless",
+      "US country radio",
+      "September 15, 2008"
+    ]
+  },
+  {
+    "id": 32,
+    "global_chunk_index": 31,
+    "chunk_id": "eval-chunk-31-love_story_taylor_swift_song-2-54011763",
+    "doc": "love_story_taylor_swift_song",
+    "file_name": "love_story_taylor_swift_song.txt",
+    "chunk_order_index": 2,
+    "question": "What did Deborah Evans Price of Billboard say about the production of 'Love Story' and Swift's success in the country-music market?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Deborah Evans Price of Billboard praised the \"swirling, dreamy\" production and said Swift's success in the country-music market \"could only gain momentum\"."
+    ],
+    "short_answer": "Deborah Evans Price of Billboard praised the 'swirling, dreamy' production and said Swift's success in the country-music market 'could only gain momentum'.",
+    "ground_truth": "Deborah Evans Price of Billboard praised the 'swirling, dreamy' production of 'Love Story' and commented that Swift's success in the country-music market 'could only gain momentum'.",
+    "supporting_entities": [
+      "Deborah Evans Price",
+      "Billboard",
+      "Love Story",
+      "production",
+      "country-music market"
+    ]
+  },
+  {
+    "id": 33,
+    "global_chunk_index": 32,
+    "chunk_id": "eval-chunk-32-love_story_taylor_swift_song-3-5e44ff84",
+    "doc": "love_story_taylor_swift_song",
+    "file_name": "love_story_taylor_swift_song.txt",
+    "chunk_order_index": 3,
+    "question": "Which countries did the single 'Love Story' peak in, and what were the peak positions?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "In continental Europe, the single peaked at number ten on the European Hot 100 Singles chart, number four in the Czech Republic, number six in Hungary, number seven in Norway, and number ten in Sweden.",
+      "It sold 6.5 million digital copies worldwide and was the sixth-most-downloaded single of 2009."
+    ],
+    "short_answer": "The single 'Love Story' peaked at number ten on the European Hot 100 Singles chart, number four in the Czech Republic, number six in Hungary, number seven in Norway, and number ten in Sweden.",
+    "ground_truth": "The single 'Love Story' peaked at number ten on the European Hot 100 Singles chart, number four in the Czech Republic, number six in Hungary, number seven in Norway, and number ten in Sweden.",
+    "supporting_entities": [
+      "Czech Republic",
+      "Hungary",
+      "Norway",
+      "Sweden",
+      "European Hot 100 Singles chart"
+    ]
+  },
+  {
+    "id": 34,
+    "global_chunk_index": 33,
+    "chunk_id": "eval-chunk-33-love_story_taylor_swift_song-4-dc0cd717",
+    "doc": "love_story_taylor_swift_song",
+    "file_name": "love_story_taylor_swift_song.txt",
+    "chunk_order_index": 4,
+    "question": "Which television shows did Taylor Swift perform 'Love Story' on during the promotion of Fearless in 2008 and 2009?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Good Morning America, Late Show with David Letterman, The Today Show, Dancing with the Stars, The Ellen DeGeneres Show, and Saturday Night Live"
+    ],
+    "short_answer": "Taylor Swift performed 'Love Story' on Good Morning America, Late Show with David Letterman, The Today Show, Dancing with the Stars, The Ellen DeGeneres Show, and Saturday Night Live.",
+    "ground_truth": "During the promotion of Fearless in 2008 and 2009, Taylor Swift performed 'Love Story' on Good Morning America, Late Show with David Letterman, The Today Show, Dancing with the Stars, The Ellen DeGeneres Show, and Saturday Night Live.",
+    "supporting_entities": [
+      "Good Morning America",
+      "Late Show with David Letterman",
+      "The Today Show",
+      "Dancing with the Stars",
+      "The Ellen DeGeneres Show",
+      "Saturday Night Live"
+    ]
+  },
+  {
+    "id": 35,
+    "global_chunk_index": 34,
+    "chunk_id": "eval-chunk-34-love_story_taylor_swift_song-5-e9ed3c41",
+    "doc": "love_story_taylor_swift_song",
+    "file_name": "love_story_taylor_swift_song.txt",
+    "chunk_order_index": 5,
+    "question": "Who were the key personnel involved in the production of 'Love Story (Taylor's Version)'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Swift and the Nashville-based producer Christopher Rowe",
+      "It was recorded by David Payne at Blackbird Studio, with additional recording by Rowe"
+    ],
+    "short_answer": "Taylor Swift and Christopher Rowe produced 'Love Story (Taylor's Version)', with David Payne recording at Blackbird Studio and Rowe providing additional recording.",
+    "ground_truth": "Taylor Swift and Christopher Rowe produced 'Love Story (Taylor's Version)', which was recorded by David Payne at Blackbird Studio, with additional recording by Rowe.",
+    "supporting_entities": [
+      "Taylor Swift",
+      "Christopher Rowe",
+      "David Payne",
+      "Blackbird Studio"
+    ]
+  },
+  {
+    "id": 36,
+    "global_chunk_index": 35,
+    "chunk_id": "eval-chunk-35-love_story_taylor_swift_song-6-0a5c7af2",
+    "doc": "love_story_taylor_swift_song",
+    "file_name": "love_story_taylor_swift_song.txt",
+    "chunk_order_index": 6,
+    "question": "What was the reason Taylor Swift decided to re-record her songs and what award did the re-recording win at the 2022 CMT Music Awards?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "to promote the re-recordings to radio as radio stations do not have to pay the owners of the master recording every time they play a song",
+      "the re-recording won the inaugural Trending Comeback Song of the Year"
+    ],
+    "short_answer": "Taylor Swift re-recorded her songs to promote them to radio without paying master recording owners, and the re-recording won the Trending Comeback Song of the Year at the 2022 CMT Music Awards.",
+    "ground_truth": "Taylor Swift re-recorded her songs to promote them to radio without paying the owners of the master recording every time they played, and the re-recording won the inaugural Trending Comeback Song of the Year at the 2022 CMT Music Awards.",
+    "supporting_entities": [
+      "Taylor Swift",
+      "re-recordings",
+      "radio stations",
+      "master recording",
+      "CMT Music Awards",
+      "Trending Comeback Song of the Year"
+    ]
+  },
+  {
+    "id": 37,
+    "global_chunk_index": 36,
+    "chunk_id": "eval-chunk-36-single_ladies_put_a_ring_on_it-0-11e3df2d",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 0,
+    "question": "What is the name of the song and the artist, and what album is it from?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "\"Single Ladies (Put a Ring on It)\" is a song by American singer Beyoncé from her third studio album, I Am... Sasha Fierce (2008)."
+    ],
+    "short_answer": "\"Single Ladies (Put a Ring on It)\" by Beyoncé from the album I Am... Sasha Fierce.",
+    "ground_truth": "The song \"Single Ladies (Put a Ring on It)\" is by Beyoncé and is from her third studio album, I Am... Sasha Fierce (2008).",
+    "supporting_entities": [
+      "Single Ladies (Put a Ring on It)",
+      "Beyoncé",
+      "I Am... Sasha Fierce",
+      "2008"
+    ]
+  },
+  {
+    "id": 38,
+    "global_chunk_index": 37,
+    "chunk_id": "eval-chunk-37-single_ladies_put_a_ring_on_it-1-6ac06a37",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 1,
+    "question": "What key is used for the verses of 'Single Ladies' and what tempo does it have?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "the verses of \"Single Ladies\" are played in the key of E major",
+      "is played in a \"moderate groove\" tempo of 96.9 beats per minute"
+    ],
+    "short_answer": "The verses of 'Single Ladies' are played in the key of E major and have a tempo of 96.9 beats per minute.",
+    "ground_truth": "The verses of 'Single Ladies' are played in the key of E major and are performed at a tempo of 96.9 beats per minute.",
+    "supporting_entities": [
+      "Single Ladies",
+      "E major",
+      "96.9 beats per minute",
+      "Musicnotes.com",
+      "Sony/ATV Music Publishing"
+    ]
+  },
+  {
+    "id": 39,
+    "global_chunk_index": 38,
+    "chunk_id": "eval-chunk-38-single_ladies_put_a_ring_on_it-2-c1754c11",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 2,
+    "question": "What specific praise did Michelangelo Matos of The A.V. Club give to the song 'Single Ladies'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Michelangelo Matos of The A.V. Club wrote that the song is \"fabulous, with glowing production, a humongous hook, and beats for weeks\"."
+    ],
+    "short_answer": "Michelangelo Matos of The A.V. Club called the song \"fabulous, with glowing production, a humongous hook, and beats for weeks\".",
+    "ground_truth": "Michelangelo Matos of The A.V. Club praised the song 'Single Ladies' by calling it \"fabulous, with glowing production, a humongous hook, and beats for weeks\".",
+    "supporting_entities": [
+      "Michelangelo Matos",
+      "The A.V. Club",
+      "Single Ladies",
+      "fabulous",
+      "glowing production",
+      "humongous hook",
+      "beats for weeks"
+    ]
+  },
+  {
+    "id": 40,
+    "global_chunk_index": 39,
+    "chunk_id": "eval-chunk-39-single_ladies_put_a_ring_on_it-3-92882d25",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 3,
+    "question": "What did Chuck Klosterman say about the song 'Single Ladies' in his book Eating the Dinosaur (2009)?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "of 2008, and at number six on About.com's Mark Edward Nero's list of the Best R&"
+    ],
+    "short_answer": "Chuck Klosterman called 'Single Ladies' 'arguably the first song overtly marketed toward urban bachelorette parties'.",
+    "ground_truth": "In his book Eating the Dinosaur (2009), Chuck Klosterman referred to 'Single Ladies' as 'arguably the first song overtly marketed toward urban bachelorette parties'.",
+    "supporting_entities": [
+      "Chuck Klosterman",
+      "Eating the Dinosaur",
+      "Single Ladies",
+      "urban bachelorette parties"
+    ]
+  },
+  {
+    "id": 41,
+    "global_chunk_index": 40,
+    "chunk_id": "eval-chunk-40-single_ladies_put_a_ring_on_it-4-95629eb7",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 4,
+    "question": "What was the peak position of 'Single Ladies' on the European Hot 100 Singles chart, and how many units were sold worldwide?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "peaked at number 20 on the European Hot 100 Singles chart",
+      "2009's seventh best-selling digital single with 6.1 million units sold worldwide"
+    ],
+    "short_answer": "The peak position of 'Single Ladies' on the European Hot 100 Singles chart was number 20, and it sold 6.1 million units worldwide.",
+    "ground_truth": "The song 'Single Ladies' peaked at number 20 on the European Hot 100 Singles chart and was 2009's seventh best-selling digital single with 6.1 million units sold worldwide.",
+    "supporting_entities": [
+      "European Hot 100 Singles chart",
+      "6.1 million units sold worldwide"
+    ]
+  },
+  {
+    "id": 42,
+    "global_chunk_index": 41,
+    "chunk_id": "eval-chunk-41-single_ladies_put_a_ring_on_it-5-f11eb92b",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 5,
+    "question": "What specific action in the video does Beyoncé perform that symbolizes her commitment to marriage, and what does it reference?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Beyoncé flashes her own wedding ring on her finger.",
+      "pays homage to Shirley MacLaine's act in the 1969 film Sweet Charity."
+    ],
+    "short_answer": "Beyoncé flashes her own wedding ring on her finger, which pays homage to Shirley MacLaine's act in the 1969 film Sweet Charity.",
+    "ground_truth": "In the video for 'Single Ladies,' Beyoncé flashes her own wedding ring on her finger, which is a symbolic gesture of her commitment to marriage and pays homage to Shirley MacLaine's act in the 1969 film Sweet Charity.",
+    "supporting_entities": [
+      "Beyoncé",
+      "Single Ladies",
+      "wedding ring",
+      "Shirley MacLaine",
+      "Sweet Charity"
+    ]
+  },
+  {
+    "id": 43,
+    "global_chunk_index": 42,
+    "chunk_id": "eval-chunk-42-single_ladies_put_a_ring_on_it-6-a94d8a9d",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 6,
+    "question": "Which publication ranked Beyoncé's 'Single Ladies' performance at the 2009 MTV Video Music Awards as the seventh best in the history of the event?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "In a poll conducted by Billboard magazine, the performance was ranked as the seventh best in the history of MTV Video Music Awards.",
+      "A critic wrote in the magazine: \"The world gave a collective 'whoa' when Beyonce unleashed her 'Single Ladies' video, but to see those dance moves come to life at the 2009 VMAs was beyond eye-popping.\""
+    ],
+    "short_answer": "Billboard magazine",
+    "ground_truth": "Billboard magazine ranked Beyoncé's 'Single Ladies' performance at the 2009 MTV Video Music Awards as the seventh best in the history of the event.",
+    "supporting_entities": [
+      "Billboard magazine",
+      "MTV Video Music Awards",
+      "Single Ladies",
+      "Beyoncé"
+    ]
+  },
+  {
+    "id": 44,
+    "global_chunk_index": 43,
+    "chunk_id": "eval-chunk-43-single_ladies_put_a_ring_on_it-7-a11e4f7f",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 7,
+    "question": "Which individual's parody video led to a meet and greet with Beyoncé and an opportunity to join her on stage during her I Am... World Tour?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Cubby, who is an on-air personality for Charlotte, North Carolina's 96.1 The Beat AM, based his parody on the SNL one. His video lead to a meet and greet with Beyoncé and eventually, an opportunity to join her on stage at a show stop in Atlanta during her I Am... World Tour."
+    ],
+    "short_answer": "Cubby",
+    "ground_truth": "Cubby, an on-air personality for Charlotte, North Carolina's 96.1 The Beat AM, had his parody video lead to a meet and greet with Beyoncé and an opportunity to join her on stage during her I Am... World Tour.",
+    "supporting_entities": [
+      "Cubby",
+      "Beyoncé",
+      "I Am... World Tour",
+      "96.1 The Beat AM",
+      "Charlotte, North Carolina"
+    ]
+  },
+  {
+    "id": 45,
+    "global_chunk_index": 44,
+    "chunk_id": "eval-chunk-44-single_ladies_put_a_ring_on_it-8-0895a3db",
+    "doc": "single_ladies_put_a_ring_on_it",
+    "file_name": "single_ladies_put_a_ring_on_it.txt",
+    "chunk_order_index": 8,
+    "question": "Which music duo recorded a cover of 'Single Ladies' using split screens to show vocals and instrumental performance?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Pomplamoose, an American indie music duo consisting of Jack Conte and Nataly Dawn, recorded a cover of \"Single Ladies\" on video, which makes use of split screens to show Dawn on vocals and Conte playing the instruments.",
+      "Inspired by the avant-garde Dogme 95 movement in cinema, Conte began to record songs on video as a quick way to create \"organic and raw\" music."
+    ],
+    "short_answer": "Pomplamoose",
+    "ground_truth": "Pomplamoose, consisting of Jack Conte and Nataly Dawn, recorded a cover of 'Single Ladies' using split screens to show vocals and instrumental performance.",
+    "supporting_entities": [
+      "Pomplamoose",
+      "Jack Conte",
+      "Nataly Dawn",
+      "Split screens",
+      "Single Ladies"
+    ]
+  },
+  {
+    "id": 46,
+    "global_chunk_index": 45,
+    "chunk_id": "eval-chunk-45-just_the_way_you_are_bruno_mars_song-0-504d443c",
+    "doc": "just_the_way_you_are_bruno_mars_song",
+    "file_name": "just_the_way_you_are_bruno_mars_song.txt",
+    "chunk_order_index": 0,
+    "question": "Which organizations certified 'Just the Way You Are' as a platinum or higher single, and what were the specific certifications?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "It was certified twenty-one times platinum by the Recording Industry Association of America (RIAA), seven times platinum by the Australian Recording Industry Association (ARIA) and by Recorded Music NZ (RMNZ).",
+      "It was also certified diamond by Music Canada (MC)."
+    ],
+    "short_answer": "The Recording Industry Association of America (RIAA) certified it twenty-one times platinum, the Australian Recording Industry Association (ARIA) and Recorded Music NZ (RMNZ) certified it seven times platinum, and Music Canada (MC) certified it diamond.",
+    "ground_truth": "The song 'Just the Way You Are' was certified twenty-one times platinum by the RIAA, seven times platinum by ARIA and RMNZ, and diamond by Music Canada.",
+    "supporting_entities": [
+      "Recording Industry Association of America (RIAA)",
+      "Australian Recording Industry Association (ARIA)",
+      "Recorded Music NZ (RMNZ)",
+      "Music Canada (MC)"
+    ]
+  },
+  {
+    "id": 47,
+    "global_chunk_index": 46,
+    "chunk_id": "eval-chunk-46-just_the_way_you_are_bruno_mars_song-1-c579e052",
+    "doc": "just_the_way_you_are_bruno_mars_song",
+    "file_name": "just_the_way_you_are_bruno_mars_song.txt",
+    "chunk_order_index": 1,
+    "question": "What are the names of the remixers of the original version of 'Just the Way You Are'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Skrillex, Martin Danielle, and the Manufactured Superstars were among the names to remix the original version.",
+      "The official remix was also released on the deluxe edition of Doo-Wops & Hooligans (2010)."
+    ],
+    "short_answer": "Skrillex, Martin Danielle, and the Manufactured Superstars",
+    "ground_truth": "The original version of 'Just the Way You Are' was remixed by Skrillex, Martin Danielle, and the Manufactured Superstars.",
+    "supporting_entities": [
+      "Skrillex",
+      "Martin Danielle",
+      "Manufactured Superstars",
+      "Just the Way You Are",
+      "Doo-Wops & Hooligans"
+    ]
+  },
+  {
+    "id": 48,
+    "global_chunk_index": 47,
+    "chunk_id": "eval-chunk-47-just_the_way_you_are_bruno_mars_song-2-ca76be72",
+    "doc": "just_the_way_you_are_bruno_mars_song",
+    "file_name": "just_the_way_you_are_bruno_mars_song.txt",
+    "chunk_order_index": 2,
+    "question": "What record did 'Just the Way You Are' set on the Adult Contemporary chart, and what was its peak position on the Canadian Hot 100?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "It holds the record of the longest-reigning debut format on the Adult Contemporary, having spent 20 weeks atop.",
+      "The song peaked at number one on the Canadian Hot 100"
+    ],
+    "short_answer": "It holds the record of the longest-reigning debut format on the Adult Contemporary, having spent 20 weeks atop, and peaked at number one on the Canadian Hot 100.",
+    "ground_truth": "The song 'Just the Way You Are' holds the record of the longest-reigning debut format on the Adult Contemporary chart, having spent 20 weeks at number one, and it peaked at number one on the Canadian Hot 100.",
+    "supporting_entities": [
+      "Adult Contemporary",
+      "Canadian Hot 100",
+      "RIAA",
+      "Luminate",
+      "Music Canada (MC)"
+    ]
+  },
+  {
+    "id": 49,
+    "global_chunk_index": 48,
+    "chunk_id": "eval-chunk-48-just_the_way_you_are_bruno_mars_song-3-c62faa3d",
+    "doc": "just_the_way_you_are_bruno_mars_song",
+    "file_name": "just_the_way_you_are_bruno_mars_song.txt",
+    "chunk_order_index": 3,
+    "question": "What are some of the visual elements depicted in the music video for 'Just the Way You Are' by Bruno Mars?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "portrait of Mars as well as one of Kelley blinking her eyes and smiling as Mars continues singing.",
+      "Most of the images shown are animated, including a bell which Mars rings with his fingers in synchronization with the chimes near the end of the song."
+    ],
+    "short_answer": "The music video features a portrait of Mars, Kelley blinking her eyes and smiling, animated images, and a bell that Mars rings in sync with chimes.",
+    "ground_truth": "The music video for 'Just the Way You Are' includes a portrait of Mars, Kelley blinking her eyes and smiling, animated images, and a bell that Mars rings in synchronization with the chimes near the end of the song.",
+    "supporting_entities": [
+      "Bruno Mars",
+      "Kelley",
+      "music video",
+      "Just the Way You Are",
+      "Erika Iris Simmons",
+      "Ghost in the Machine"
+    ]
+  },
+  {
+    "id": 50,
+    "global_chunk_index": 49,
+    "chunk_id": "eval-chunk-49-new_rules-0-aba32ee5",
+    "doc": "new_rules",
+    "file_name": "new_rules.txt",
+    "chunk_order_index": 0,
+    "question": "What are the key commercial achievements of 'New Rules' by Dua Lipa?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "As of March 2021 it is the most streamed song by a British female in the UK and it broke the record for the most weeks on the US Mainstream Top 40 chart.",
+      "It was the second-most played song of the 2010s decade on the format."
+    ],
+    "short_answer": "'New Rules' became Dua Lipa's first number one single on the UK Singles Chart and reached that position in five other territories. It is the most streamed song by a British female in the UK and broke the record for the most weeks on the US Mainstream Top 40 chart. It was also the second-most played song of the 2010s decade on the format.",
+    "ground_truth": "'New Rules' by Dua Lipa achieved commercial success by becoming her first number one single on the UK Singles Chart and reaching that position in five other territories. It is the most streamed song by a British female in the UK and broke the record for the most weeks on the US Mainstream Top 40 chart. Additionally, it was the second-most played song of the 2010s decade on the format.",
+    "supporting_entities": [
+      "Dua Lipa",
+      "New Rules",
+      "UK Singles Chart",
+      "US Mainstream Top 40 chart",
+      "British female",
+      "2010s decade"
+    ]
+  },
+  {
+    "id": 51,
+    "global_chunk_index": 50,
+    "chunk_id": "eval-chunk-50-new_rules-1-ac4b92ed",
+    "doc": "new_rules",
+    "file_name": "new_rules.txt",
+    "chunk_order_index": 1,
+    "question": "What are the three rules mentioned in the lyrics of 'New Rules' that the singer sets to prevent getting back together with an ex-boyfriend?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "One: Don't pick up the phone, you know he's only calling 'cause he's drunk and alone / Two: Don't let him in, you'll have to kick him out again / Three: Don't be his friend, you know you're going to wake up in his bed in the morning."
+    ],
+    "short_answer": "The three rules are: 1) Don't pick up the phone, 2) Don't let him in, and 3) Don't be his friend.",
+    "ground_truth": "The lyrics of 'New Rules' include three rules: 'One: Don't pick up the phone, you know he's only calling 'cause he's drunk and alone / Two: Don't let him in, you'll have to kick him out again / Three: Don't be his friend, you know you're going to wake up in his bed in the morning.'",
+    "supporting_entities": [
+      "New Rules",
+      "rules",
+      "ex-boyfriend",
+      "lyrics",
+      "Dua Lipa"
+    ]
+  },
+  {
+    "id": 52,
+    "global_chunk_index": 51,
+    "chunk_id": "eval-chunk-51-new_rules-2-cfe0c7af",
+    "doc": "new_rules",
+    "file_name": "new_rules.txt",
+    "chunk_order_index": 2,
+    "question": "What are two specific descriptions of 'New Rules' from music critics?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Dayna Evans of The Cut labeled it a \"breakup anthem\"",
+      "Melinda Newman of Billboard considered it a \"female-empowerment anthem\""
+    ],
+    "short_answer": "Dayna Evans of The Cut labeled it a 'breakup anthem', and Melinda Newman of Billboard considered it a 'female-empowerment anthem'.",
+    "ground_truth": "Dayna Evans of The Cut labeled 'New Rules' as a 'breakup anthem', and Melinda Newman of Billboard considered it a 'female-empowerment anthem'.",
+    "supporting_entities": [
+      "Dayna Evans",
+      "The Cut",
+      "Melinda Newman",
+      "Billboard",
+      "New Rules"
+    ]
+  },
+  {
+    "id": 53,
+    "global_chunk_index": 52,
+    "chunk_id": "eval-chunk-52-new_rules-3-4a2d30a0",
+    "doc": "new_rules",
+    "file_name": "new_rules.txt",
+    "chunk_order_index": 3,
+    "question": "Which song by Dua Lipa reached the top of the charts in Ireland, the Netherlands, and the Flanders region of Belgium?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "\"New Rules\" reached the summit of charts in Ireland, the Netherlands and the Flanders region of Belgium."
+    ],
+    "short_answer": "\"New Rules\" by Dua Lipa",
+    "ground_truth": "The song \"New Rules\" by Dua Lipa reached the summit of charts in Ireland, the Netherlands, and the Flanders region of Belgium.",
+    "supporting_entities": [
+      "New Rules",
+      "Dua Lipa",
+      "Ireland",
+      "Netherlands",
+      "Flanders region of Belgium"
+    ]
+  },
+  {
+    "id": 54,
+    "global_chunk_index": 53,
+    "chunk_id": "eval-chunk-53-new_rules-4-e06efbca",
+    "doc": "new_rules",
+    "file_name": "new_rules.txt",
+    "chunk_order_index": 4,
+    "question": "What did Aliza Abarbanel of Refinery29 say about the music video for 'New Rules'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "'New Rules', and all the epic outfits in it, perfectly encapsulates the joy of female friendship—and the"
+    ],
+    "short_answer": "Aliza Abarbanel of Refinery29 said that 'New Rules' and all the epic outfits in it perfectly encapsulates the joy of female friendship.",
+    "ground_truth": "Aliza Abarbanel of Refinery29 commented that 'New Rules', and all the epic outfits in it, perfectly encapsulates the joy of female friendship—and the",
+    "supporting_entities": [
+      "Aliza Abarbanel",
+      "Refinery29",
+      "New Rules",
+      "female friendship"
+    ]
+  },
+  {
+    "id": 55,
+    "global_chunk_index": 54,
+    "chunk_id": "eval-chunk-54-new_rules-5-e79a8e53",
+    "doc": "new_rules",
+    "file_name": "new_rules.txt",
+    "chunk_order_index": 5,
+    "question": "Which event did Dua Lipa perform 'New Rules' at six days after the 2018 Billboard Music Awards?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "On 20 May 2018, the artist performed \"New Rules\" at the 2018 Billboard Music Awards.",
+      "Six days later, Lipa sang the track as part of a medley of her most successful songs during the opening ceremony of the 2018 UEFA Champions League Final in Kyiv, Ukraine."
+    ],
+    "short_answer": "The 2018 UEFA Champions League Final opening ceremony in Kyiv, Ukraine",
+    "ground_truth": "Six days after performing 'New Rules' at the 2018 Billboard Music Awards, Dua Lipa sang the track as part of a medley of her most successful songs during the opening ceremony of the 2018 UEFA Champions League Final in Kyiv, Ukraine.",
+    "supporting_entities": [
+      "2018 Billboard Music Awards",
+      "2018 UEFA Champions League Final",
+      "Kyiv, Ukraine",
+      "New Rules",
+      "Dua Lipa"
+    ]
+  },
+  {
+    "id": 56,
+    "global_chunk_index": 55,
+    "chunk_id": "eval-chunk-55-water_under_the_bridge-0-2166c06e",
+    "doc": "water_under_the_bridge",
+    "file_name": "water_under_the_bridge.txt",
+    "chunk_order_index": 0,
+    "question": "Which two artists' songs were combined in a TikTok trend in 2021?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "In 2021, a mashup of it and Megan Thee Stallion's performance of \"Body\" at the American Music Awards of 2020 became a trend on TikTok."
+    ],
+    "short_answer": "Adele's song and Megan Thee Stallion's performance of \"Body\".",
+    "ground_truth": "In 2021, a mashup of Adele's song \"Water Under the Bridge\" and Megan Thee Stallion's performance of \"Body\" at the American Music Awards of 2020 became a trend on TikTok.",
+    "supporting_entities": [
+      "Adele",
+      "Megan Thee Stallion",
+      "TikTok",
+      "American Music Awards"
+    ]
+  },
+  {
+    "id": 57,
+    "global_chunk_index": 56,
+    "chunk_id": "eval-chunk-56-water_under_the_bridge-1-842a0f23",
+    "doc": "water_under_the_bridge",
+    "file_name": "water_under_the_bridge.txt",
+    "chunk_order_index": 1,
+    "question": "What are two interpretations of the song 'Water Under the Bridge' according to critics?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Vogue's Patricia Garcia interpreted \"Water Under the Bridge\" as a song about \"a mismatched relationship that she clearly knows she needs to end\".",
+      "Leonie Cooper of NME described the song as a \"dramatic diary entry to her ex\"."
+    ],
+    "short_answer": "Two interpretations of the song are a mismatched relationship that she clearly knows she needs to end and a dramatic diary entry to her ex.",
+    "ground_truth": "The song 'Water Under the Bridge' is interpreted by critics as both a mismatched relationship that she clearly knows she needs to end and a dramatic diary entry to her ex.",
+    "supporting_entities": [
+      "Vogue's Patricia Garcia",
+      "Leonie Cooper of NME",
+      "Water Under the Bridge",
+      "Adele"
+    ]
+  },
+  {
+    "id": 58,
+    "global_chunk_index": 57,
+    "chunk_id": "eval-chunk-57-water_under_the_bridge-2-6ce787b3",
+    "doc": "water_under_the_bridge",
+    "file_name": "water_under_the_bridge.txt",
+    "chunk_order_index": 2,
+    "question": "Which artists have covered 'Water Under the Bridge' according to the text, and what were their notable performances?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "astonbury Festival 2016."
+    ],
+    "short_answer": "Sarah Stone and Kelly Clarkson have covered 'Water Under the Bridge'.",
+    "ground_truth": "Sarah Stone covered 'Water Under the Bridge' in 2017, and Kelly Clarkson covered it on The Kelly Clarkson Show, where it was praised as 'right in [her] sweet spot'.",
+    "supporting_entities": [
+      "Sarah Stone",
+      "The Voice Australia",
+      "Kelly Clarkson",
+      "The Kelly Clarkson Show",
+      "Gil Kaufman",
+      "Water Under the Bridge"
+    ]
+  },
+  {
+    "id": 59,
+    "global_chunk_index": 58,
+    "chunk_id": "eval-chunk-58-when_we_were_young_adele_song-0-4928e9ba",
+    "doc": "when_we_were_young_adele_song",
+    "file_name": "when_we_were_young_adele_song.txt",
+    "chunk_order_index": 0,
+    "question": "What was the reason Adele struggled with writer's block during the early sessions for her third studio album?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "I felt like I was never going to finish this record. It was a long process. I wanted to give up a lot because I couldn't do it. I thought I'd run out of ideas and I'd lost my ability to write"
+    ],
+    "short_answer": "Adele struggled with writer's block because she felt like she was never going to finish the record, feared running out of ideas, and thought she had lost her ability to write.",
+    "ground_truth": "Adele struggled with writer's block during the early sessions for her third studio album because she felt like she was never going to finish the record, feared running out of ideas, and thought she had lost her ability to write.",
+    "supporting_entities": [
+      "Adele",
+      "third studio album",
+      "writer's block",
+      "25",
+      "XL Recordings",
+      "Tobias Jesso Jr.",
+      "Ariel Rechtshaid"
+    ]
+  },
+  {
+    "id": 60,
+    "global_chunk_index": 59,
+    "chunk_id": "eval-chunk-59-when_we_were_young_adele_song-1-08110ba7",
+    "doc": "when_we_were_young_adele_song",
+    "file_name": "when_we_were_young_adele_song.txt",
+    "chunk_order_index": 1,
+    "question": "What are two specific musical elements and studios mentioned in the text about the song 'When We Were Young'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "The song incorporates bass, drums, and guitar in its instrumentation, was recorded at Dean Street Studios in London, and mixed at Capitol Studios in Los Angeles and Electric Lady Studios in New York City.",
+      "Musically, \"When We Were Young\" is a reflective soul ballad."
+    ],
+    "short_answer": "The song incorporates bass, drums, and guitar, and was recorded at Dean Street Studios in London, mixed at Capitol Studios in Los Angeles and Electric Lady Studios in New York City.",
+    "ground_truth": "The song 'When We Were Young' incorporates bass, drums, and guitar in its instrumentation, was recorded at Dean Street Studios in London, and mixed at Capitol Studios in Los Angeles and Electric Lady Studios in New York City.",
+    "supporting_entities": [
+      "Dean Street Studios",
+      "Capitol Studios",
+      "Electric Lady Studios",
+      "bass",
+      "drums",
+      "guitar"
+    ]
+  },
+  {
+    "id": 61,
+    "global_chunk_index": 60,
+    "chunk_id": "eval-chunk-60-when_we_were_young_adele_song-2-b837b6a2",
+    "doc": "when_we_were_young_adele_song",
+    "file_name": "when_we_were_young_adele_song.txt",
+    "chunk_order_index": 2,
+    "question": "Which music critics have placed 'When We Were Young' in their lists of Adele's best songs, and what did they say about the song?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Rolling Stone listed it as Adele's fifth-best, and Larisha Paul elaborated that \"she spins the existential crisis-inducing topics of time and aging into what feels like a snapshot of our own past, present, and future\""
+    ],
+    "short_answer": "Rolling Stone and Billboard's Chuck Arnold placed the song in their lists of Adele's best songs.",
+    "ground_truth": "Rolling Stone listed 'When We Were Young' as Adele's fifth-best, and Billboard's Chuck Arnold placed it at number 11 in a ranking of her discography.",
+    "supporting_entities": [
+      "Rolling Stone",
+      "Billboard's Chuck Arnold",
+      "Adele's best songs",
+      "When We Were Young"
+    ]
+  },
+  {
+    "id": 62,
+    "global_chunk_index": 61,
+    "chunk_id": "eval-chunk-61-mine_taylor_swift_song-0-2e26ef79",
+    "doc": "mine_taylor_swift_song",
+    "file_name": "mine_taylor_swift_song.txt",
+    "chunk_order_index": 0,
+    "question": "What are the chart positions of 'Mine' on the Billboard Hot 100, Hot Country Songs, and Adult Contemporary charts in the United States?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "The Recording Industry Association of America (RIAA) certified the single triple platinum for crossing three million units based on sales and streaming."
+    ],
+    "short_answer": "In the United States, 'Mine' peaked at number three on the Billboard Hot 100, number two on Billboard's Hot Country Songs chart, and number one on Billboard's Adult Contemporary chart.",
+    "ground_truth": "The song 'Mine' by Taylor Swift reached number three on the Billboard Hot 100, number two on the Hot Country Songs chart, and number one on the Adult Contemporary chart in the United States.",
+    "supporting_entities": [
+      "Billboard Hot 100",
+      "Billboard's Hot Country Songs",
+      "Billboard's Adult Contemporary",
+      "Taylor Swift",
+      "Mine"
+    ]
+  },
+  {
+    "id": 63,
+    "global_chunk_index": 62,
+    "chunk_id": "eval-chunk-62-mine_taylor_swift_song-1-fd688f6f",
+    "doc": "mine_taylor_swift_song",
+    "file_name": "mine_taylor_swift_song.txt",
+    "chunk_order_index": 1,
+    "question": "What did Nick Levine of Digital Spy say about the song 'Mine'?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Nick Levine of Digital Spy commented that although \"Mine\" was \"formulaic\", the formula was executed convincingly."
+    ],
+    "short_answer": "Nick Levine of Digital Spy said that although 'Mine' was formulaic, the formula was executed convincingly.",
+    "ground_truth": "Nick Levine of Digital Spy commented that although 'Mine' was 'formulaic', the formula was executed convincingly.",
+    "supporting_entities": [
+      "Nick Levine",
+      "Digital Spy",
+      "Mine",
+      "formulaic",
+      "executed convincingly"
+    ]
+  },
+  {
+    "id": 64,
+    "global_chunk_index": 63,
+    "chunk_id": "eval-chunk-63-mine_taylor_swift_song-2-a8940a1c",
+    "doc": "mine_taylor_swift_song",
+    "file_name": "mine_taylor_swift_song.txt",
+    "chunk_order_index": 2,
+    "question": "What are two specific elements depicted in Taylor Swift's music video that symbolize her personal life and family?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "Throughout the video, there are some scenes of Swift singing the verses of the song while walking barefoot on a green pasture amongst photos of her and her family.",
+      "The photos are hanging on a white string in between two large trees."
+    ],
+    "short_answer": "Photos of her and her family hanging on a white string between two large trees, and Swift walking barefoot on a green pasture.",
+    "ground_truth": "Taylor Swift's music video includes scenes of her singing while walking barefoot on a green pasture and photos of her and her family hanging on a white string between two large trees, symbolizing her personal life and family.",
+    "supporting_entities": [
+      "Taylor Swift",
+      "music video",
+      "photos of her and her family",
+      "white string",
+      "two large trees",
+      "green pasture"
+    ]
+  },
+  {
+    "id": 65,
+    "global_chunk_index": 64,
+    "chunk_id": "eval-chunk-64-mine_taylor_swift_song-3-211f6da7",
+    "doc": "mine_taylor_swift_song",
+    "file_name": "mine_taylor_swift_song.txt",
+    "chunk_order_index": 3,
+    "question": "Where were the re-recordings of 'Mine (Taylor's Version)' primarily conducted?",
+    "question_type": "factoid",
+    "difficulty": "medium",
+    "gold_spans": [
+      "The re-recording was recorded in Nashville at Prime Recording Studios and Blackbird Studio, and in London at the Kitty Committee Studio."
+    ],
+    "short_answer": "The re-recordings were primarily conducted in Nashville at Prime Recording Studios and Blackbird Studio, and in London at the Kitty Committee Studio.",
+    "ground_truth": "The re-recordings of 'Mine (Taylor's Version)' were conducted in Nashville at Prime Recording Studios and Blackbird Studio, and in London at the Kitty Committee Studio.",
+    "supporting_entities": [
+      "Mine (Taylor's Version)",
+      "Prime Recording Studios",
+      "Blackbird Studio",
+      "Kitty Committee Studio",
+      "Nashville",
+      "London"
+    ]
+  }
+]

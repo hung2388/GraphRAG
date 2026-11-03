@@ -1,0 +1,7 @@
+lightrag-hku==1.5.7
+python-dotenv==1.2.3
+requests==2.34.2
+neo4j==6.2.0
+matplotlib==3.10.8
+ollama==0.6.2
+google-genai==2.18.1

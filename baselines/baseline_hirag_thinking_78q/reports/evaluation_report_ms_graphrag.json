@@ -1,0 +1,902 @@
+[
+  {
+    "status": "success",
+    "question": "What is the taboo name (birth name) of Kinh Duong Vuong and whose son is he?",
+    "ground_truth": "Kinh Duong Vuong's taboo name is Loc Tuc; he is the son of De Minh and the daughter of Vu Tien.",
+    "extracted_entities": [],
+    "answer": "The question pertains to historical figures in Vietnamese history, specifically the **Kinh Duong Vuong** (King of the Nguyen Dynasty) and his lineage. Based on the provided data and historical context:\n\n### Taboo Name (Birth Name) of Kinh Duong Vuong:\nThe **taboo name** (birth name) of **Kinh Duong Vuong** is **Nguyễn Ánh** (also spelled **Nguyễn Anh**). This name was used during his reign as the founder of the Nguyễn Dynasty, and it was considered taboo to use his birth name in formal or public contexts during his rule.\n\n### Father of Kinh Duong Vuong:\n**Nguyễn Ánh** (Kinh Duong Vuong) is the **son of Nguyễn Phúc Luận** (NGUYEN PHUC LUAN, id 80 in the Entities table). This relationship is explicitly documented in the **Relationships** table (id 13: **NGUYEN PHUC LUAN → NGUYEN ANH [FATHER]**).\n\n---\n\n### Supporting Evidence:\n1. **Entities Table**:  \n   - **NGUYEN ANH** (id 81) is described as \"The son of Nguyen Phuc Luan, eventually became the founder of the Nguyen dynasty in Vietnam\" [Data: Entities (81)].\n\n2. **Relationships Table**:  \n   - **NGUYEN PHUC LUAN** (id 80) is explicitly linked as the **father** of **NGUYEN ANH** (id 81) [Data: Relationships (13)].\n\n3. **Historical Context**:  \n   - In Vietnamese history, **Nguyễn Ánh** (later known as **Gia Long Emperor**) was the founder of the Nguyễn Dynasty. His birth name, **Nguyễn Ánh**, was later adopted as his royal title, and his father, **Nguyễn Phúc Luận**, was a prominent figure in the Nguyen family lineage.\n\n---\n\n### Summary:\n- **Taboo name**: **Nguyễn Ánh** (Kinh Duong Vuong).  \n- **Father**: **Nguyễn Phúc Luận** (NGUYEN PHUC LUAN, id 80).  \n- **Supporting data**: Entities (81), Relationships (13), and historical records.  \n\nThis conclusion aligns with the interconnected data across the provided tables and historical accounts of the Nguyễn Dynasty's origins.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0808,
+      "context_relevance": 2,
+      "context_sufficiency": 3,
+      "faithfulness": 4,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who ruled the kingdom of Xich Quy and in which direction was it located?",
+    "ground_truth": "It was ruled by Kinh Duong Vuong in the South.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not mention the kingdom of Xich Quy or its rulers. The information available focuses on the Tay Son Rebellion in 18th-century Dai Viet (modern Vietnam), its leaders (Nguyen Lu, Nguyen Nhac, Nguyen Hue), and related historical figures like Labartette, a Western missionary. There is no reference to Xich Quy in any of the datasets (Reports, Entities, Relationships, or Sources). \n\nIf you are referring to a different historical context or region, additional sources would be required to answer this question. The data here is limited to the Tay Son Rebellion and its associated entities.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.037,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "What is the taboo name of Lac Long Quan, and who are his father and mother?",
+    "ground_truth": "Lac Long Quan's taboo name is Sung Lam; he is the son of Kinh Duong Vuong and the daughter of Dong Dinh Quan named Than Long.",
+    "extracted_entities": [],
+    "answer": "The provided datasets do not mention Lac Long Quan, his taboo name, or his parents. The information in the reports, entities, and relationships pertains to figures such as the Tay Son brothers (Nguyen Lu, Nguyen Nhac, Nguyen Hue), their family ties, and historical context in 18th-century Vietnam. However, Lac Long Quan is a mythological or legendary figure from Vietnamese folklore, distinct from the historical figures documented in these datasets. \n\n**Answer:**  \nThere is no information in the provided datasets about Lac Long Quan, his taboo name, or his parents. The datasets focus on historical and familial relationships within the Tay Son rebellion and related figures, but not on mythological entities like Lac Long Quan.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1727,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who did Lac Long Quan marry and how many children did they have?",
+    "ground_truth": "Lac Long Quan married De Lai's daughter, Au Co, and they had one hundred sons (born from a hundred eggs).",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not mention Lac Long Quan (a semi-divine figure in Vietnamese mythology) or his marital relationships or children. The datasets focus on historical figures and events related to the Tay Son Rebellion, the Nguyen dynasty, and specific individuals like Nguyen Phi Phuc, Nguyen Lu, Nguyen Nhac, Nguyen Hue, and Labartette. There is no information about Lac Long Quan's personal life or family in these records. \n\nFor context, Lac Long Quan is a legendary figure in Vietnamese folklore, often depicted as a dragon incarnation who married the daughter of a local chief, Mỵ Nương, and they are said to have had two children: a son (Lạc Long Trung) and a daughter (Lạc Long Nữ). However, these details are not part of the datasets provided here. \n\n[Data: Entities (none); Relationships (none); Reports (none); Sources (none)]",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1146,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "When they separated, how did Lac Long Quan and Au Co divide their children?",
+    "ground_truth": "50 children followed their mother to the mountains, 50 children followed their father to the South (or Nam Hai), and the eldest son was titled Hung Vuong to succeed the throne.",
+    "extracted_entities": [],
+    "answer": "The question about how Lac Long Quan and Au Co divided their children during their separation is rooted in Vietnamese folklore, but there is no information about this topic in the provided data tables. The datasets focus on historical figures, events (such as the Tay Son Rebellion), and relationships within the Nguyen dynasty, but they do not mention Lac Long Quan, Au Co, or their mythological narrative. \n\nFor context, according to traditional Vietnamese legends, Lac Long Quan and Au Co, the divine parents of the Vietnamese people, separated their children based on gender and destiny. Boys were sent to the north to establish the Long clan, while girls were sent to the south to form the Au clan. However, this story is not referenced in the datasets provided, which are limited to historical and genealogical data about the Nguyen dynasty and related figures. \n\nSince the data tables do not address this mythological question, no further analysis or references can be provided.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1562,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "According to historian Ngo Si Lien, what is the kinship relationship between Kinh Duong Vuong and Lac Long Quan's wife (Au Co)?",
+    "ground_truth": "De Lai is the son of De Nghi, and Kinh Duong Vuong is the biological younger brother of De Nghi; therefore, Au Co is Kinh Duong Vuong's niece (calling him uncle).",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not contain any information about Kinh Duong Vuong, Lac Long Quan, or Au Co (Lac Long Quan's wife), nor do they reference historian Ngo Si Lien's analysis of their kinship relationships. The datasets focus on historical figures such as TRUONG VAN HANH, NGUYEN PHUC LUAN, NGUYEN ANH, and the Tay Son Rebellion, but none of these entities or relationships are tied to the legendary figures mentioned in the question. \n\nFor context, in Vietnamese mythology, Lac Long Quan (a semi-divine king) and Au Co (his wife) are central to the legend of the Kinh Duong Vuong dynasty. However, this narrative is not represented in the provided datasets. To address this query, external historical or mythological sources would be required, which are not included in the current data. \n\n**Answer:**  \nThe datasets do not provide information about the kinship relationship between Kinh Duong Vuong and Lac Long Quan's wife (Au Co) or historian Ngo Si Lien's analysis of this connection.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1451,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "What did Hung Vuong name our country and where did he establish the capital?",
+    "ground_truth": "The national name was Van Lang, with the capital in Phong Chau (Bach Hac district).",
+    "extracted_entities": [],
+    "answer": "The question pertains to the legendary King Hung Vuong (Hung King), who is traditionally credited with founding the ancient Vietnamese state. According to historical and cultural records:  \n\n- **Name of the Country**: Hung Vuong is said to have named the country **\"Việt\"** (Viet), a term that became the basis for the modern name \"Vietnam.\" This name symbolized the unification of the region under a centralized authority.  \n- **Capital Establishment**: The capital was established at **Phong Chau** (modern-day Phong Chau district in Phú Thọ province, Vietnam). This location was chosen for its strategic and symbolic significance, representing the heartland of the unified nation.  \n\n**Supporting Evidence**:  \nThis information is derived from traditional Vietnamese historical narratives and is explicitly referenced in the *Entities* dataset (record ID 5). While the provided data does not elaborate further on Hung Vuong's reign or the exact historical context, it aligns with widely accepted legends about the origins of Vietnamese sovereignty.  \n\nNote: The term \"Hung Vuong\" refers to the legendary founder of the Hung Kings dynasty (c. 2875–258 BC), a foundational period in Vietnamese mythology and history. The name \"Viet\" and the capital Phong Chau are central to these tales, though their historical accuracy remains a subject of scholarly debate.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.093,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "During the Hung Vuong era, how many regions was the country divided into? Name the region where the king established the capital.",
+    "ground_truth": "It was divided into 15 regions; the region where the king established the capital was Van Lang.",
+    "extracted_entities": [],
+    "answer": "During the Hung Vuong era, the country was traditionally divided into **15 regions** (lục lạc), each governed by a local lord (chúa) under the centralized authority of the king. This administrative structure is well-documented in Vietnamese historical chronicles such as the *Lĩnh Nam chích lộ* and *Đại Việt sử ký toàn thư*, which describe the Van Lang kingdom's organization [Data: Historical Texts (1, 2); Legends (3, 4)]. \n\nThe capital of the kingdom was established in the **Phù Đổng region**, located in present-day Bac Ninh province. This area is closely associated with the legendary origins of the Hung Kings, particularly King Hùng, who is said to have ascended the throne here. Phù Đổng is also linked to the deity Lac Long Quân, whose mythical connection to the region reinforced its significance as the political and spiritual center of the kingdom [Data: Legends (3, 4); Geographical Records (5, 6)]. \n\nWhile the exact number of regions and their names may vary slightly across historical accounts, the division into 15 administrative units and the choice of Phù Đổng as the capital remain consistent themes in the historical narrative of the Hung Vuong era. \n\n**Note**: This answer is based on general historical knowledge and Vietnamese folklore, as no specific data tables were provided for reference in this context.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1304,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "In the Hung Vuong era, what were the civil and military generals called?",
+    "ground_truth": "Civil generals were called Lac Hau, and military generals were called Lac Tuong.",
+    "extracted_entities": [],
+    "answer": "The provided data does not mention the Hung Vuong era or the specific terms used for civil and military generals during that period. The text focuses on the Tay Son dynasty (1771–1802) and figures like Nguyen Hue (Quang Trung), detailing their roles in unifying Vietnam, military campaigns, and reforms. It references titles such as \"Bac Binh Vuong\" (Prince of Northern Peace) and \"Duc Ong\" (Lord), but these pertain to the Tay Son context, not the Hung Vuong era (traditionally associated with the legendary Hung Kings, c. 2nd–3rd century BCE). \n\nIf the question refers to the Hung Vuong era, additional historical sources or datasets would be required to address the terminology for officials during that pre-unification period. The data here is limited to the Tay Son dynasty’s political and military structure. \n\nFor clarification, the Hung Vuong era is distinct from the Tay Son dynasty, and the terms for generals in the latter are not applicable to the former. [Data: None (the provided text does not reference the Hung Vuong era or its terminology)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0541,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "What were Hung Vuong's sons and daughters called?",
+    "ground_truth": "Sons were called Quan Lang, and daughters were called Mi Nuong.",
+    "extracted_entities": [],
+    "answer": "The provided datasets do not mention \"Hung Vuong\" or any direct references to this name in the context of familial relationships. However, based on the entities and relationships listed, we can infer details about key historical figures and their descendants. For example:\n\n- **Nguyen Phi Phuc** (NGUYEN PHI PHUC, entity ID 75) is noted as the father of **Nguyen Nhac**, **Nguyen Hue**, and **Nguyen Lu** (IDs 76, 77, and 77 respectively). These three are referred to as the \"three Tay Son brothers\" in the data. \n  - **Nguyen Nhac** (ID 76) is called \"Anh Hai Trau\" (Brother Two Betel) by locals.\n  - **Nguyen Hue** (ID 77) is also known as \"Quang Binh,\" \"Van Hue,\" \"Ho Thom,\" \"Duc Ong Binh,\" or \"Duc Ong Tam\" (Lord Eight).\n  - **Nguyen Lu** (ID 77) is known as \"Duc Ong Bay\" (Lord Seven) and a co-founder of the Tay Son Binh Dinh martial arts sect.\n\nIf \"Hung Vuong\" refers to a different figure or there is a name mix-up, additional context would be needed to clarify. The datasets provided focus on the Tay Son rebellion and related families, with no direct mention of \"Hung Vuong\" or its descendants. \n\nFor further details, please verify the historical context or provide additional information about \"Hung Vuong.\"",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0187,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "What were the officials in charge of affairs under Hung Vuong called and what were their hereditary characteristics?",
+    "ground_truth": "They were called Bo Chinh, and their hereditary succession from father to son was called phu dao.",
+    "extracted_entities": [],
+    "answer": "The provided data focuses on Nguyen Hue (Quang Trung), his family lineage, education, and role in the Tay Son Dynasty, but it does not mention officials under \"Hung Vuong\" (a title associated with ancient Vietnamese dynasties like the Hung Kings) or their hereditary characteristics. The text details Nguyen Hue's ancestry, his rise as a leader, and reforms during the 18th century, but there is no reference to the administrative structure or hereditary systems of the Hung Vuong era. \n\nIf the question pertains to the Hung Kings (Hung Vuong) of the ancient Vietnamese state (e.g., the 3rd–10th centuries), the officials under their rule were typically hereditary nobles or aristocrats tied to the royal lineage, often serving as military commanders, regional governors, or spiritual leaders. However, this information is not covered in the provided dataset. \n\nFor clarity, the data here pertains exclusively to the Tay Son Dynasty and Nguyen Hue's lineage, not the Hung Vuong period. Further historical sources would be required to address the specific question about officials under Hung Vuong. \n\n[Data: None (no relevant records in the provided text)]",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0612,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "What event originated the tattooing custom of the Bach Viet people?",
+    "ground_truth": "Because people catching fish were often harmed by water monsters (thuong luong), Hung Vuong told them to tattoo images of sea monsters on their bodies so the monsters would think they were of the same species and not harm them.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not contain any information about the origin of tattooing customs among the Bach Viet people. The datasets focus on historical events related to the Tay Son Rebellion, key figures such as Nguyen Lu, Nguyen Nhac, and Nguyen Hue, and their connections to the rebellion, family ties, and external observers like Labartette. There is no mention of cultural practices, rituals, or customs such as tattooing in the provided records. \n\nTo address this question, additional historical or anthropological sources would be required, which are not included in the current dataset.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1654,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "In which Hung King's reign did the child from Phu Dong village defeat the enemy, and where?",
+    "ground_truth": "During the reign of the 6th Hung King, he defeated the enemy troops at the foot of Vu Ninh mountain.",
+    "extracted_entities": [],
+    "answer": "The question about a child from Phu Dong village defeating enemies during the reign of a Hung King is not addressed in the provided data. The text focuses on the Tay Son dynasty, Nguyen Hue's lineage, and his military and political reforms, but it does not mention the Hung Kings (Hung Vuong), Phu Dong village, or any events tied to that specific historical context. \n\nThe data references Nguyen Hue's ancestry, including his family's migration from Hung Nguyen district to Tuy Vien district, but this pertains to the 17th–18th century Tay Son era, not the ancient Hung Kings' reigns. There is no overlap or connection between the events described in the text and the scenario posed in the question. \n\nThus, the provided information does not support the claim or allow for an answer to this query. \n\n[Data: None (no relevant records found)]",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1118,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "After defeating the enemy, what did the child from Phu Dong village do and what title was he later granted by King Ly Thai To?",
+    "ground_truth": "The child rode his horse into the sky and departed; later, he was granted the title Xung Thien Than Vuong by Ly Thai To.",
+    "extracted_entities": [],
+    "answer": "The provided data does not mention a child from Phu Dong village or any event related to defeating an enemy and receiving a title from King Ly Thai To. The text focuses on Nguyen Hue (Quang Trung), his role in the Tay Son dynasty, his military campaigns, and reforms, but it does not reference Phu Dong village, King Ly Thai To, or any associated historical events or titles. Therefore, this question cannot be answered based on the given information. \n\n[Data: None]",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1905,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "During which Zhou king's reign did our country first visit the Zhou dynasty, and what was offered?",
+    "ground_truth": "During the reign of King Cheng of Zhou, claiming to be Viet Thuong thi, and offering a white pheasant.",
+    "extracted_entities": [],
+    "answer": "The question about the first visit from \"our country\" to the Zhou dynasty during a specific king's reign is historically complex and hinges on clarifying which \"country\" is referenced. The Zhou dynasty (c. 1046–256 BCE) ruled over a vast territory, and its interactions with vassal states, neighboring polities, and other dynasties were central to its governance. However, without specifying which \"country\" the user refers to (e.g., a specific vassal state, a rival power like the Shang or Xia, or a later dynasty), it is challenging to pinpoint an exact event.  \n\nIf we assume the reference is to a vassal state or a neighboring polity during the Zhou's early reign, the first significant interactions likely occurred during the **Western Zhou period (1046–771 BCE)**, when the Zhou dynasty consolidated power after overthrowing the Shang. During this time, the Zhou king would have received tributes from vassals, which often included bronze vessels, jade, silk, and other goods symbolizing loyalty and economic ties. For example, **bronze ritual vessels** were common offerings, as they held religious and political significance in Zhou ceremonies.  \n\nHowever, specific records about the first \"visit\" and its associated offerings are sparse in historical texts. The Zhou's relationship with the **Xia dynasty** (before the Shang) is mostly mythologized, and the **Shang dynasty** (which the Zhou overthrew) was not a \"visit\" but a dynastic transition. Later, during the **Eastern Zhou period (770–256 BCE)**, interactions with states like the **Qin** or **Chu** became more frequent, but these were not initial encounters.  \n\nIn summary, while the Zhou dynasty's early reign (under **King Wu of Zhou** or **King Cheng of Zhou**) saw the establishment of tributary systems, the exact details of the first visit and its offerings remain unclear without more context or specific data references. The Zhou's tributary system itself was a key feature of their governance, with offerings often reflecting both political allegiance and cultural exchange.  \n\n**[Data: Historical Records (1, 2, 3, 4, 5; +more)]**  \n*Note: The referenced datasets are hypothetical, as no actual data tables were provided. This response relies on general historical knowledge.*",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0611,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Why did Thuc Vuong harbor resentment towards Hung Vuong?",
+    "ground_truth": "Because Thuc Vuong came to propose to Mi Nuong, but Hung Hau advised against it, believing Thuc Vuong was using marriage as an excuse to seize the country, so the king refused the marriage.",
+    "extracted_entities": [],
+    "answer": "The provided text does not mention \"Thuc Vuong\" or \"Hung Vuong,\" nor does it reference any conflict or resentment between these two figures. The content focuses exclusively on the Tay Son dynasty, particularly Nguyen Hue (Quang Trung), his brothers Nguyen Nhac and Nguyen Lu, and their historical role in unifying Vietnam by overthrowing the Trinh and Nguyen feudal regimes. There is no information in the text about interpersonal conflicts between individuals named Thuc Vuong and Hung Vuong. \n\nIf this question refers to a different historical context or figures not covered in the provided sources, additional information would be required to address the claim. [Data: None (no relevant records found in the provided text)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1497,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who were the two figures that came to propose to Mi Nuong at the same time, and what condition did Hung Vuong set?",
+    "ground_truth": "They were Son Tinh and Thuy Tinh; Hung Vuong declared that whoever brought sufficient betrothal gifts first would marry her.",
+    "extracted_entities": [],
+    "answer": "The question about two figures proposing to Mi Nuong and the condition set by Hung Vuong is not addressed in the provided data. The text focuses on the historical figures Nguyen Hue (Quang Trung), the Tay Son brothers, their origins, education, military campaigns, and reforms. It does not mention Mi Nuong, Hung Vuong, or any proposals or conditions related to these names. \n\nSince the names in the query are absent from the dataset, there is no information to support or answer the question. The references provided in the text pertain exclusively to Vietnamese history, politics, and military leadership during the 18th century, not to the specific narrative involving Mi Nuong or Hung Vuong. \n\n**Data: None (no relevant records found in the provided dataset)**.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0559,
+      "context_relevance": 1,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "When Thuy Tinh raised the waters to attack Tan Vien, what methods did Son Tinh use to fight back?",
+    "ground_truth": "Son Tinh called the barbarians to weave bamboo into water barriers and used crossbows to shoot down, causing the aquatic creatures to flee.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not mention Thuy Tinh, Son Tinh, Tan Vien, or any related entities, events, or methods of conflict. The historical records focus on figures like Truong Van Hien, the Tay Son Rebellion, and related political and martial traditions in Vietnam. If your question refers to a different context (e.g., a myth, folklore, or fictional narrative), additional information would be needed to address it accurately. \n\nIf you meant to ask about historical or cultural conflicts within the Tay Son Rebellion or related figures, please clarify, and I can provide relevant details from the data.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1333,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who later inherited Thuc Vuong's resentment and conquered Van Lang?",
+    "ground_truth": "Thuc Phan (Thuc Vuong's nephew).",
+    "extracted_entities": [],
+    "answer": "The question about who inherited Thuc Vuong's resentment and conquered Van Lang is not addressed by the provided data. The text focuses on the Tay Son dynasty, Nguyen Hue (Quang Trung), and his brothers, detailing their military campaigns, reforms, and historical context in Vietnam. It does not mention Thuc Vuong (Thục Phán), Van Lang, or any figures associated with the conquest of the ancient Văn Lang kingdom. \n\nFor reference, Thuc Vuong (Thục Phán) is a historical figure from the 3rd century BCE who is traditionally credited with conquering Văn Lang and establishing the Âu Lạc state, but this is outside the scope of the provided information. The data here pertains exclusively to the Tay Son uprising and its leaders. \n\n**Note**: The question references historical events and figures not covered in the given text. If further details are required, additional sources would be necessary.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0405,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "How many years did the Hong Bang dynasty last in total, and in which years did it begin and end?",
+    "ground_truth": "It lasted 2,622 years, from the year of Nham Tuat (2879 BC) to the year of Quy Mao (258 BC).",
+    "extracted_entities": [],
+    "answer": "The Hong Bang dynasty is not mentioned in any of the provided datasets, and there is no information available in the tables about its duration, start, or end years. The data tables focus on the Tay Son Rebellion, its key figures (Nguyen Lu, Nguyen Nhac, Nguyen Hue), and related historical contexts, but they do not reference the Hong Bang dynasty. For this query, external historical sources would need to be consulted. \n\n[Data: Reports (3), Entities (97), Relationships (0, 1, 2), Sources (4)]",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.098,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "What year was Quang Trung born and what was his birth name?",
+    "ground_truth": "Quang Trung was born in 1753 (Year of Quy Dau, 13th year of Canh Hung's reign); his birth name was Ho Thom, later changed to Nguyen Hue.",
+    "extracted_entities": [],
+    "answer": "Quang Trung, born as **Ho Thom**, was born in **1753**. This information is explicitly stated in the text, which notes his pre-coronation title as \"Bac Binh Vuong (Prince of Northern Peace)\" and his birth name as Ho Thom, originally from Nghe An, later renamed Nguyen Hue [Data: First paragraph (section on Quang Trung's introduction); Origins and Education section (genealogy and early life)]. \n\nThe text also confirms his birth year in the context of his early life and the historical timeline of the Tay Son uprising [Data: First paragraph (mention of his birth year); Origins and Education section (contextual details)]. These references align with the provided data, emphasizing his birth name and year without conflicting information.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2535,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who were the three brothers of the Tay Son movement?",
+    "ground_truth": "They were Nguyen Nhac, Nguyen Hue (Quang Trung), and Nguyen Lu.",
+    "extracted_entities": [],
+    "answer": "The **Tay Son movement** was led by three brothers who played pivotal roles in the rebellion against the Lê Dynasty and their subsequent rise to power. These brothers were:  \n\n1. **Nguyen Nhac** (also known as \"Anh Hai Trau\" or \"Brother Two Betel\")  \n   - A key leader of the rebellion, known for his betel trade and strategic leadership.  \n   - Cited as the eldest of the three brothers in historical records [Data: Entities (76); Sources (4)].  \n   - Directly involved in the Tay Son Rebellion [Data: Relationships (1); Reports (3)].  \n\n2. **Nguyen Lu** (also called \"Duc Ong Bay\" or \"Lord Seven\")  \n   - A co-founder of the **Tay Son Binh Dinh martial arts sect** and one of the rebellion’s core leaders.  \n   - His relationship with the rebellion is explicitly noted in the data [Data: Entities (77); Relationships (2); Reports (3)].  \n   - Mentored by **Truong Van Hien**, who recognized his martial prowess [Data: Relationships (10); Sources (4)].  \n\n3. **Nguyen Hue** (also known as \"Quang Binh\" or \"Duc Ong Binh\")  \n   - The youngest of the three brothers, later known as **Quang Trung**, a celebrated military leader.  \n   - His abilities were discovered by **Truong Van Hien**, who encouraged the trio to rebel [Data: Sources (4); Relationships (9)].  \n   - Central to the rebellion’s success, though his entity is not explicitly listed in the **Entities** table, his involvement is well-documented in the **Relationships** and **Reports** [Data: Relationships (0); Reports (3)].  \n\n### Key Connections:  \n- The **Tay Son Rebellion** (Entity 97) is directly linked to all three brothers via their roles in the uprising [Data: Entities (97); Relationships (1, 2, 0)].  \n- **Truong Van Hien**, their teacher (Entity 78), played a critical role in inspiring the rebellion through the prophecy **\"Tay khoi nghia, Bac thu cong\"** (Rebel in the West, achieve success in the North) [Data: Relationships (3); Reports (3)].  \n- The brothers’ martial skills and leadership were foundational to the formation of the **Tay Son Binh Dinh martial arts sect** [Data: Sources (4); Reports (3)].  \n\nTogether, these three brothers epitomized the blend of military strategy, cultural influence, and ideological resolve that defined the Tay Son movement.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.058,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who succeeded Quang Trung and how old was he at that time?",
+    "ground_truth": "Quang Toan succeeded him, being only 9 years old at the time.",
+    "extracted_entities": [],
+    "answer": "Quang Trung was succeeded by his nephew, **Quang Toan** (also known as Nguyen Anh), who was **9 years old** at the time of succession. This is explicitly stated in the text, which notes that after Quang Trung's sudden death at age 39, his successor, Quang Toan, was \"still too young (9 years old) to lead Dai Viet,\" leading to internal court conflicts and the eventual collapse of the Tay Son Dynasty. \n\nThis succession marked a critical turning point, as Quang Toan's youth and inexperience allowed Nguyen Anh (a rival claimant) to consolidate power, ultimately leading to the restoration of the Nguyen dynasty under Nguyen Anh (later Emperor Gia Long). The text emphasizes that Quang Toan's inability to govern effectively contributed to the dynasty's rapid decline [Data: Historical records (section on Quang Trung's death and succession)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1224,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "At what age did Quang Trung die, and what happened to the Tay Son Dynasty after his death?",
+    "ground_truth": "He died suddenly at the age of 39; afterwards, the Tay Son Dynasty weakened rapidly, faced internal conflicts, and was defeated by Nguyen Anh.",
+    "extracted_entities": [],
+    "answer": "Quang Trung died at the age of 39. According to historical accounts, he passed away suddenly during a period when the country's situation was showing positive changes after years of conflict and reform. His death marked the beginning of the Tay Son Dynasty's rapid decline. Following his demise, his successor, Quang Toan, was only 9 years old at the time, rendering him incapable of effectively leading Dai Viet. This led to internal strife within the royal court, which ultimately failed to resist the encroaching Nguyen Anh forces. The dynasty's inability to consolidate power and the lack of a strong, capable leader contributed to its collapse, allowing Nguyen Anh to eventually reunify Vietnam under his rule [Data: Text (section on \"Active life\" and \"Origins and Education\")]. \n\nThe collapse of the Tay Son Dynasty after Quang Trung's death underscores the critical role he played in the dynasty's early success and the fragility of its political structure without his leadership. His sudden death left a power vacuum, and the subsequent internal conflicts weakened the dynasty's ability to sustain its hold over the region.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1863,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 2
+    }
+  },
+  {
+    "status": "success",
+    "question": "Which invasions did Quang Trung defeat?",
+    "ground_truth": "He defeated the Siamese army from the south and the Great Qing army from the north.",
+    "extracted_entities": [],
+    "answer": "Quang Trung, also known as Nguyen Hue, defeated two major invasions during his rule. These were the invasions of **Dai Viet by Siam (modern-day Thailand)** from the south and the **Great Qing Dynasty (China)** from the north. This is explicitly stated in the text: \"Quang Trung was also the one who defeated the invasions of Dai Viet by Siam from the south and the Great Qing from the north\" [Data: Origins and Education (section on military leadership)]. \n\nThe Siam invasion likely refers to the campaigns by the Kingdom of Ayutthaya, which had historical conflicts with the Nguyễn lords in the 17th–18th centuries. The Qing invasion pertains to the prolonged conflicts between the Qing Dynasty and the Nguyễn and Trinh factions in the North, which culminated in the Qing's military campaigns into northern Vietnam during the late 18th century. Quang Trung's victories in these conflicts were pivotal in consolidating the Tay Son Dynasty's power and securing national unity. \n\nThese achievements are highlighted as part of his military leadership and are tied to his broader role in ending the Trinh–Nguyen civil war and repelling external threats [Data: Origins and Education (section on military leadership); Progressive Reforms of King Quang Trung].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1121,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Which teacher discovered Nguyen Hue's abilities and advised the three brothers to rebel?",
+    "ground_truth": "Teacher Truong Van Hien, who is said to have spoken the prophecy 'Tay khoi nghia, Bac thu cong' (Rebel in the West, achieve success in the North).",
+    "extracted_entities": [],
+    "answer": "The teacher who discovered Nguyen Hue's abilities and advised the three Tay Son brothers (Nguyen Hue, Nguyen Nhac, and Nguyen Lu) to rebel was **Truong Van Hien**. According to the text, Truong Van Hien, a retainer of Truong Van Hanh (who was the teacher of Nguyen Phuc Luan, Nguyen Anh's father), fled to Binh Dinh after Truong Van Hanh was harmed by the courtier Truong Phuc Loan. It was Truong Van Hien who recognized the brothers' talents and encouraged them to rise against the feudal system, advising them to \"rebel in the West and achieve success in the North\" (the prophecy \"Tay khoi nghia, Bac thu cong\"). This guidance became foundational to the Tay Son uprising [Data: Sources (14), 15]. \n\nTruong Van Hien also played a key role in shaping the martial arts traditions of the Tay Son sect, as the three brothers are credited with creating styles like Yen Phi Quyen (Nguyen Hue) and Hung Ke Quyen (Nguyen Lu), while all three co-developed the weapon form Doc Lu Thuong (Single Censer Spear) [Data: Sources (15)]. His influence extended to military strategy and reform, as the brothers later implemented progressive policies during their rule, reflecting the ideals Truong Van Hien may have instilled in them.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2069,
+      "context_relevance": 5,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Which martial arts sect/form did Nguyen Hue found, and what weapon form did the three brothers create together?",
+    "ground_truth": "Nguyen Hue founded the Yen Phi Quyen (Swallow Flight Form); all three brothers co-created the Doc Lu Thuong (Single Censer Spear).",
+    "extracted_entities": [],
+    "answer": "Nguyen Hue, also known as Quang Trung, founded the **Yen Phi Quyen** (Swallow Flight Form), a martial arts style associated with the Tay Son sect. This form was one of the core styles developed by the three Tay Son brothers—Nguyen Hue, Nguyen Nhac, and Nguyen Lu—as part of their efforts to train troops during the uprising.  \n\nThe three brothers collectively created the **Doc Lu Thuong** (Single Censer Spear), a weapon form that became emblematic of their martial arts legacy. This style combined both striking and spear techniques, reflecting their shared expertise in combat and their role in shaping the Binh Dinh martial arts tradition. The development of these forms is attributed to their teacher, Truong Van Hien, who is credited with inspiring their rebellion and military strategies.  \n\nThis is supported by historical accounts of their martial arts contributions and the legends surrounding their training and rebellion [Data: Historical Records (1, 2), Martial Arts Origins (3, 4, 5)]. The references highlight the cultural and military significance of their innovations during the Tay Son era.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1959,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "What was Truong Van Hien's relationship with Nguyen Phuc Luan, Nguyen Anh's father?",
+    "ground_truth": "Truong Van Hien was a retainer of Truong Van Hanh, and Truong Van Hanh was the teacher of Nguyen Phuc Luan (Nguyen Anh's father).",
+    "extracted_entities": [],
+    "answer": "Truong Van Hien was a retainer of Truong Van Hanh, who served as the teacher of Nguyen Phuc Luan—the father of Nguyen Anh (later Emperor Gia Long). This establishes a indirect relationship between Truong Van Hien and Nguyen Phuc Luan, as Truong Van Hien’s loyalty to Truong Van Hanh placed him in proximity to Nguyen Phuc Luan’s educational milieu. However, there is no explicit indication that Truong Van Hien directly taught or mentored Nguyen Phuc Luan. \n\nThe text clarifies that Truong Van Hanh was the direct teacher of Nguyen Phuc Luan, while Truong Van Hien’s role as a retainer of Truong Van Hanh positioned him within the same network but did not necessarily imply a direct pedagogical relationship with Nguyen Phuc Luan. This distinction is critical for understanding the hierarchical and relational structure of their connections. \n\n**Data Support:**  \nTruong Van Hien’s status as a retainer of Truong Van Hanh is explicitly stated in the passage, and Truong Van Hanh’s role as Nguyen Phuc Luan’s teacher is also directly mentioned. The lack of direct teaching ties between Truong Van Hien and Nguyen Phuc Luan is further supported by the absence of any explicit claims about their personal or instructional relationship in the provided sources. [Data: Sources (1, 2); Relationships (3, 4); Education (5, 6)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1941,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Summarize the main reforms of Quang Trung during his reign.",
+    "ground_truth": "He proposed personnel reforms (edict seeking talents, heavily utilizing Ngo Thi Nham, Phan Huy Ich, Nguyen Thiep...), military reforms (modernly equipped army), economic reforms (tax and land reforms, encouraging handicrafts, expanding foreign trade), and educational/cultural reforms (improving examinations, promoting learning, using Nom script instead of Han script, reorganizing temples, and eliminating superstitions).",
+    "extracted_entities": [],
+    "answer": "Quang Trung's reign was marked by sweeping reforms aimed at modernizing Vietnam and strengthening the Tay Son Dynasty. His policies were characterized by a blend of progressive economic, military, cultural, and administrative initiatives, reflecting his vision for national renewal. Below is a summary of his key reforms:\n\n---\n\n### **Economic Reforms**  \nQuang Trung restructured Vietnam's economic systems to boost productivity and trade. He reformed taxation and land policies to reduce exploitation of peasants, implementing measures that encouraged agricultural development and handicrafts. His economic strategies also expanded foreign trade with the West, seeking to integrate Vietnam into global markets and adopt modern technologies. These reforms addressed the stagnation of the Trinh–Nguyen feudal system, which had hindered economic growth for over a century [Data: Historical narratives (Phan Huy Le, 1753–1792); *Việt Nam sử lược* (record ids 6, 7)].\n\n---\n\n### **Military Modernization**  \nQuang Trung prioritized military reform to secure national independence and defend against external threats. He equipped the army with modern weapons and reorganized its structure, ensuring efficiency in combat. His military prowess was evident in his victories against both the Siamese and Qing forces, which solidified his reputation as a brilliant strategist. The reformed army became a cornerstone of the Tay Son Dynasty’s power during his rule [Data: *Đại Nam thực lục*; *Khâm định Việt sử Thông giám cương mục* (record ids 14, 15)].\n\n---\n\n### **Cultural and Educational Reforms**  \nQuang Trung promoted cultural and educational reforms to foster national identity and intellectual progress. He reformed the examination system to align with practical needs, encouraging meritocracy over hereditary privilege. Additionally, he mandated the use of the indigenous Vietnamese Nom script over the Han script, a move that reinforced linguistic and cultural autonomy. He also eradicated superstitious practices and reorganized redundant temples, aligning religious institutions with state objectives [Data: Historical narratives (Phan Huy Le); *Việt Nam sử lược* (record ids 6, 7)].\n\n---\n\n### **Personnel and Governance Reforms**  \nTo strengthen governance, Quang Trung issued an edict seeking talented individuals and appointed meritorious officials such as Ngo Thi Nham, Phan Huy Ich, and Nguyen Huy Luong. His emphasis on utilizing capable administrators helped centralize authority and improve administrative efficiency. These policies reflected his belief in merit-based leadership and his desire to build a stable, capable government [Data: *Đại Nam thực lục*; *Khâm định Việt sử Thông giám cương mục* (record ids 14, 15)].\n\n---\n\n### **Legacy of Progressive Reforms**  \nHistorians praise Quang Trung’s reforms for their forward-thinking nature, which surpassed contemporary Asian nations in scope and ambition. His policies aimed to unify Vietnam under a centralized, modernized state while fostering economic vitality and cultural renewal. Even decades after his death, his reign was remembered for its fairness and effectiveness, as noted by overseas Chinese communities in Hue [Data: *Việt Nam sử lược* (record ids 6, 7); historical accounts (record ids 3, +more)].\n\n---\n\nThese reforms collectively transformed Vietnam during Quang Trung’s short but impactful rule, laying the groundwork for the country’s eventual reunification and modernization.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1311,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "What is the general overview of the document about Quang Trung?",
+    "ground_truth": "The document covers the life and career of Quang Trung - Nguyen Hue: the Ho/Nguyen family's origins in Tay Son, education and martial arts, his role in the Tay Son uprising ending the Trinh-Nguyen conflict, defeating Siam and Qing, reforms as king, and the decline of Tay Son after his death.",
+    "extracted_entities": [],
+    "answer": "The document provides a comprehensive overview of Nguyen Hue (Quang Trung), a pivotal figure in Vietnamese history, focusing on his role as a military leader, reformer, and emperor of the Tay Son Dynasty. Here is a structured summary:\n\n### **Early Life and Origins**  \nNguyen Hue, originally named Ho Thom, was born into the Tay Son lineage, whose origins trace back to the Ho clan in Nghe An province. His family migrated south under the Nguyen lordship, and his father, Ho Phi Phuc, later adopted the Nguyen surname. Nguyen Hue’s early life involved studying under Truong Van Hien, a former retainer of Truong Van Hanh, who later prophesied his rise as \"Tay khoi nghia, Bac thu cong\" (Rebel in the West, achieve success in the North). This prophecy, attributed to Truong Van Hien, became a foundational narrative for the Tay Son uprising [Data: *Khâm định Việt sử Thông giám cương mục* (record 6); *Đại Nam thực lục* (record 7)].  \n\n### **Leadership in the Tay Son Uprising**  \nNguyen Hue, along with his brothers Nguyen Nhac (later Emperor Thai Duc) and Nguyen Lu, led the Tay Son rebellion against the Trinh–Nguyen civil war. The uprising culminated in the overthrow of both the Trinh lords in the north and the Nguyen lords in the south, along with the Later Le Dynasty, ending the long-standing division of Dang Trong (Inner Realm) and Dang Ngoai (Outer Realm). The brothers’ collective efforts unified Vietnam, marking a significant moment in the country’s history [Data: *Việt Nam sử lược* (record 9); *Lịch sử nội chiến Việt Nam từ 1771 đến 1802* (record 8)].  \n\n### **Military Achievements and Reforms**  \nAs the second emperor of the Tay Son Dynasty, Nguyen Hue demonstrated exceptional military prowess. He defeated invasions by Siam (from the south) and the Qing Dynasty (from the north), with his campaigns spanning over two decades. His military strategies and leadership were praised as decisive in securing national reunification [Data: *Khâm định Việt sử Thông giám cương mục* (record 14); *Đại Nam thực lục* (record 15)].  \n\nPolitically, Nguyen Hue implemented progressive reforms, drawing inspiration from Western science and technology. These reforms included:  \n- **Economic reforms**: Modernizing taxation, land systems, and expanding foreign trade with the West.  \n- **Military modernization**: Equipping the army with modern weapons and emphasizing discipline.  \n- **Educational reforms**: Improving the examination system, promoting Vietnamese Nom script over Han script, and eradicating superstitions.  \n- **Cultural policies**: Encouraging handicrafts and reorganizing redundant temples [Data: *Đại Nam thực lục* (record 16); *Việt Nam sử lược* (record 10)].  \n\nHistorian Phan Huy Le highlighted Nguyen Hue’s dual role as a \"brilliant military leader\" and \"politician with exceptional talent,\" noting his reforms’ progressive nature and their potential to lift Vietnam out of stagnation under the Trinh–Nguyen feudal system [Data: *Đại Nam thực lục* (record 1); *Việt Nam sử lược* (record 11)].  \n\n### **Legacy and Death**  \nNguyen Hue’s sudden death at age 39 marked the decline of the Tay Son Dynasty. His successor, Quang Toan, was too young to rule effectively, leading to internal strife and the eventual collapse of the dynasty. Despite this, Nguyen Hue’s reforms left a lasting impact, and he remains celebrated as a national hero. The Vietnamese government recognizes him as one of the 14 typical national heroes, with schools and streets named in his honor [Data: *Đại Nam thực lục* (record 17); *Việt Nam sử lược* (record 12)].  \n\nThe document also notes that overseas Chinese communities in Hue still reminisced about his rule, describing it as \"mildly and fairly\" compared to later Nguyen dynasty kings [Data: *Việt Nam sử lược* (record 3)].  \n\nThis overview underscores Nguyen Hue’s significance as a unifier, reformer, and symbol of national pride, while contextualizing his achievements within the broader historical narrative of Vietnam’s struggle for reunification.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1145,
+      "context_relevance": 4,
+      "context_sufficiency": 5,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "\"Love the Way You Lie\" is a song by which artists and appears on which album?",
+    "ground_truth": "\"Love the Way You Lie\" is a song by American rapper Eminem, featuring Barbadian singer Rihanna, and is included in Eminem's seventh studio album, Recovery (2010).",
+    "extracted_entities": [],
+    "answer": "The song \"Love the Way You Lie\" is performed by Eminem and Rihanna. It appears on Eminem's 2010 album *Recovery* as a single. Rihanna's version of the song was also released independently, but the original collaboration is tied to Eminem's album [Data: Music (12, 14, 22); Albums (3, 8, 11)]. \n\nHowever, the provided data tables are empty, so no specific record IDs or dataset references can be cited. General knowledge confirms the above details. If additional context or data sources were available, they could be referenced to strengthen the answer.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2931,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 5
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who wrote and recorded the original demo of \"Love the Way You Lie\"?",
+    "ground_truth": "Skylar Grey wrote and recorded the demo of the song along with producer Alex da Kid.",
+    "extracted_entities": [],
+    "answer": "The original demo of \"Love the Way You Lie\" was written and recorded by Eminem, with contributions from his long-time collaborator Jeff Bass. The song was co-written by Eminem and Bass, who also served as a producer. Rihanna’s involvement came later in the production process as a featured artist, though her vocal contributions were integral to the final version of the track. \n\n**Data references**:  \nThe details about Eminem's authorship and collaboration with Jeff Bass are supported by general knowledge of the song’s creation [Data: General Knowledge (1, 2, 3)]. However, without access to specific data tables or records detailing the demo’s production, precise technical details about the demo’s recording process cannot be confirmed. \n\nIf the user’s data tables contained records about the song’s development, they would likely reference Eminem’s role as the primary writer and producer, alongside Jeff Bass’s contributions. For example, a record might note Bass’s involvement in both writing and producing the track [Data: Sources (4, 5, 6)]. \n\nIn summary, while the demo’s creation is attributed to Eminem and Bass, the exact details of the demo’s recording would require specific data references to confirm.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0891,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who created the original backing track and hook melody of \"Love the Way You Lie\"?",
+    "ground_truth": "Alex da Kid created the original backing track and hook melody of the song.",
+    "extracted_entities": [],
+    "answer": "The question about the creation of the original backing track and hook melody for \"Love the Way You Lie\" cannot be answered using the provided data tables, as no datasets are listed or included in the current query. However, based on general knowledge:  \n\nThe track \"Love the Way You Lie\" was produced by **Dr. Dre** and **Anthony \"Producer\" Smith** (also known as the \"Dre & Anthony\" production team). These producers are credited with crafting the song's iconic bassline and melodic elements, which became central to its commercial success. The hook melody, in particular, is noted for its hypnotic, synth-driven groove, a hallmark of Dr. Dre's production style.  \n\nIf additional context or data sources were provided, a more detailed analysis could be conducted. For example, records in a \"Productions\" dataset (e.g., record IDs 12, 15, 22) might specify the collaborators and instrumentation, while a \"Tracks\" dataset (e.g., record IDs 7, 9, 14) could detail the song's compositional elements. Without such data, the answer relies on external knowledge rather than the referenced tables.  \n\n[Data: No datasets provided (refer to general knowledge)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0938,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 4,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "How long did it take Skylar Grey to write the chorus of \"Love the Way You Lie\"?",
+    "ground_truth": "Skylar Grey wrote the chorus in about 15 minutes.",
+    "extracted_entities": [],
+    "answer": "The question about the time Skylar Grey took to write the chorus of \"Love the Way You Lie\" cannot be answered based on the provided data tables, as no records related to songwriting timelines, artist biographies, or creative processes are included in the input datasets. Without specific data references detailing Skylar Grey's workflow, collaboration timelines, or project milestones, it is not possible to quantify the duration of this particular creative task. \n\nIn general, songwriting processes can vary widely depending on the artist, their inspiration, and external factors, but this information is not available in the current dataset. If you have access to additional records about Skylar Grey's work history or project timelines, those would need to be included in the data tables to provide a precise answer. For now, the answer remains unattainable from the given sources. \n\n[Data: None (no relevant records provided in the input datasets)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0769,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who suggested that Skylar Grey collaborate with Alex da Kid?",
+    "ground_truth": "Jennifer Blakeman, the music publisher at Universal Music, suggested Skylar Grey collaborate with Alex da Kid.",
+    "extracted_entities": [],
+    "answer": "The question regarding who suggested Skylar Grey collaborate with Alex da Kid cannot be answered based on the provided data tables, as no relevant information or records are available in the input datasets. The absence of data on collaborations, relationships, or suggestions between these artists means there are no references to support this inquiry. \n\nIf additional datasets containing records about music industry collaborations, producer relationships, or industry insiders were available, such as a \"Collaborations\" table or \"Relationships\" dataset, this could potentially clarify the origin of the collaboration suggestion. However, with the current information, no conclusions can be drawn. \n\nFor example, if a dataset named \"Industry_Connections\" contained records linking producers or artists to collaborative projects, or a \"Creative_Collaborations\" table documented such partnerships, this would be the source of such an answer. Without these data sources, the question remains unanswered. \n\nIn summary, the lack of accessible data prevents identification of who suggested the collaboration between Skylar Grey and Alex da Kid. Further investigation would require access to relevant datasets not currently provided.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1075,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "What in Alex da Kid's track inspired Skylar Grey's idea about an abusive romantic relationship?",
+    "ground_truth": "The track Alex da Kid sent to Skylar Grey evoked the theme of abusive romantic relationships, from which Grey developed the idea for the song.",
+    "extracted_entities": [],
+    "answer": "The question about what in Alex da Kid’s track inspired Skylar Grey’s idea about an abusive romantic relationship cannot be addressed with the provided data tables, as no records or datasets were included to reference. Without specific information linking their creative works or collaborations, it is not possible to identify the exact inspiration. \n\nIf this query relates to a specific song or creative process, additional context or data would be required to draw connections between Alex da Kid’s music and Skylar Grey’s thematic choices. For example, if there were records detailing songwriting sessions, lyrical content, or collaborative notes, those could be analyzed. However, based on the absence of such data, no definitive answer can be provided. \n\nIn general, Skylar Grey is known for her work on songs with emotional depth, such as \"Unconditional Love\" (featuring Miley Cyrus), which deals with themes of love and vulnerability. Alex da Kid, as a producer, often contributes to tracks with intense emotional undertones. However, without explicit evidence or data linking their works to this specific idea, any speculation would be unsupported. \n\nTo resolve this query definitively, access to relevant creative records, interviews, or collaborative documents would be necessary. For now, the answer remains inconclusive due to the lack of supporting data.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1552,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "Describe the sequence of events from when Skylar Grey started collaborating with Alex da Kid until Eminem chose \"Love the Way You Lie\".",
+    "ground_truth": "Jennifer Blakeman introduced Skylar Grey to Alex da Kid; Alex da Kid sent a track to Grey; Grey wrote the chorus and recorded a demo; then in early 2010 Alex da Kid gave backing tracks to Rigo Morales; Morales sent them to Eminem; Eminem heard \"Love the Way You Lie\" and chose the song.",
+    "extracted_entities": [],
+    "answer": "The sequence of events involving Skylar Grey, Alex da Kid, and Eminem's choice of \"Love the Way You Lie\" cannot be described based on the provided data tables, as no records or datasets are available to reference collaborations, creative processes, or decision-making timelines. Without specific data points about their work history, contractual relationships, or industry decisions, a detailed chronology cannot be constructed. \n\nTo answer this question accurately, one would need access to datasets such as:  \n- **Collaboration Records** (e.g., track listings, project timelines)  \n- **Creative Contributions** (e.g., songwriting credits, producer roles)  \n- **Industry Decisions** (e.g., song selection logs, label approvals)  \n- **Relationship Networks** (e.g., artist-producer partnerships)  \n\nFor example, if data existed, it might reference Skylar Grey’s early work with Alex da Kid (e.g., [Data: Collaborations (12, 15, +more)]), the transition to Eminem’s camp (e.g., [Data: Contracts (7, 9, +more)]), and the selection of \"Love the Way You Lie\" (e.g., [Data: Song Choices (3, 5, +more)]). However, this information is not present in the current dataset.  \n\nIn general, Skylar Grey and Alex da Kid collaborated on tracks like *I Know What You Did Last Summer* (2007), which later influenced Eminem’s work. \"Love the Way You Lie\" (2010) was co-produced by da Kid and Grey, blending their styles. However, these details are based on external knowledge, not the provided data.  \n\nTo reconstruct the sequence, explicit records of their interactions, project timelines, and decision-making processes would be required, which are absent here.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2284,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "Why did Eminem choose Rihanna to perform the chorus of the song?",
+    "ground_truth": "Eminem chose Rihanna because he felt she was particularly suited for it and was the one who could pull off this song.",
+    "extracted_entities": [],
+    "answer": "The question of why Eminem chose Rihanna to perform the chorus of a specific song (likely \"Love the Way You Lie\" from his 2010 album *Recovery*) cannot be answered based on the provided data tables, as they are empty and contain no relevant information about artists, collaborations, or creative decisions. \n\nIn general, artists often collaborate for a combination of artistic, personal, and professional reasons. For example, Eminem and Rihanna’s collaboration may have been driven by mutual respect for each other’s artistry, the desire to blend their distinct vocal styles, or the potential for commercial success. However, without specific data references (e.g., interviews, contracts, or studio records) to support these claims, such speculation remains unverified. \n\nIf you have access to additional datasets (e.g., interviews, music industry records, or collaboration logs), those could provide more concrete insights. For now, the answer relies on general knowledge rather than the provided data. \n\n[Data: None (no relevant records in provided datasets)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0899,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "Which of Rihanna's experiences relating to the theme made her agree to participate in the song?",
+    "ground_truth": "Rihanna stated she could relate to the theme of the song because she had been through a difficult relationship; the document links this to her relationship with Chris Brown.",
+    "extracted_entities": [],
+    "answer": "The question about Rihanna's experiences influencing her participation in a song cannot be answered based on the provided data tables, as no relevant datasets or records are available to reference. If you have specific data about her career, song collaborations, or personal motivations, please share it, and I can analyze it to provide a detailed response. For now, general knowledge about Rihanna's work (e.g., her advocacy for women's rights via the RBA Foundation or her artistic themes) could hypothetically relate to her choices, but without data links, this remains speculative. \n\n[Data: No relevant datasets provided]",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1935,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "What personal experiences of Eminem and Rihanna does the document relate to the theme of the song?",
+    "ground_truth": "Eminem had a relationship with Kim Scott, while Rihanna had a relationship with Chris Brown that ended after Brown assaulted her in 2009.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not contain any information related to Eminem, Rihanna, their personal experiences, or song themes. The tables are empty, and no datasets are referenced in the query. Therefore, no analysis or references can be provided to address the question about their personal experiences in relation to song themes. \n\nIf you have additional data or context to share, please provide it, and I would be happy to assist further.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0632,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Where did the vocal recording sessions for Eminem and Rihanna take place?",
+    "ground_truth": "Eminem recorded at Effigy Studios in Ferndale, Michigan, while Rihanna recorded at Sun Studios in Dublin, Ireland.",
+    "extracted_entities": [],
+    "answer": "The specific locations of vocal recording sessions for Eminem and Rihanna's collaborations, such as their hit song \"Love the Way You Lie,\" are not detailed in the provided data tables. Without access to records related to music production, studio locations, or artist collaborations (e.g., datasets like *Music Production Logs*, *Artist Studio Locations*, or *Collaboration Records*), it is not possible to determine the exact venues where these sessions occurred. \n\nGeneral knowledge suggests that such sessions often take place in professional studios, but this is speculative. For precise information, references to industry-specific databases or official statements from the artists or producers would be required. \n\nIf you have additional data sources or context, please provide them for a more accurate response.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0593,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who was responsible for the engineering of Eminem and Rihanna's vocal recording sessions?",
+    "ground_truth": "Mike Strange was in charge of recording and mixing Eminem's vocals, while Marcos Tovar engineered Rihanna's recording sessions.",
+    "extracted_entities": [],
+    "answer": "The question about the engineering of Eminem and Rihanna's vocal recording sessions cannot be answered based on the provided data tables. The available datasets do not include information about specific audio engineering personnel, production credits, or session details for this collaboration. Without access to records related to music production teams, vocal engineers, or session logs (e.g., \"Production Credits,\" \"Engineering Logs,\" or \"Session Records\" datasets), it is not possible to identify individuals responsible for the technical aspects of vocal recording. \n\nIf additional data were available, such as details about the production team for the song \"Love the Way You Lie\" (a well-known collaboration between Eminem and Rihanna), it might reference engineers like **Paul McCartney** (who contributed background vocals) or other unnamed professionals. However, this would require explicit records in the datasets, which are not included here. \n\nFor definitive answers, one would need to consult music industry databases, production archives, or official credits from the record label or mastering studio. General knowledge about the song’s production does not substitute for specific data references. \n\n**[Data: No relevant datasets provided (none)]**",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0821,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Compare Eminem and Rihanna's vocal recording processes in terms of location and duration as stated in the document.",
+    "ground_truth": "Eminem recorded and mixed vocals at Effigy Studios in Ferndale, Michigan over two days. Rihanna recorded at Sun Studios in Dublin, Ireland; the document does not mention the duration of Rihanna's recording sessions.",
+    "extracted_entities": [],
+    "answer": "The provided data tables are empty, containing no information about Eminem, Rihanna, or their vocal recording processes. Without access to relevant datasets detailing locations, durations, or methodologies related to their recording practices, a comparative analysis cannot be conducted. Please ensure the data tables contain the necessary records (e.g., datasets about artists, studios, session logs) to support this inquiry. \n\nIf the data is available but not displayed here, please provide the relevant tables or references to specific records (e.g., \"Data: Studios (12, 15, 22); Sessions (7, 9, 14)\") to enable an accurate comparison.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.144,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "What genre is \"Love the Way You Lie\" and what instruments are used in Eminem's rap sections?",
+    "ground_truth": "The song is a midtempo hip hop ballad with a pop refrain. Eminem's rap sections are backed by acoustic guitar, violin, and drums.",
+    "extracted_entities": [],
+    "answer": "The song \"Love the Way You Lie\" by Eminem featuring Rihanna is primarily categorized as **pop hip-hop**, blending elements of hip-hop with mainstream pop sensibilities. Its slow tempo, melodic structure, and commercial appeal align it with pop, while its rhythmic foundation and lyrical delivery maintain hip-hop characteristics [Data: Music Genres (12, 14, 27); Charts (3, 8, 19)]. \n\nIn Eminem's rap sections, the instrumentation typically includes a **deep, pulsing bassline** and **drum patterns** (such as 808-style kicks and snares) to drive the beat. These elements are standard in hip-hop production. Additionally, **synthetic sounds** (e.g., gated snares or atmospheric pads) may be present to enhance the track's mood. The production also incorporates **electronic textures** and **minimalist arrangements** to complement Eminem's lyrical flow [Data: Song Production (4, 9, 17); Instruments (2, 6, 13)]. \n\nHowever, without access to specific data tables detailing the song's production credits or instrumentation, this analysis relies on general knowledge of hip-hop and pop music conventions. For precise technical details, reference to the song's production notes or audio analysis tools would be required.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1224,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "What key is the song written in, what is its tempo, and what is its vocal range?",
+    "ground_truth": "The song is written in G minor, has a tempo of 87 beats per minute, and a vocal range from B♭3 to D5.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not contain any information related to the key, tempo, or vocal range of a song. These details are not included in the input datasets, and no references to musical analysis, song metadata, or related data sources are available. \n\nTo answer this question, specific data about the song's musical attributes would be required, such as a dataset containing technical details about tracks (e.g., key signatures, BPM measurements, or vocal range specifications). Without such data, it is not possible to determine the requested information. \n\nIf additional context or data tables are provided, I would be able to analyze them and offer a more detailed response. For now, the question cannot be addressed based on the available information.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1678,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Which parts do Rihanna and Eminem handle in the vocal structure of the song?",
+    "ground_truth": "Rihanna handles the pop refrain/chorus, while Eminem performs the verses by rapping.",
+    "extracted_entities": [],
+    "answer": "The question about Rihanna and Eminem's specific vocal contributions to a song's structure cannot be addressed with the provided data tables, as they are empty and contain no relevant information about musical collaborations, vocal arrangements, or artistic roles. Without access to datasets detailing song structures, artist collaborations, or lyrical responsibilities, it is not possible to determine which parts of a song each artist handles. \n\nIf this question relates to a specific track (e.g., a collaboration between Rihanna and Eminem), general knowledge suggests that such songs often feature Rihanna handling lead vocal lines, particularly in melodic or emotional sections, while Eminem might contribute rap verses or instrumental interludes. However, these assumptions are not supported by the provided data and should be treated as speculative. For precise details, reference to a musical analysis dataset or official song credits would be required. \n\nIn summary, the available data does not support assertions about vocal分工 in this context. [Data: None]",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0958,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "According to the document, how does the relationship described in the song develop?",
+    "ground_truth": "The relationship transitions from the positive aspects of love to anger, conflict, and finally domestic violence, while the two still refuse to break up.",
+    "extracted_entities": [],
+    "answer": "The question about how the relationship described in the song develops cannot be addressed based on the provided data tables, as they are empty and contain no relevant information about songs, relationships, or any other content. Without access to the song's lyrics, context, or associated metadata, it is not possible to analyze or summarize the development of the relationship described. \n\nIf you have additional data or context to share, please provide it, and I will gladly assist in analyzing the relationship's progression.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1509,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "How did David Browne comment on Rihanna's expression of emotion in the song?",
+    "ground_truth": "He commented that even though Rihanna sings without vibrato, her vocals subtly express grief and regret.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not contain any information about David Browne's comments on Rihanna's expression of emotion in her music. Without access to relevant datasets (e.g., reviews, interviews, or analyses referencing Browne's critiques), it is not possible to address this specific query. If such data were available, it would need to be cross-referenced to identify records explicitly discussing Rihanna's emotional delivery in song. For example, a review by David Browne might be cited as [Data: Reviews (12, 27, 45, +more)] if it contained relevant commentary. However, in the absence of such data, no conclusions can be drawn. \n\nFor general knowledge, David Browne is a music journalist known for his work with *Rolling Stone* and *Spin*, but his specific remarks on Rihanna’s artistry would require direct evidence from published sources. If you have additional data sources to share, further analysis could be conducted.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0377,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "How did Alex da Kid want to change the acoustic guitar part in the demo, and what did Eminem decide?",
+    "ground_truth": "Alex da Kid wanted to replace the acoustic guitar in the demo, but Eminem decided to keep that acoustic guitar part.",
+    "extracted_entities": [],
+    "answer": "The question about Alex da Kid's intentions regarding the acoustic guitar part in a demo and Eminem's decision cannot be addressed with the provided data tables, as no relevant records or datasets are included in the input. Without specific references to musical compositions, production notes, or collaborative decisions involving these artists, it is not possible to generate accurate or supported responses. \n\nIf additional data tables containing details about musical collaborations, production changes, or decision-making processes were provided, a structured analysis could be conducted. For example, records might include timestamps of edits, version control logs, or communication logs between collaborators. Such data would enable references to specific records (e.g., \"Production Logs (12, 23, 45)\" or \"Collaboration Notes (7, 9, 11)\") to substantiate claims about creative choices. \n\nIn the absence of this information, the question remains unanswered. Please provide the relevant datasets for further analysis.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1341,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who directed the music video and who did the two main actors play?",
+    "ground_truth": "Joseph Kahn directed the music video; Dominic Monaghan and Megan Fox played a couple in an abusive relationship.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not contain information about music videos, directors, or the roles of actors in any production. Without access to relevant datasets detailing filmography, cast members, or creative credits, it is not possible to answer this question. Please provide additional data or context for further assistance. \n\n[Data: None (no relevant records found in the provided datasets)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0779,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Why did the music video for \"Love the Way You Lie\" receive mixed reactions?",
+    "ground_truth": "The music video received mixed reactions due to scenes depicting domestic violence and an abusive romantic relationship.",
+    "extracted_entities": [],
+    "answer": "The music video for \"Love the Way You Lie\" by Eminem, featuring Rihanna, received mixed reactions due to its intense and controversial portrayal of domestic abuse. The video's graphic depiction of violence and its thematic focus on toxic relationships sparked debate among viewers and critics. Some praised its raw honesty and emotional depth, while others criticized it for glamorizing abuse or perpetuating harmful stereotypes. However, without access to specific data tables or records that analyze public reactions, critical reviews, or audience sentiment, I cannot provide detailed references to support these claims. \n\nIf you have provided data tables containing reviews, ratings, or thematic analyses of the video, I would be able to reference specific records to elaborate on the reasons behind the mixed reception. For now, the discussion relies on general knowledge of the video's content and its polarizing nature.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.141,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "\"Love the Way You Lie\" was released as which single from Recovery and when?",
+    "ground_truth": "The song was released as the second single from Recovery in June 2010.",
+    "extracted_entities": [],
+    "answer": "\"Love the Way You Lie\" was released as the lead single from Eminem's album *Recovery* in August 2010. The single was issued on **August 3, 2010**, and it served as the first promotional release preceding the album's official debut in November 2010. This track, featuring Rihanna, became one of the most successful singles from *Recovery*, reaching the top of the Billboard Hot 100 chart and achieving widespread commercial success. \n\nThe song’s release marked a significant moment in Eminem’s career, as it helped reestablish his dominance in hip-hop during the early 2010s. Its emotional intensity and catchy chorus contributed to its popularity, while its release date aligned with the album’s themes of overcoming personal struggles and redemption. \n\n**Note**: This response is based on general knowledge of the song and album, as no specific data tables were provided to reference. If additional context or data sources were available, they could further substantiate these details.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1333,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 2,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "Arrange the main events in the song's development in chronological order.",
+    "ground_truth": "In late 2009, Skylar Grey started writing and collaborating with Alex da Kid; Grey wrote the chorus and recorded a demo; in early 2010, Alex da Kid gave backing tracks to Rigo Morales and Morales sent them to Eminem; Eminem selected the song and wanted Rihanna to join; afterwards, the vocals were recorded and the song was released in June 2010.",
+    "extracted_entities": [],
+    "answer": "The provided data tables are empty, containing no information about songs, their development, or related events. Without access to datasets detailing musical compositions, historical milestones in music creation, or chronological records of artistic processes, it is not possible to arrange main events in a song's development chronologically. Please provide relevant data or context for a detailed response. \n\nIf you have specific information about a song's creation process, historical context, or related events, feel free to share it, and I can help organize it into a chronological sequence.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1081,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "Did Skylar Grey write the chorus first or did Eminem choose \"Love the Way You Lie\" first?",
+    "ground_truth": "Skylar Grey wrote the chorus first; Eminem then heard and selected the song in early 2010.",
+    "extracted_entities": [],
+    "answer": "The question about whether Skylar Grey wrote the chorus first or Eminem chose \"Love the Way You Lie\" first cannot be answered based on the provided data tables, as no relevant datasets were included in the input. Without specific records detailing the songwriting process, collaboration timelines, or decision-making sequences for the song, there is no evidence to determine the order of events. \n\nIn general knowledge, \"Love the Way You Lie\" was co-written by Skylar Grey, with additional contributions from Eminem and Rihanna. The song was released in 2010 as part of Eminem's *Recovery* album. While Skylar Grey is credited as the primary songwriter, the exact sequence of creative steps (e.g., whether she wrote the chorus first or Eminem selected the track for collaboration) is not publicly documented in detailed records. For precise historical or creative process details, additional sources or interviews with the artists would be required. \n\nIf you have access to specific datasets or records about this topic, please provide them for a more accurate response.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1421,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who played a role in taking the song from demo to release?",
+    "ground_truth": "The main figures include Skylar Grey, Alex da Kid, Rigo Morales, Eminem, and Rihanna. Grey wrote and recorded the demo; Alex da Kid created the backing track and produced; Morales transferred the backing tracks to Eminem; Eminem wrote verses and selected the song; Rihanna participated by performing the refrain.",
+    "extracted_entities": [],
+    "answer": "The question about who played a role in taking a song from demo to release cannot be addressed with the provided data tables, as the tables section is empty and no relevant datasets are available. To answer this query, information about collaborators, producers, engineers, or other stakeholders involved in the song's development would be required. For example, data might reference records detailing studio sessions, production credits, or revision histories. Without access to such datasets, it is impossible to identify specific individuals or their contributions. Please verify that the data tables were included correctly, as this would enable a detailed analysis of the song's development process and the key players involved. \n\nIf the data had been provided, the response would likely reference specific records (e.g., \"Production (12, 15, 22); Credits (3, 7, 11)\") to highlight roles like producers, engineers, or artists. However, with the current setup, no such details can be shared.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.11,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "status": "success",
+    "question": "How many weeks did the song top the Billboard Hot 100 and how many copies did it sell in the US and the UK?",
+    "ground_truth": "The song topped the US Billboard Hot 100 for seven weeks, selling over 12 million copies in the US and 1.5 million copies in the UK.",
+    "extracted_entities": [],
+    "answer": "The provided data tables do not contain information about the duration a song spent at the top of the Billboard Hot 100 or its sales figures in the US and UK. Without specific records detailing the song's chart performance or sales data, it is not possible to answer this question. If additional data tables or context (e.g., the specific song in question) were provided, a more accurate response could be generated. \n\nFor example, if the data included entries about a song's chart history or sales, references to those records would be included. However, as the current tables are empty, no further analysis can be conducted. Please ensure the data tables contain the necessary details for this query. \n\nIf you have additional datasets or specific song information, please share them for a detailed response.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1761,
+      "context_relevance": 2,
+      "context_sufficiency": 1,
+      "faithfulness": 5,
+      "answer_relevance": 4
+    }
+  },
+  {
+    "status": "success",
+    "question": "If you add up the sales figures stated for the US and the UK, what is the total number of copies mentioned?",
+    "ground_truth": "Over 13.5 million copies, calculated from over 12 million copies in the US plus 1.5 million copies in the UK.",
+    "extracted_entities": [],
+    "answer": "The question asks for the total number of copies mentioned by summing the sales figures for the US and the UK. However, the provided data tables are empty, and no numerical values or records related to sales figures for these regions are available. Without access to the specific datasets containing this information, it is impossible to calculate the requested total. \n\nTo address this query accurately, the data tables would need to include entries such as sales figures for the US and UK, likely structured with columns for country names and corresponding copy counts. For example, a dataset might have records like:  \n- \"US: 150,000 copies\"  \n- \"UK: 90,000 copies\"  \n\nIf such data existed, the total would be derived by summing these values. However, since no data is provided, the answer cannot be determined. \n\n**[Data: No relevant datasets provided (0 records)].**",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0886,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who does the document describe as being involved in the production, recording, or visual aspects of the song?",
+    "ground_truth": "The mentioned figures include Eminem, Rihanna, Skylar Grey, Alex da Kid, Jennifer Blakeman, Rigo Morales, Paul Rosenberg, Mike Strange, Joe Strange, Marcos Tovar, Makeba Riddick, and Joseph Kahn.",
+    "extracted_entities": [],
+    "answer": "The question cannot be answered based on the provided data tables, as no datasets or records are included in the input. Without specific information about the song's production, recording, or visual elements, it is not possible to identify individuals or entities involved. Please provide the relevant data tables for a detailed analysis.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.025,
+      "context_relevance": 1,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 0
+    }
+  },
+  {
+    "status": "success",
+    "question": "Who wrote the violin part used in \"Love the Way You Lie\"?",
+    "ground_truth": null,
+    "extracted_entities": [],
+    "answer": "The question about the composer of the violin part in \"Love the Way You Lie\" cannot be answered based on the provided data tables, as no relevant datasets or records are available to reference. \n\n**General Knowledge Context**:  \nThe song \"Love the Way You Lie\" (2010) by Eminem featuring Rihanna was produced by Dr. Dre, who is widely credited with shaping its signature bass-heavy sound. However, specific instrumental contributions, such as the violin part, are often attributed to session musicians or collaborators not always highlighted in mainstream credits. For example, violin arrangements in hip-hop tracks may be crafted by arrangers or instrumentalists like **Dustin Lachambre** (known for work with Pharrell Williams) or **Kanye West's** collaborators, but this is speculative without explicit data.  \n\n**Data Limitations**:  \nSince the provided data tables are empty, there are no record IDs or dataset references to support claims about the song's instrumentation. To resolve this definitively, one would need access to production credits, session logs, or licensing information from music databases (e.g., ASCAP, BMI, or Pro Music Rights).  \n\nIn summary, while Dr. Dre is the primary producer, the specific author of the violin part remains unspecified in the available data. [Data: None (no relevant datasets provided)].",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "context_relevance": 4,
+      "context_sufficiency": 2,
+      "faithfulness": 5,
+      "answer_relevance": 3
+    }
+  },
+  {
+    "status": "success",
+    "question": "On what specific date in June 2010 was \"Love the Way You Lie\" released as the second single?",
+    "ground_truth": null,
+    "extracted_entities": [],
+    "answer": "The specific date in June 2010 when \"Love the Way You Lie\" was released as the second single is not provided in the available data tables. Without access to the referenced datasets (e.g., music release records, Billboard charts, or industry databases), I cannot confirm the exact release date. \n\nHowever, based on general knowledge, the song was released as a single on **June 8, 2010**, by Eminem featuring Rihanna. It became a massive hit, reaching number one on the Billboard Hot 100 and achieving global commercial success. For precise data-supported details, the referenced datasets would need to include records about music releases, chart performance, or industry reports. \n\nIf you have access to specific datasets (e.g., \"Music Releases (X, Y)\" or \"Chart Data (Z)\"), please provide them for a data-backed answer.",
+    "metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "context_relevance": 4,
+      "context_sufficiency": 3,
+      "faithfulness": 5,
+      "answer_relevance": 2
+    }
+  }
+]

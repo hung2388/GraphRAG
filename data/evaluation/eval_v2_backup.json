@@ -1,0 +1,2203 @@
+[
+  {
+    "id": 1,
+    "doc": "hong_bang",
+    "question": "What is the taboo name (birth name) of Kinh Duong Vuong and whose son is he?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Loc Tuc; son of De Minh and Vu Tien's daughter",
+    "key_points": [
+      "Taboo name: Loc Tuc",
+      "Father: De Minh",
+      "Mother: the daughter of Vu Tien"
+    ],
+    "ground_truth": "Kinh Duong Vuong's taboo name is Loc Tuc; he is the son of De Minh and the daughter of Vu Tien.",
+    "gold_spans": [
+      "His taboo name was Loc Tuc",
+      "married the daughter of Vu Tien, and fathered the king"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Kinh Duong Vuong",
+      "Loc Tuc",
+      "De Minh",
+      "Vu Tien"
+    ],
+    "notes": null
+  },
+  {
+    "id": 2,
+    "doc": "hong_bang",
+    "question": "Who ruled the kingdom of Xich Quy and in which direction was it located?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Kinh Duong Vuong; the South",
+    "key_points": [
+      "Ruler: Kinh Duong Vuong",
+      "Located in the South"
+    ],
+    "ground_truth": "It was ruled by Kinh Duong Vuong in the South.",
+    "gold_spans": [
+      "enfeoffed the king as Kinh Duong Vuong to rule the South, calling it the kingdom of Xich Quy"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Xich Quy",
+      "Kinh Duong Vuong",
+      "De Minh"
+    ],
+    "notes": null
+  },
+  {
+    "id": 3,
+    "doc": "hong_bang",
+    "question": "What is the taboo name of Lac Long Quan, and who are his father and mother?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Sung Lam; son of Kinh Duong Vuong and Than Long",
+    "key_points": [
+      "Taboo name: Sung Lam",
+      "Father: Kinh Duong Vuong",
+      "Mother: Than Long, daughter of Dong Dinh Quan"
+    ],
+    "ground_truth": "Lac Long Quan's taboo name is Sung Lam; he is the son of Kinh Duong Vuong and the daughter of Dong Dinh Quan named Than Long.",
+    "gold_spans": [
+      "His taboo name was Sung Lam, son of Kinh Duong Vuong",
+      "The king married the daughter of Dong Dinh Quan named Than Long, and fathered Lac Long Quan"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Lac Long Quan",
+      "Sung Lam",
+      "Kinh Duong Vuong",
+      "Than Long",
+      "Dong Dinh Quan"
+    ],
+    "notes": null
+  },
+  {
+    "id": 4,
+    "doc": "hong_bang",
+    "question": "Who did Lac Long Quan marry and how many children did they have?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Au Co; one hundred sons",
+    "key_points": [
+      "Wife: Au Co, daughter of De Lai",
+      "One hundred sons (born from a hundred eggs)"
+    ],
+    "ground_truth": "Lac Long Quan married De Lai's daughter, Au Co, and they had one hundred sons (born from a hundred eggs).",
+    "gold_spans": [
+      "The king married De Lai's daughter, Au Co, and fathered a hundred sons (legend has it she gave birth to a hundred eggs)"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Lac Long Quan",
+      "Au Co",
+      "De Lai",
+      "Bach Viet"
+    ],
+    "notes": null
+  },
+  {
+    "id": 5,
+    "doc": "hong_bang",
+    "question": "When they separated, how did Lac Long Quan and Au Co divide their children?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "50 with the mother to the mountains; 50 with the father to the South; the eldest became Hung Vuong",
+    "key_points": [
+      "50 children followed their mother to the mountains",
+      "50 children followed their father to the South (some versions: the South Sea)",
+      "The eldest son was enfeoffed as Hung Vuong to succeed the throne"
+    ],
+    "ground_truth": "50 children followed their mother to the mountains, 50 children followed their father to the South (or Nam Hai), and the eldest son was titled Hung Vuong to succeed the throne.",
+    "gold_spans": [
+      "dividing 50 children to follow their mother to the mountains, and 50 children to follow their father to the South",
+      "enfeoffed the eldest son as Hung Vuong to succeed the throne"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Lac Long Quan",
+      "Au Co",
+      "Hung Vuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 6,
+    "doc": "hong_bang",
+    "question": "According to historian Ngo Si Lien, what is the kinship relationship between Kinh Duong Vuong and Lac Long Quan's wife (Au Co)?",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "great-niece",
+    "key_points": [
+      "De Lai is the son of De Nghi",
+      "Kinh Duong Vuong is De Nghi's younger brother",
+      "Au Co is De Lai's daughter, so she is Kinh Duong Vuong's great-niece (his elder brother's granddaughter)"
+    ],
+    "ground_truth": "De Lai is the son of De Nghi, and Kinh Duong Vuong is the younger brother of De Nghi; since Au Co is De Lai's daughter, she is Kinh Duong Vuong's great-niece (his elder brother's granddaughter).",
+    "gold_spans": [
+      "De Lai was the son of De Nghi; according to that record, Kinh Duong Vuong was the biological younger brother of De Nghi, yet they intermarried",
+      "The king married De Lai's daughter, Au Co"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Ngo Si Lien",
+      "Kinh Duong Vuong",
+      "De Nghi",
+      "De Lai",
+      "Au Co",
+      "Lac Long Quan"
+    ],
+    "notes": "Ground truth cu ghi Au Co la 'niece' (chau gai); sai. Au Co la con cua De Lai (con De Nghi) nen la chau gai doi thu hai."
+  },
+  {
+    "id": 7,
+    "doc": "hong_bang",
+    "question": "What did Hung Vuong name our country and where did he establish the capital?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Van Lang; capital Phong Chau",
+    "key_points": [
+      "National name: Van Lang",
+      "Capital: Phong Chau (Bach Hac district)"
+    ],
+    "ground_truth": "The national name was Van Lang, with the capital in Phong Chau (Bach Hac district).",
+    "gold_spans": [
+      "Hung Vuong set the national name as Van Lang",
+      "established the capital in Phong Chau (now Bach Hac district)"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Van Lang",
+      "Phong Chau",
+      "Bach Hac"
+    ],
+    "notes": null
+  },
+  {
+    "id": 8,
+    "doc": "hong_bang",
+    "question": "During the Hung Vuong era, how many regions was the country divided into? Name the region where the king established the capital.",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "15 regions; Van Lang",
+    "key_points": [
+      "The country was divided into 15 administrative regions",
+      "The capital region was Van Lang"
+    ],
+    "ground_truth": "It was divided into 15 regions; the region where the king established the capital was Van Lang.",
+    "gold_spans": [
+      "He divided the country into 15 administrative regions",
+      "while the region called Van Lang was where the king established the capital"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Van Lang",
+      "15 administrative regions"
+    ],
+    "notes": null
+  },
+  {
+    "id": 9,
+    "doc": "hong_bang",
+    "question": "In the Hung Vuong era, what were the civil and military generals called?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Lac Hau (civil); Lac Tuong (military)",
+    "key_points": [
+      "Civil generals: Lac Hau",
+      "Military generals: Lac Tuong"
+    ],
+    "ground_truth": "Civil generals were called Lac Hau, and military generals were called Lac Tuong.",
+    "gold_spans": [
+      "He appointed civil generals called Lac Hau, and military generals called Lac Tuong"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Lac Hau",
+      "Lac Tuong",
+      "Hung Vuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 10,
+    "doc": "hong_bang",
+    "question": "What were Hung Vuong's sons and daughters called?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Quan Lang (sons); Mi Nuong (daughters)",
+    "key_points": [
+      "Sons: Quan Lang",
+      "Daughters: Mi Nuong"
+    ],
+    "ground_truth": "Sons were called Quan Lang, and daughters were called Mi Nuong.",
+    "gold_spans": [
+      "The king's sons were called Quan Lang, and daughters were called Mi Nuong"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Quan Lang",
+      "Mi Nuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 11,
+    "doc": "hong_bang",
+    "question": "What were the officials in charge of affairs under Hung Vuong called and what were their hereditary characteristics?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Bo Chinh; hereditary father-to-son succession called phu dao",
+    "key_points": [
+      "Officials in charge of affairs: Bo Chinh",
+      "Hereditary succession from father to son: phu dao"
+    ],
+    "ground_truth": "They were called Bo Chinh, and their hereditary succession from father to son was called phu dao.",
+    "gold_spans": [
+      "Officials in charge of affairs were called Bo Chinh; their hereditary succession from father to son was called phu dao"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Bo Chinh",
+      "phu dao",
+      "Hung Vuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 12,
+    "doc": "hong_bang",
+    "question": "What event originated the tattooing custom of the Bach Viet people?",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "People were harmed by water monsters, so Hung Vuong had them tattoo water-monster images on their bodies",
+    "key_points": [
+      "People catching fish were often harmed by water monsters (thuong luong)",
+      "Hung Vuong told them to tattoo images of water monsters on their bodies",
+      "The monsters then saw them as their own kind and stopped harming them"
+    ],
+    "ground_truth": "Because people catching fish were often harmed by water monsters (thuong luong), Hung Vuong told them to tattoo images of sea monsters on their bodies so the monsters would think they were of the same species and not harm them.",
+    "gold_spans": [
+      "but were often harmed by water monsters (thuong luong)",
+      "The king then told everyone to use ink to tattoo images of water monsters on their bodies",
+      "The tattooing custom of the Bach Viet people probably started from there"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Bach Viet",
+      "water monsters (thuong luong)",
+      "tattooing custom"
+    ],
+    "notes": null
+  },
+  {
+    "id": 13,
+    "doc": "hong_bang",
+    "question": "In which Hung King's reign did the child from Phu Dong village defeat the enemy, and where?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "6th Hung King; foot of Vu Ninh mountain",
+    "key_points": [
+      "Reign of the 6th Hung King",
+      "Defeated the enemy at the foot of Vu Ninh mountain"
+    ],
+    "ground_truth": "During the reign of the 6th Hung King, he defeated the enemy troops at the foot of Vu Ninh mountain.",
+    "gold_spans": [
+      "During the reign of the 6th Hung King, in Phu Dong village, Vu Ninh region",
+      "defeating the enemy troops at the foot of Vu Ninh mountain"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Phu Dong village",
+      "6th Hung King",
+      "Vu Ninh mountain"
+    ],
+    "notes": null
+  },
+  {
+    "id": 14,
+    "doc": "hong_bang",
+    "question": "After defeating the enemy, what did the child from Phu Dong village do and what title was he later granted by King Ly Thai To?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Rode his horse into the sky; Xung Thien Than Vuong",
+    "key_points": [
+      "The child rode his horse into the sky and departed",
+      "Ly Thai To later granted him the title Xung Thien Than Vuong"
+    ],
+    "ground_truth": "The child rode his horse into the sky and departed; later, he was granted the title Xung Thien Than Vuong by Ly Thai To.",
+    "gold_spans": [
+      "The child rode his horse into the sky and departed",
+      "Later, Ly Thai To granted him the title Xung Thien Than Vuong"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Phu Dong child",
+      "Ly Thai To",
+      "Xung Thien Than Vuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 15,
+    "doc": "hong_bang",
+    "question": "During which Zhou king's reign did our country first visit the Zhou dynasty, and what was offered?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "King Cheng of Zhou; a white pheasant",
+    "key_points": [
+      "Reign of King Cheng of Zhou",
+      "Offered a white pheasant",
+      "Claimed to be the Viet Thuong clan"
+    ],
+    "ground_truth": "During the reign of King Cheng of Zhou, claiming to be the Viet Thuong clan, and offering a white pheasant.",
+    "gold_spans": [
+      "During the reign of King Cheng of Zhou",
+      "claiming to be the Viet Thuong clan, and offered a white pheasant"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "King Cheng of Zhou",
+      "Zhou dynasty",
+      "Viet Thuong",
+      "white pheasant"
+    ],
+    "notes": "Ground truth cu viet 'Viet Thuong thi'; doi thanh 'clan' cho khop van ban."
+  },
+  {
+    "id": 16,
+    "doc": "hong_bang",
+    "question": "Why did Thuc Vuong harbor resentment towards Hung Vuong?",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Hung Vuong's side advised against the marriage as a pretext to seize the country, which made Thuc Vuong resentful",
+    "key_points": [
+      "Thuc Vuong came to propose marriage to Mi Nuong",
+      "The Hung Hau advised against it, saying Thuc Vuong was using marriage as an excuse to conquer the country",
+      "Because of this, Thuc Vuong harbored resentment"
+    ],
+    "ground_truth": "Thuc Vuong came to propose to Mi Nuong, but the Hung Hau advised against it, saying Thuc Vuong wanted to conquer the country and was only using marriage as an excuse; because of this, Thuc Vuong harbored resentment.",
+    "gold_spans": [
+      "Thuc Vuong heard of her and came to propose marriage",
+      "They want to conquer our country and are only using marriage as an excuse",
+      "Because of this, Thuc Vuong harbored resentment"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Thuc Vuong",
+      "Mi Nuong",
+      "Hung Hau",
+      "Hung Vuong"
+    ],
+    "notes": "Bo 'so the king refused the marriage' khoi ground truth cu vi van ban khong noi ro."
+  },
+  {
+    "id": 17,
+    "doc": "hong_bang",
+    "question": "Who were the two figures that came to propose to Mi Nuong at the same time, and what condition did Hung Vuong set?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Son Tinh and Thuy Tinh; whoever brought the betrothal gifts first",
+    "key_points": [
+      "The two suitors were Son Tinh and Thuy Tinh",
+      "Condition: whoever brought sufficient betrothal gifts first would marry her"
+    ],
+    "ground_truth": "They were Son Tinh and Thuy Tinh; Hung Vuong declared that whoever brought sufficient betrothal gifts first would marry her.",
+    "gold_spans": [
+      "one was Son Tinh (Mountain Spirit) and the other was Thuy Tinh (Water Spirit)",
+      "whoever brought sufficient betrothal gifts first would marry her"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Son Tinh",
+      "Thuy Tinh",
+      "Mi Nuong",
+      "Hung Vuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 18,
+    "doc": "hong_bang",
+    "question": "When Thuy Tinh raised the waters to attack Tan Vien, what methods did Son Tinh use to fight back?",
+    "question_type": "single_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Bamboo water barriers and crossbows",
+    "key_points": [
+      "Called the barbarians to weave bamboo into water barriers",
+      "Used crossbows to shoot downwards",
+      "The aquatic creatures hit by arrows fled"
+    ],
+    "ground_truth": "Son Tinh called the barbarians to weave bamboo into water barriers and used crossbows to shoot down, causing the aquatic creatures to flee.",
+    "gold_spans": [
+      "he called the barbarians to weave bamboo into water barriers, and used crossbows to shoot downwards",
+      "The scaled and shelled creatures hit by arrows all fled"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Son Tinh",
+      "Thuy Tinh",
+      "Tan Vien mountain"
+    ],
+    "notes": null
+  },
+  {
+    "id": 19,
+    "doc": "hong_bang",
+    "question": "Who later inherited Thuc Vuong's resentment and conquered Van Lang?",
+    "question_type": "single_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Thuc Phan",
+    "key_points": [
+      "Thuc Phan",
+      "A descendant of Thuc Vuong, who attacked and conquered the country"
+    ],
+    "ground_truth": "Thuc Phan, a descendant of Thuc Vuong.",
+    "gold_spans": [
+      "In the time of his descendant, Thuc Phan, who possessed courage and strategy, he attacked and conquered the country",
+      "Thuc Vuong was furious and instructed his descendants to destroy Van Lang and seize the country"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Thuc Phan",
+      "Thuc Vuong",
+      "Van Lang"
+    ],
+    "notes": "Ground truth cu ghi 'Thuc Vuong's nephew' nhung van ban chi ghi 'his descendant'."
+  },
+  {
+    "id": 20,
+    "doc": "hong_bang",
+    "question": "How many years did the Hong Bang dynasty last in total, and in which years did it begin and end?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "2,622 years (2879 BC to 258 BC)",
+    "key_points": [
+      "Total duration: 2,622 years",
+      "Began in the year of Nham Tuat (2879 BC)",
+      "Ended in the year of Quy Mao (258 BC)"
+    ],
+    "ground_truth": "It lasted 2,622 years, from the year of Nham Tuat (2879 BC) to the year of Quy Mao (258 BC).",
+    "gold_spans": [
+      "starting from Kinh Duong Vuong being enfeoffed in the year of Nham Tuat",
+      "which was the year of Quy Mao, totaling 2,622 years [2879 - 258 BC]"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Hong Bang dynasty",
+      "Nham Tuat",
+      "Quy Mao",
+      "Kinh Duong Vuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 21,
+    "doc": "quang_trung",
+    "question": "What year was Quang Trung born and what was his birth name?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "1753; Ho Thom (later Nguyen Hue)",
+    "key_points": [
+      "Born in 1753 (Quy Dau, 13th year of the Canh Hung reign)",
+      "Birth name Ho Thom, later renamed Nguyen Hue"
+    ],
+    "ground_truth": "Quang Trung was born in 1753 (Year of Quy Dau, 13th year of Canh Hung's reign); his birth name was Ho Thom, later changed to Nguyen Hue.",
+    "gold_spans": [
+      "Nguyen Hue was born in the year of Quy Dau 1753, the 13th year of the Canh Hung reign",
+      "birth name Ho Thom",
+      "later renamed Nguyen Hue"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Quang Trung",
+      "Nguyen Hue",
+      "Ho Thom",
+      "Canh Hung",
+      "Quy Dau"
+    ],
+    "notes": null
+  },
+  {
+    "id": 22,
+    "doc": "quang_trung",
+    "question": "Who were the three brothers of the Tay Son movement?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Nguyen Nhac, Nguyen Hue, Nguyen Lu",
+    "key_points": [
+      "Nguyen Nhac",
+      "Nguyen Hue (Quang Trung)",
+      "Nguyen Lu"
+    ],
+    "ground_truth": "They were Nguyen Nhac, Nguyen Hue (Quang Trung), and Nguyen Lu.",
+    "gold_spans": [
+      "Mr. Nguyen Phi Phuc had 8 children, including 3 sons: Nguyen Nhac, Nguyen Hue, and Nguyen Lu",
+      "Nguyen Hue and his two brothers, known as the Tay Son heroes"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Nguyen Nhac",
+      "Nguyen Hue",
+      "Nguyen Lu",
+      "Tay Son"
+    ],
+    "notes": "Chi cham ten, khong cham thu tu anh em (van ban tu mau thuan ve thu tu, xem cau 77)."
+  },
+  {
+    "id": 23,
+    "doc": "quang_trung",
+    "question": "Who succeeded Quang Trung and how old was he at that time?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Quang Toan; 9 years old",
+    "key_points": [
+      "Successor: Quang Toan",
+      "Age: 9"
+    ],
+    "ground_truth": "Quang Toan succeeded him, being only 9 years old at the time.",
+    "gold_spans": [
+      "His successor, Quang Toan, was still too young (9 years old) to lead Dai Viet"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Quang Trung",
+      "Quang Toan"
+    ],
+    "notes": null
+  },
+  {
+    "id": 24,
+    "doc": "quang_trung",
+    "question": "At what age did Quang Trung die, and what happened to the Tay Son Dynasty after his death?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "39; the Tay Son Dynasty weakened rapidly",
+    "key_points": [
+      "Died suddenly at the age of 39",
+      "The Tay Son Dynasty weakened rapidly afterwards",
+      "The court fell into internal conflict and failed to continue resisting Nguyen Anh"
+    ],
+    "ground_truth": "He died suddenly at the age of 39; afterwards, the Tay Son Dynasty weakened rapidly, the court fell into internal conflict, and it failed to continue resisting Nguyen Anh.",
+    "gold_spans": [
+      "Quang Trung died suddenly at the age of 39",
+      "After his death, the Tay Son Dynasty weakened rapidly",
+      "the royal court fell into internal conflict and failed to continue resisting Nguyen Anh"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Quang Trung",
+      "Tay Son Dynasty",
+      "Quang Toan",
+      "Nguyen Anh"
+    ],
+    "notes": "Bo 'was defeated by Nguyen Anh' vi van ban chi noi 'failed to continue resisting'."
+  },
+  {
+    "id": 25,
+    "doc": "quang_trung",
+    "question": "Which invasions did Quang Trung defeat?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Siam (south) and the Great Qing (north)",
+    "key_points": [
+      "Siam from the south",
+      "The Great Qing from the north"
+    ],
+    "ground_truth": "He defeated the Siamese army from the south and the Great Qing army from the north.",
+    "gold_spans": [
+      "Quang Trung was also the one who defeated the invasions of Dai Viet by Siam from the south and the Great Qing from the north"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Quang Trung",
+      "Siam",
+      "Great Qing"
+    ],
+    "notes": null
+  },
+  {
+    "id": 26,
+    "doc": "quang_trung",
+    "question": "Which teacher discovered Nguyen Hue's abilities and advised the three brothers to rebel?",
+    "question_type": "single_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Truong Van Hien",
+    "key_points": [
+      "Teacher Truong Van Hien",
+      "Said to have spoken the prophecy 'Tay khoi nghia, Bac thu cong' (Rebel in the West, achieve success in the North)"
+    ],
+    "ground_truth": "Teacher Truong Van Hien, who is said to have spoken the prophecy 'Tay khoi nghia, Bac thu cong' (Rebel in the West, achieve success in the North).",
+    "gold_spans": [
+      "It was this teacher who discovered Nguyen Hue's abilities and advised the three brothers to rebel to build a great enterprise",
+      "originated from Truong Van Hien"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Truong Van Hien",
+      "Nguyen Hue",
+      "Nguyen Nhac",
+      "Nguyen Lu"
+    ],
+    "notes": null
+  },
+  {
+    "id": 27,
+    "doc": "quang_trung",
+    "question": "Which martial arts sect/form did Nguyen Hue found, and what weapon form did the three brothers create together?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Yen Phi Quyen (Nguyen Hue); Doc Lu Thuong (all three brothers)",
+    "key_points": [
+      "Nguyen Hue created Yen Phi Quyen (Swallow Flight Form)",
+      "All three brothers created Doc Lu Thuong (Single Censer Spear)"
+    ],
+    "ground_truth": "Nguyen Hue founded the Yen Phi Quyen (Swallow Flight Form); all three brothers co-created the Doc Lu Thuong (Single Censer Spear).",
+    "gold_spans": [
+      "Nguyen Hue created Yen Phi Quyen (Swallow Flight Form)",
+      "all three Tay Son brothers created Doc Lu Thuong (Single Censer Spear)"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Nguyen Hue",
+      "Yen Phi Quyen",
+      "Doc Lu Thuong",
+      "Nguyen Nhac",
+      "Nguyen Lu"
+    ],
+    "notes": null
+  },
+  {
+    "id": 28,
+    "doc": "quang_trung",
+    "question": "What was Truong Van Hien's relationship with Nguyen Phuc Luan, Nguyen Anh's father?",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Hien served Truong Van Hanh, who was Nguyen Phuc Luan's teacher",
+    "key_points": [
+      "Truong Van Hien was a retainer of Truong Van Hanh",
+      "Truong Van Hanh was the teacher of Nguyen Phuc Luan, Nguyen Anh's father"
+    ],
+    "ground_truth": "Truong Van Hien was a retainer of Truong Van Hanh, and Truong Van Hanh was the teacher of Nguyen Phuc Luan (Nguyen Anh's father).",
+    "gold_spans": [
+      "Truong Van Hien was a retainer of Truong Van Hanh, and Truong Van Hanh was the teacher of Nguyen Phuc Luan"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Truong Van Hien",
+      "Truong Van Hanh",
+      "Nguyen Phuc Luan",
+      "Nguyen Anh"
+    ],
+    "notes": null
+  },
+  {
+    "id": 29,
+    "doc": "quang_trung",
+    "question": "Summarize the main reforms of Quang Trung during his reign.",
+    "question_type": "summarization",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Personnel: edict seeking talents; relied on Ngo Thi Nham, Phan Huy Ich, Nguyen Thiep, Nguyen Huy Luong",
+      "Military: an army equipped with modern weapons",
+      "Economy: reformed taxation and land systems, encouraged handicrafts, expanded foreign trade with the West",
+      "Education and culture: practical examination system, encouraged learning, Nom script instead of Han script, reorganized temples, eradicated superstitions"
+    ],
+    "ground_truth": "He proposed personnel reforms (edict seeking talents, heavily utilizing Ngo Thi Nham, Phan Huy Ich, Nguyen Thiep...), military reforms (modernly equipped army), economic reforms (tax and land reforms, encouraging handicrafts, expanding foreign trade), and educational/cultural reforms (improving examinations, promoting learning, using Nom script instead of Han script, reorganizing temples, and eliminating superstitions).",
+    "gold_spans": [
+      "he issued an edict seeking talented people and heavily utilized many talents such as Ngo Thi Nham, Phan Huy Ich, Nguyen Thiep, Nguyen Huy Luong",
+      "he built an army equipped with modern weapons",
+      "he reformed the taxation and land systems, encouraged handicrafts, and expanded foreign trade with the West",
+      "encouraged the use of pure Vietnamese Nom script instead of Han script, reorganized redundant temples, and eradicated superstitions"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Quang Trung",
+      "Ngo Thi Nham",
+      "Phan Huy Ich",
+      "Nguyen Thiep",
+      "Nguyen Huy Luong",
+      "Nom script"
+    ],
+    "notes": null
+  },
+  {
+    "id": 30,
+    "doc": "quang_trung",
+    "question": "What is the general overview of the document about Quang Trung?",
+    "question_type": "summarization",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Family origins and Nguyen Hue's birth in 1753",
+      "Education and martial arts under Truong Van Hien",
+      "Leader (with his brothers) of the Tay Son uprising that ended the Trinh-Nguyen civil war",
+      "Defeated Siam and the Great Qing",
+      "Reforms in economics, culture, education and the military",
+      "Died at 39; the Tay Son Dynasty declined afterwards"
+    ],
+    "ground_truth": "The document covers the life and career of Quang Trung - Nguyen Hue: the Ho/Nguyen family's origins in Tay Son, education and martial arts, his role in the Tay Son uprising ending the Trinh-Nguyen conflict, defeating Siam and Qing, reforms as king, and the decline of Tay Son after his death.",
+    "gold_spans": [
+      "was a Vietnamese politician and military leader",
+      "were the leaders of the Tay Son uprising",
+      "Quang Trung was also the one who defeated the invasions of Dai Viet by Siam from the south and the Great Qing from the north",
+      "he successively proposed many progressive reform plans in economics, culture, education, military",
+      "were sent to study both literature and martial arts with teacher Truong Van Hien",
+      "Quang Trung died suddenly at the age of 39"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Quang Trung",
+      "Nguyen Hue",
+      "Tay Son",
+      "Nguyen Nhac",
+      "Nguyen Lu",
+      "Truong Van Hien",
+      "Siam",
+      "Great Qing",
+      "Nguyen Anh"
+    ],
+    "notes": null
+  },
+  {
+    "id": 31,
+    "doc": "love_the_way_you_lie",
+    "question": "\"Love the Way You Lie\" is a song by which artists and appears on which album?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Eminem featuring Rihanna; Recovery",
+    "key_points": [
+      "Eminem is the lead artist",
+      "Featuring Rihanna",
+      "Album: Recovery (2010)"
+    ],
+    "ground_truth": "\"Love the Way You Lie\" is a song by American rapper Eminem, featuring Barbadian singer Rihanna, and is included in Eminem's seventh studio album, Recovery (2010).",
+    "gold_spans": [
+      "is a song by American rapper Eminem featuring Barbadian singer Rihanna from Eminem's seventh studio album Recovery (2010)"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "Rihanna",
+      "Recovery"
+    ],
+    "notes": null
+  },
+  {
+    "id": 32,
+    "doc": "love_the_way_you_lie",
+    "question": "Who wrote and recorded the original demo of \"Love the Way You Lie\"?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Skylar Grey (with Alex da Kid)",
+    "key_points": [
+      "Skylar Grey wrote and recorded the demo",
+      "Alongside producer Alex da Kid"
+    ],
+    "ground_truth": "Skylar Grey wrote and recorded the demo of the song along with producer Alex da Kid.",
+    "gold_spans": [
+      "Skylar Grey wrote and recorded a demo of the song alongside producer Alex da Kid"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Love the Way You Lie"
+    ],
+    "notes": null
+  },
+  {
+    "id": 33,
+    "doc": "love_the_way_you_lie",
+    "question": "Who created the original backing track and hook melody of \"Love the Way You Lie\"?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Alex da Kid",
+    "key_points": [
+      "Alex da Kid, a British hip hop producer, created the backing track and hook melody"
+    ],
+    "ground_truth": "Alex da Kid created the original backing track and hook melody of the song.",
+    "gold_spans": [
+      "began with the backing track and hook melody, which was created by British hip hop producer Alex da Kid"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Love the Way You Lie"
+    ],
+    "notes": null
+  },
+  {
+    "id": 34,
+    "doc": "love_the_way_you_lie",
+    "question": "How long did it take Skylar Grey to write the chorus of \"Love the Way You Lie\"?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "15 minutes",
+    "key_points": [
+      "Fifteen minutes"
+    ],
+    "ground_truth": "Skylar Grey wrote the chorus in about 15 minutes.",
+    "gold_spans": [
+      "in fifteen minutes and recorded vocals for Alex da Kid's demo"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Love the Way You Lie"
+    ],
+    "notes": null
+  },
+  {
+    "id": 35,
+    "doc": "love_the_way_you_lie",
+    "question": "Who suggested that Skylar Grey collaborate with Alex da Kid?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Jennifer Blakeman",
+    "key_points": [
+      "Jennifer Blakeman, Grey's Universal Music publisher, suggested the collaboration"
+    ],
+    "ground_truth": "Jennifer Blakeman, the music publisher at Universal Music, suggested Skylar Grey collaborate with Alex da Kid.",
+    "gold_spans": [
+      "she visited her Universal Music publisher, Jennifer Blakeman",
+      "Blakeman suggested she collaborate with Alex da Kid"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Jennifer Blakeman",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Universal Music"
+    ],
+    "notes": null
+  },
+  {
+    "id": 36,
+    "doc": "love_the_way_you_lie",
+    "question": "What inspired Skylar Grey's idea for the song about an abusive romantic relationship?",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Alex da Kid's track, plus her own sense of an 'abusive relationship' with the music industry",
+    "key_points": [
+      "Alex da Kid emailed Grey his track",
+      "The track suggested a theme of abusive romantic relationships as she spontaneously sang lyrics",
+      "Grey said she felt she was in an abusive relationship with the music industry"
+    ],
+    "ground_truth": "Alex da Kid's emailed track suggested a theme of abusive romantic relationships to Skylar Grey as she spontaneously sang lyrics to the melody; she also drew on her own feeling of being in an abusive relationship with the music industry.",
+    "gold_spans": [
+      "The producer emailed Grey his track, which suggested a theme of abusive romantic relationships to her as she spontaneously sang lyrics to the melody",
+      "she was in an abusive relationship with the music industry"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Skylar Grey",
+      "Love the Way You Lie",
+      "music industry"
+    ],
+    "notes": "Cau goc: 'What in Alex da Kid's track inspired...'. Van ban khong noi yeu to nao cua track, nen doi cau hoi cho tra loi duoc tu tai lieu."
+  },
+  {
+    "id": 37,
+    "doc": "love_the_way_you_lie",
+    "question": "Describe the sequence of events from when Skylar Grey started collaborating with Alex da Kid until Eminem chose \"Love the Way You Lie\".",
+    "question_type": "multi_hop",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Blakeman suggested Grey collaborate with Alex da Kid",
+      "Alex da Kid emailed Grey his track",
+      "Grey wrote the chorus in fifteen minutes and recorded vocals for the demo",
+      "In early 2010 Alex da Kid offered backing tracks to Rigo Morales",
+      "Morales sent them to Eminem",
+      "Eminem asked for more tracks and heard the song",
+      "Eminem chose it"
+    ],
+    "ground_truth": "Jennifer Blakeman suggested that Skylar Grey collaborate with Alex da Kid; Alex da Kid emailed Grey his track; Grey wrote the chorus in fifteen minutes and recorded vocals for the demo; in early 2010 Alex da Kid offered backing tracks to Rigo Morales, who sent them to Eminem; Eminem asked for more tracks, heard \"Love the Way You Lie\" and chose it.",
+    "gold_spans": [
+      "Blakeman suggested she collaborate with Alex da Kid",
+      "The producer emailed Grey his track",
+      "in fifteen minutes and recorded vocals for Alex da Kid's demo",
+      "In early 2010, Alex da Kid offered Shady Records senior director Rigo Morales some backing tracks",
+      "Morales enjoyed the tracks and sent them to Eminem",
+      "Eminem asked for more tracks and subsequently heard",
+      "He chose it and told his manager Paul Rosenberg"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Jennifer Blakeman",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "notes": "Ground truth cu viet Blakeman 'introduced' Grey; van ban ghi 'suggested she collaborate'. Trung mot phan voi cau 53."
+  },
+  {
+    "id": 38,
+    "doc": "love_the_way_you_lie",
+    "question": "Why did Eminem choose Rihanna to perform the chorus of the song?",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "He felt only she could pull the track off",
+    "key_points": [
+      "After choosing the song, Eminem wanted to collaborate with Rihanna",
+      "He felt it was a track only she could pull off"
+    ],
+    "ground_truth": "Eminem chose Rihanna because he felt she was particularly suited for it and was the one who could pull off this song.",
+    "gold_spans": [
+      "It's one of those tracks that I felt like only she could pull it off",
+      "He chose it and told his manager Paul Rosenberg he wanted to collaborate with the Barbadian singer Rihanna"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Paul Rosenberg",
+      "Love the Way You Lie"
+    ],
+    "notes": null
+  },
+  {
+    "id": 40,
+    "doc": "love_the_way_you_lie",
+    "question": "What personal experiences of Eminem and Rihanna does the document relate to the theme of the song?",
+    "question_type": "multi_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Kim Scott (Eminem); Chris Brown (Rihanna)",
+    "key_points": [
+      "Eminem: an abusive relationship with his ex-wife Kim Scott (see the songs \"'97 Bonnie & Clyde\" and \"Kim\")",
+      "Rihanna: her relationship with Chris Brown, which ended in February 2009 after his felony assault on her"
+    ],
+    "ground_truth": "Eminem had a relationship with Kim Scott, while Rihanna had a relationship with Chris Brown that ended in February 2009 following his felony assault on her.",
+    "gold_spans": [
+      "Reporters suggested that the song and its accompanying video were influenced by Eminem's and Rihanna's abusive relationships with their respective ex-lovers, Kim Scott and Chris Brown",
+      "in which he fantasizes, respectively, about murdering and verbally abusing his then-wife Kim Scott",
+      "In February 2009, Rihanna's relationship with the R&B singer Chris Brown had ended following his felony assault on her"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Eminem",
+      "Kim Scott",
+      "Rihanna",
+      "Chris Brown"
+    ],
+    "notes": "Da gop noi dung cau 39 (cau 39 bi bo vi trung)."
+  },
+  {
+    "id": 41,
+    "doc": "love_the_way_you_lie",
+    "question": "Where did the vocal recording sessions for Eminem and Rihanna take place?",
+    "question_type": "comparison",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Eminem: Effigy Studios (Ferndale, Michigan); Rihanna: Sun Studios (Dublin, Ireland)",
+    "key_points": [
+      "Eminem: Effigy Studios in Ferndale, Michigan",
+      "Rihanna: Sun Studios in Dublin, Ireland"
+    ],
+    "ground_truth": "Eminem recorded at Effigy Studios in Ferndale, Michigan, while Rihanna recorded at Sun Studios in Dublin, Ireland.",
+    "gold_spans": [
+      "Mike Strange recorded and mixed Eminem's vocals at Effigy Studios in Ferndale, Michigan",
+      "Rihanna's recording sessions took place at Sun Studios in Dublin, Ireland"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Effigy Studios",
+      "Sun Studios",
+      "Ferndale",
+      "Dublin"
+    ],
+    "notes": null
+  },
+  {
+    "id": 42,
+    "doc": "love_the_way_you_lie",
+    "question": "Who was responsible for the engineering of Eminem and Rihanna's vocal recording sessions?",
+    "question_type": "comparison",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Mike Strange (Eminem; Joe Strange engineered the track); Marcos Tovar (Rihanna)",
+    "key_points": [
+      "Mike Strange recorded and mixed Eminem's vocals",
+      "Strange's brother Joe engineered the track",
+      "Marcos Tovar engineered Rihanna's sessions"
+    ],
+    "ground_truth": "Mike Strange recorded and mixed Eminem's vocals (his brother Joe Strange engineered the track), while Marcos Tovar engineered Rihanna's recording sessions.",
+    "gold_spans": [
+      "Mike Strange recorded and mixed Eminem's vocals",
+      "Strange's brother Joe engineered the track",
+      "were engineered by Marcos Tovar"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Mike Strange",
+      "Joe Strange",
+      "Marcos Tovar",
+      "Eminem",
+      "Rihanna"
+    ],
+    "notes": "Them Joe Strange (van ban: 'Strange's brother Joe engineered the track'); cau 58 cung liet ke Joe Strange."
+  },
+  {
+    "id": 43,
+    "doc": "love_the_way_you_lie",
+    "question": "Compare Eminem and Rihanna's vocal recording processes in terms of location and duration as stated in the document.",
+    "question_type": "comparison",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": true,
+    "short_answer": null,
+    "key_points": [
+      "Eminem: Effigy Studios in Ferndale, Michigan; the sessions took two days",
+      "Rihanna: Sun Studios in Dublin, Ireland",
+      "The document gives no duration for Rihanna's sessions"
+    ],
+    "ground_truth": "Eminem recorded and mixed vocals at Effigy Studios in Ferndale, Michigan over two days. Rihanna recorded at Sun Studios in Dublin, Ireland; the document does not mention the duration of Rihanna's recording sessions.",
+    "gold_spans": [
+      "Mike Strange recorded and mixed Eminem's vocals at Effigy Studios in Ferndale, Michigan",
+      "The sessions took two days",
+      "Rihanna's recording sessions took place at Sun Studios in Dublin, Ireland"
+    ],
+    "related_spans": [
+      "did not make major changes on her seven stereo vocal tracks"
+    ],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Effigy Studios",
+      "Sun Studios"
+    ],
+    "notes": "Tra loi duoc mot phan (partial=true): cau tra loi dung phai noi ro tai lieu khong cho thoi luong cua Rihanna. Khi tinh Correctly Refused coi day la answerable, nhung cham them diem cho viec neu phan thieu."
+  },
+  {
+    "id": 44,
+    "doc": "love_the_way_you_lie",
+    "question": "What genre is \"Love the Way You Lie\" and what instruments are used in Eminem's rap sections?",
+    "question_type": "multi_attribute",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Midtempo hip hop ballad with a pop refrain; acoustic guitar, violin and drums",
+    "key_points": [
+      "Genre: midtempo hip hop ballad with a pop refrain",
+      "Eminem's verses are accompanied by acoustic guitar, violin and drums"
+    ],
+    "ground_truth": "The song is a midtempo hip hop ballad with a pop refrain. Eminem's rap sections are backed by acoustic guitar, violin, and drums.",
+    "gold_spans": [
+      "is a midtempo hip hop ballad",
+      "midtempo hip-hop ballad with a pop refrain",
+      "Acoustic guitar, violin and drums accompany Eminem's verses"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Eminem",
+      "acoustic guitar",
+      "violin",
+      "drums"
+    ],
+    "notes": "Nhan cu 'multi_hop' doi thanh 'multi_attribute' (hai su kien trong cung mot muc)."
+  },
+  {
+    "id": 45,
+    "doc": "love_the_way_you_lie",
+    "question": "What key is the song written in, what is its tempo, and what is its vocal range?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "G minor; 87 BPM; B♭3 to D5",
+    "key_points": [
+      "Key: G minor",
+      "Tempo: 87 beats per minute",
+      "Vocal range: B♭3 to D5"
+    ],
+    "ground_truth": "The song is written in G minor, has a tempo of 87 beats per minute, and a vocal range from B♭3 to D5.",
+    "gold_spans": [
+      "in the key of G minor",
+      "a tempo of 87 beats per minute",
+      "The vocal range spans from B♭3 to D5"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "G minor",
+      "87 BPM",
+      "B♭3",
+      "D5"
+    ],
+    "notes": null
+  },
+  {
+    "id": 46,
+    "doc": "love_the_way_you_lie",
+    "question": "Which parts do Rihanna and Eminem handle in the vocal structure of the song?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Rihanna: the refrain; Eminem: the rapped verses",
+    "key_points": [
+      "Rihanna sings the pop refrain/chorus",
+      "Eminem raps the verses"
+    ],
+    "ground_truth": "Rihanna handles the pop refrain/chorus, while Eminem performs the verses by rapping.",
+    "gold_spans": [
+      "opens as Rihanna sings the pop refrain over a piano",
+      "Eminem wrote the rapped verses to the song"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Rihanna",
+      "Eminem",
+      "Love the Way You Lie"
+    ],
+    "notes": "Nhan cu 'relation_reasoning' doi thanh 'single_hop'."
+  },
+  {
+    "id": 47,
+    "doc": "love_the_way_you_lie",
+    "question": "According to the document, how does the relationship described in the song develop?",
+    "question_type": "summarization",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Starts with positive aspects of love",
+      "Turns to anger and conflict",
+      "Worsens into domestic violence",
+      "The couple still refuses to separate"
+    ],
+    "ground_truth": "The relationship transitions from the positive aspects of love to anger, conflict, and finally domestic violence, while the two still refuse to break up.",
+    "gold_spans": [
+      "describes two lovers who refuse to separate despite being in an abusive relationship",
+      "The lyrics transition from discussing positive aspects of love to describing violent events",
+      "worsens and leads to domestic violence"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "abusive relationship",
+      "domestic violence"
+    ],
+    "notes": null
+  },
+  {
+    "id": 48,
+    "doc": "love_the_way_you_lie",
+    "question": "How did David Browne comment on Rihanna's expression of emotion in the song?",
+    "question_type": "single_hop",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Despite no vibrato, her voice subtly shows grief and regret",
+    "key_points": [
+      "Rihanna sings without vibrato",
+      "Her voice subtly shows grief and regret"
+    ],
+    "ground_truth": "He commented that even though Rihanna sings without vibrato, her vocals subtly express grief and regret.",
+    "gold_spans": [
+      "One commentator, The New York Times' David Browne, wrote that despite this, her voice subtly shows grief and regret",
+      "She sings without vibrato"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "David Browne",
+      "Rihanna",
+      "The New York Times",
+      "Love the Way You Lie"
+    ],
+    "notes": null
+  },
+  {
+    "id": 49,
+    "doc": "love_the_way_you_lie",
+    "question": "How did Alex da Kid want to change the acoustic guitar part in the demo, and what did Eminem decide?",
+    "question_type": "relation_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "He wanted to replace it; Eminem kept it",
+    "key_points": [
+      "Alex da Kid wanted to replace the acoustic guitar on the demo",
+      "Eminem chose to keep it"
+    ],
+    "ground_truth": "Alex da Kid wanted to replace the acoustic guitar in the demo, but Eminem decided to keep that acoustic guitar part.",
+    "gold_spans": [
+      "He wanted to replace the acoustic guitar on the demo, but Eminem chose to keep it"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Alex da Kid",
+      "Eminem",
+      "acoustic guitar",
+      "demo"
+    ],
+    "notes": null
+  },
+  {
+    "id": 50,
+    "doc": "love_the_way_you_lie",
+    "question": "Who directed the music video and who did the two main actors play?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Joseph Kahn; Monaghan and Fox as lovers in a violent relationship",
+    "key_points": [
+      "Director: Joseph Kahn",
+      "Dominic Monaghan and Megan Fox play lovers in a violent relationship"
+    ],
+    "ground_truth": "Joseph Kahn directed the music video; Dominic Monaghan and Megan Fox played lovers in a violent relationship.",
+    "gold_spans": [
+      "The music video, directed by Joseph Kahn, stars Dominic Monaghan and Megan Fox as lovers in a violent relationship"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Joseph Kahn",
+      "Dominic Monaghan",
+      "Megan Fox",
+      "Love the Way You Lie music video"
+    ],
+    "notes": null
+  },
+  {
+    "id": 51,
+    "doc": "love_the_way_you_lie",
+    "question": "Why did the music video for \"Love the Way You Lie\" receive mixed reactions?",
+    "question_type": "causal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Scenes of domestic violence",
+    "key_points": [
+      "Mixed reception was due to scenes of domestic violence"
+    ],
+    "ground_truth": "The music video received mixed reactions due to scenes depicting domestic violence and an abusive romantic relationship.",
+    "gold_spans": [
+      "The video met with a mixed reception due to scenes of domestic violence"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie music video",
+      "domestic violence"
+    ],
+    "notes": null
+  },
+  {
+    "id": 52,
+    "doc": "love_the_way_you_lie",
+    "question": "\"Love the Way You Lie\" was released as which single from Recovery and when?",
+    "question_type": "single_hop",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Second single; June 2010",
+    "key_points": [
+      "Second single from Recovery",
+      "Released in June 2010 by Interscope Records"
+    ],
+    "ground_truth": "The song was released as the second single from Recovery in June 2010.",
+    "gold_spans": [
+      "Interscope Records released the song in June 2010 as the second single from Recovery"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Recovery",
+      "Interscope Records"
+    ],
+    "notes": null
+  },
+  {
+    "id": 53,
+    "doc": "love_the_way_you_lie",
+    "question": "Arrange the main events in the song's development in chronological order.",
+    "question_type": "temporal_reasoning",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Late 2009: Grey begins writing songs (Artula Retreat)",
+      "Blakeman suggests she collaborate with Alex da Kid; he emails her a track",
+      "Grey writes the chorus in fifteen minutes and records the demo",
+      "Early 2010: Alex da Kid offers backing tracks to Rigo Morales, who sends them to Eminem",
+      "Eminem chooses the song and wants Rihanna, who accepts",
+      "Vocals are recorded (Eminem's sessions took two days)",
+      "June 2010: released as the second single from Recovery"
+    ],
+    "ground_truth": "In late 2009 Skylar Grey began writing songs at the Artula Retreat; Jennifer Blakeman later suggested she work with Alex da Kid, who emailed her a track; she wrote the chorus in fifteen minutes and recorded the demo; in early 2010 Alex da Kid offered backing tracks to Rigo Morales, who sent them to Eminem; Eminem chose the song and wanted Rihanna, who accepted; vocals were then recorded and the song was released in June 2010.",
+    "gold_spans": [
+      "Writing began in late 2009, when singer Skylar Grey resided at the Artula Retreat in Bandon, Oregon",
+      "Blakeman suggested she collaborate with Alex da Kid",
+      "In early 2010, Alex da Kid offered Shady Records senior director Rigo Morales some backing tracks",
+      "He chose it and told his manager Paul Rosenberg",
+      "The sessions took two days",
+      "Interscope Records released the song in June 2010 as the second single from Recovery"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Jennifer Blakeman",
+      "Rigo Morales",
+      "Eminem",
+      "Rihanna",
+      "Love the Way You Lie"
+    ],
+    "notes": "Ground truth cu viet 'late 2009 Grey started collaborating with Alex da Kid'; van ban chi noi late 2009 Grey bat dau viet nhac, thoi diem hop tac khong neu."
+  },
+  {
+    "id": 55,
+    "doc": "love_the_way_you_lie",
+    "question": "Who played a role in taking the song from demo to release?",
+    "question_type": "aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Skylar Grey wrote and recorded the demo",
+      "Alex da Kid created the backing track and hook melody (and helped mix and master)",
+      "Rigo Morales received the tracks and sent them to Eminem",
+      "Eminem chose the song and wrote the rapped verses",
+      "Rihanna sang the chorus"
+    ],
+    "ground_truth": "The main figures include Skylar Grey, Alex da Kid, Rigo Morales, Eminem, and Rihanna. Grey wrote and recorded the demo; Alex da Kid created the backing track and produced; Morales passed the backing tracks to Eminem; Eminem wrote verses and selected the song; Rihanna participated by performing the refrain.",
+    "gold_spans": [
+      "Skylar Grey wrote and recorded a demo of the song alongside producer Alex da Kid",
+      "Eminem wrote the verses and chose Rihanna to sing the chorus",
+      "Morales enjoyed the tracks and sent them to Eminem",
+      "Rosenberg sent the track to Rihanna, who accepted Eminem's request"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Skylar Grey",
+      "Alex da Kid",
+      "Rigo Morales",
+      "Eminem",
+      "Rihanna"
+    ],
+    "notes": "Cau mo: nhung nguoi khac (Blakeman, Rosenberg, Strange...) khong bi tru diem. Danh sach day du nam o cau 58."
+  },
+  {
+    "id": 56,
+    "doc": "love_the_way_you_lie",
+    "question": "How many weeks did the song top the Billboard Hot 100 and how many copies did it sell in the US and the UK?",
+    "question_type": "multi_attribute",
+    "difficulty": "easy",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "7 weeks; over 12 million (US); 1.5 million (UK)",
+    "key_points": [
+      "Seven weeks at number one on the US Billboard Hot 100",
+      "Over 12 million copies in the US",
+      "1.5 million copies in the UK"
+    ],
+    "ground_truth": "The song topped the US Billboard Hot 100 for seven weeks, selling over 12 million copies in the US and 1.5 million copies in the UK.",
+    "gold_spans": [
+      "including the US Billboard Hot 100 for seven weeks",
+      "The single sold over 12 million copies in the US and 1.5 million in the UK"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Billboard Hot 100",
+      "United States",
+      "United Kingdom"
+    ],
+    "notes": null
+  },
+  {
+    "id": 57,
+    "doc": "love_the_way_you_lie",
+    "question": "If you add up the sales figures stated for the US and the UK, what is the total number of copies mentioned?",
+    "question_type": "numerical_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": "Over 13.5 million",
+    "key_points": [
+      "US: over 12 million",
+      "UK: 1.5 million",
+      "Total: over 13.5 million"
+    ],
+    "ground_truth": "Over 13.5 million copies, calculated from over 12 million copies in the US plus 1.5 million copies in the UK.",
+    "gold_spans": [
+      "The single sold over 12 million copies in the US and 1.5 million in the UK"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "United States",
+      "United Kingdom"
+    ],
+    "notes": null
+  },
+  {
+    "id": 58,
+    "doc": "love_the_way_you_lie",
+    "question": "Who does the document describe as being involved in the production, recording, or visual aspects of the song?",
+    "question_type": "entity_aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Eminem",
+      "Rihanna",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Jennifer Blakeman",
+      "Rigo Morales",
+      "Paul Rosenberg",
+      "Mike Strange",
+      "Joe Strange",
+      "Marcos Tovar",
+      "Makeba Riddick",
+      "Joseph Kahn",
+      "Dominic Monaghan",
+      "Megan Fox"
+    ],
+    "ground_truth": "Eminem, Rihanna, Skylar Grey, Alex da Kid, Jennifer Blakeman, Rigo Morales, Paul Rosenberg, Mike Strange, Joe Strange, Marcos Tovar, Makeba Riddick, Joseph Kahn, Dominic Monaghan and Megan Fox.",
+    "gold_spans": [
+      "Skylar Grey wrote and recorded a demo of the song alongside producer Alex da Kid",
+      "Eminem wrote the verses and chose Rihanna to sing the chorus",
+      "her Universal Music publisher, Jennifer Blakeman",
+      "Shady Records senior director Rigo Morales",
+      "told his manager Paul Rosenberg",
+      "Mike Strange recorded and mixed Eminem's vocals",
+      "Strange's brother Joe engineered the track",
+      "were engineered by Marcos Tovar",
+      "The R&B songwriter Makeba Riddick provided additional vocal production",
+      "The music video, directed by Joseph Kahn, stars Dominic Monaghan and Megan Fox"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Eminem",
+      "Rihanna",
+      "Skylar Grey",
+      "Alex da Kid",
+      "Jennifer Blakeman",
+      "Rigo Morales",
+      "Paul Rosenberg",
+      "Mike Strange",
+      "Joe Strange",
+      "Marcos Tovar",
+      "Makeba Riddick",
+      "Joseph Kahn",
+      "Dominic Monaghan",
+      "Megan Fox"
+    ],
+    "notes": "Them Dominic Monaghan va Megan Fox (cau hoi co 'visual aspects'). Cham theo ti le key_points tim thay (recall) va co phat nguoi bia them."
+  },
+  {
+    "id": 59,
+    "doc": "love_the_way_you_lie",
+    "question": "Who wrote the violin part used in \"Love the Way You Lie\"?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "Backed by guitar, piano and violin",
+      "Acoustic guitar, violin and drums accompany Eminem's verses"
+    ],
+    "supporting_entities": [
+      "violin",
+      "Eminem"
+    ],
+    "notes": "Tai lieu chi noi violin dem cho phan rap cua Eminem, khong noi ai viet hay choi."
+  },
+  {
+    "id": 60,
+    "doc": "love_the_way_you_lie",
+    "question": "On what specific date in June 2010 was \"Love the Way You Lie\" released as the second single?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "Interscope Records released the song in June 2010 as the second single from Recovery",
+      "which came out on June 21",
+      "the song was released later by Polydor Records as a CD in the United Kingdom on August 9, 2010",
+      "Interscope Records distributed it in Germany on August 20"
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Interscope Records",
+      "June 2010"
+    ],
+    "notes": "Bay: tai lieu co ngay album (21/6), ngay CD UK (9/8) va Duc (20/8) nhung khong co ngay phat hanh single trong thang 6. Tra loi 21/6 la ao giac."
+  },
+  {
+    "id": 61,
+    "doc": "hong_bang",
+    "question": "During which Hung King's reign did the Viet people first send envoys to the Zhou dynasty?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "it is unclear during which Hung King's reign",
+      "claiming to be the Viet Thuong clan, and offered a white pheasant"
+    ],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Zhou dynasty",
+      "Viet Thuong"
+    ],
+    "notes": "Tai lieu noi ro 'it is unclear'. Cau tra loi dung: khong xac dinh duoc."
+  },
+  {
+    "id": 62,
+    "doc": "hong_bang",
+    "question": "How many Hung Kings reigned in total during the Hong Bang era?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "Kings of all generations were called Hung Vuong",
+      "During the reign of the 6th Hung King"
+    ],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Hong Bang dynasty"
+    ],
+    "notes": "Tai lieu khong dem so doi vua, chi nhac 'the 6th Hung King'."
+  },
+  {
+    "id": 63,
+    "doc": "hong_bang",
+    "question": "What was the taboo name of the first Hung Vuong?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "taboo name unknown"
+    ],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Lac Long Quan"
+    ],
+    "notes": "Tai lieu ghi 'taboo name unknown'. Cau tra loi dung: khong ro."
+  },
+  {
+    "id": 64,
+    "doc": "quang_trung",
+    "question": "On what exact date did the Battle of Ngoc Hoi-Dong Da take place?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "defeated the invasions of Dai Viet by Siam from the south and the Great Qing from the north"
+    ],
+    "supporting_entities": [
+      "Quang Trung",
+      "Great Qing"
+    ],
+    "notes": "Tai lieu khong nhac ten tran danh hay ngay thang cu the."
+  },
+  {
+    "id": 65,
+    "doc": "quang_trung",
+    "question": "Who was Nguyen Hue's wife?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "His mother was Nguyen Thi Dong"
+    ],
+    "supporting_entities": [
+      "Nguyen Hue"
+    ],
+    "notes": "Tai lieu chi noi cha me, khong noi vo."
+  },
+  {
+    "id": 66,
+    "doc": "quang_trung",
+    "question": "Where was Quang Trung buried?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "Quang Trung died suddenly at the age of 39"
+    ],
+    "supporting_entities": [
+      "Quang Trung"
+    ],
+    "notes": "Tai lieu khong noi noi an tang."
+  },
+  {
+    "id": 67,
+    "doc": "love_the_way_you_lie",
+    "question": "On what exact date was \"Love the Way You Lie (Part II)\" released?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "narrated mostly from her perspective"
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie (Part II)",
+      "Rihanna",
+      "Eminem"
+    ],
+    "notes": "Tai lieu chi nhac Part II, khong co ngay phat hanh."
+  },
+  {
+    "id": 68,
+    "doc": "love_the_way_you_lie",
+    "question": "In which categories was \"Love the Way You Lie\" nominated for Grammy Awards?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "The song won many awards and received five Grammy nominations"
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Grammy"
+    ],
+    "notes": "Tai lieu chi noi 'five Grammy nominations', khong liet ke hang muc."
+  },
+  {
+    "id": 69,
+    "doc": "love_the_way_you_lie",
+    "question": "What was the budget of the music video directed by Joseph Kahn?",
+    "question_type": "unanswerable",
+    "difficulty": "medium",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "The music video, directed by Joseph Kahn, stars Dominic Monaghan and Megan Fox as lovers in a violent relationship"
+    ],
+    "supporting_entities": [
+      "Joseph Kahn",
+      "Love the Way You Lie music video"
+    ],
+    "notes": "Tai lieu khong noi kinh phi."
+  },
+  {
+    "id": 70,
+    "doc": "love_the_way_you_lie",
+    "question": "How many weeks did the song stay at number one on the UK singles chart?",
+    "question_type": "unanswerable",
+    "difficulty": "hard",
+    "answerable": false,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [],
+    "ground_truth": null,
+    "gold_spans": [],
+    "related_spans": [
+      "including the US Billboard Hot 100 for seven weeks",
+      "peaked at number one in 22 countries",
+      "The single sold over 12 million copies in the US and 1.5 million in the UK"
+    ],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "United Kingdom"
+    ],
+    "notes": "Bay: 7 tuan la cua Billboard Hot 100 (My), khong phai UK."
+  },
+  {
+    "id": 71,
+    "doc": "hong_bang",
+    "question": "Describe how the kingdom of Van Lang was organized under the Hung Kings.",
+    "question_type": "summarization",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "National name Van Lang; capital Phong Chau (Bach Hac district)",
+      "15 administrative regions as vassal lands; Van Lang is the capital region",
+      "Civil generals Lac Hau; military generals Lac Tuong",
+      "Sons Quan Lang; daughters Mi Nuong",
+      "Officials Bo Chinh; hereditary succession called phu dao",
+      "Kings of all generations called Hung Vuong"
+    ],
+    "ground_truth": "Hung Vuong named the country Van Lang and set the capital at Phong Chau (Bach Hac district). The country was divided into 15 administrative regions, all vassal lands of Hung Vuong, with Van Lang the region of the capital. Civil generals were called Lac Hau and military generals Lac Tuong; the king's sons were Quan Lang and daughters Mi Nuong; officials in charge of affairs were Bo Chinh, a hereditary succession from father to son called phu dao; kings of all generations were called Hung Vuong.",
+    "gold_spans": [
+      "Hung Vuong set the national name as Van Lang",
+      "established the capital in Phong Chau (now Bach Hac district)",
+      "He divided the country into 15 administrative regions",
+      "He appointed civil generals called Lac Hau, and military generals called Lac Tuong",
+      "The king's sons were called Quan Lang, and daughters were called Mi Nuong",
+      "Officials in charge of affairs were called Bo Chinh",
+      "Kings of all generations were called Hung Vuong"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Hung Vuong",
+      "Van Lang",
+      "Phong Chau",
+      "Lac Hau",
+      "Lac Tuong",
+      "Quan Lang",
+      "Mi Nuong",
+      "Bo Chinh"
+    ],
+    "notes": null
+  },
+  {
+    "id": 72,
+    "doc": "hong_bang",
+    "question": "Trace the legendary line from Kinh Duong Vuong to the first Hung Vuong and explain how the Bach Viet people originated.",
+    "question_type": "summarization",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Kinh Duong Vuong, son of De Minh and Vu Tien's daughter, ruled the South (Xich Quy)",
+      "He married Than Long, daughter of Dong Dinh Quan, and fathered Lac Long Quan",
+      "Lac Long Quan married Au Co (De Lai's daughter), who bore a hundred sons (from a hundred eggs), ancestors of the Bach Viet",
+      "They separated: 50 children went with the mother to the mountains, 50 with the father to the South",
+      "The eldest son was enfeoffed as Hung Vuong to succeed the throne"
+    ],
+    "ground_truth": "Kinh Duong Vuong (Loc Tuc), son of De Minh and the daughter of Vu Tien, was enfeoffed to rule the South as the kingdom of Xich Quy. He married Than Long, daughter of Dong Dinh Quan, and fathered Lac Long Quan (Sung Lam). Lac Long Quan married Au Co, daughter of De Lai, who bore a hundred sons (from a hundred eggs), the ancestors of the Bach Viet. The couple separated: 50 children followed the mother to the mountains and 50 followed the father to the South, and the eldest son became Hung Vuong.",
+    "gold_spans": [
+      "married the daughter of Vu Tien, and fathered the king",
+      "enfeoffed the king as Kinh Duong Vuong to rule the South, calling it the kingdom of Xich Quy",
+      "The king married the daughter of Dong Dinh Quan named Than Long, and fathered Lac Long Quan",
+      "The king married De Lai's daughter, Au Co, and fathered a hundred sons (legend has it she gave birth to a hundred eggs)",
+      "who are the ancestors of the Bach Viet",
+      "dividing 50 children to follow their mother to the mountains, and 50 children to follow their father to the South",
+      "enfeoffed the eldest son as Hung Vuong to succeed the throne"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Kinh Duong Vuong",
+      "Lac Long Quan",
+      "Au Co",
+      "Hung Vuong",
+      "Bach Viet",
+      "De Minh",
+      "Than Long",
+      "De Lai"
+    ],
+    "notes": null
+  },
+  {
+    "id": 73,
+    "doc": "hong_bang",
+    "question": "Which legends and customs does the document attach to the Hung Vuong era?",
+    "question_type": "aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "The tattooing custom of the Bach Viet (water-monster tattoos)",
+      "The child from Phu Dong village who defeated the enemy and rode into the sky (later Xung Thien Than Vuong)",
+      "The first Viet visit to the Zhou court offering a white pheasant",
+      "Son Tinh and Thuy Tinh competing for Mi Nuong"
+    ],
+    "ground_truth": "The origin of the Bach Viet tattooing custom (tattoos of water monsters to avoid being harmed); the child from Phu Dong village who defeated the enemy under the 6th Hung King and rode into the sky (later titled Xung Thien Than Vuong); Viet's first visit to the Zhou court offering a white pheasant; and the story of Son Tinh and Thuy Tinh competing for Mi Nuong.",
+    "gold_spans": [
+      "The tattooing custom of the Bach Viet people probably started from there",
+      "During the reign of the 6th Hung King, in Phu Dong village, Vu Ninh region",
+      "claiming to be the Viet Thuong clan, and offered a white pheasant",
+      "one was Son Tinh (Mountain Spirit) and the other was Thuy Tinh (Water Spirit)"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Bach Viet",
+      "Phu Dong village",
+      "Xung Thien Than Vuong",
+      "King Cheng of Zhou",
+      "Son Tinh",
+      "Thuy Tinh",
+      "Mi Nuong"
+    ],
+    "notes": null
+  },
+  {
+    "id": 74,
+    "doc": "hong_bang",
+    "question": "According to the document, how did the Hong Bang era come to an end?",
+    "question_type": "causal_reasoning",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Thuc Vuong's proposal to Mi Nuong was advised against; he harbored resentment",
+      "Mi Nuong married Son Tinh; Thuc Vuong was furious and told his descendants to destroy Van Lang",
+      "His descendant Thuc Phan conquered the country",
+      "The era ended in the year of Quy Mao (258 BC), totaling 2,622 years"
+    ],
+    "ground_truth": "Thuc Vuong proposed to Mi Nuong, but the Hung Hau advised against the match, so Thuc Vuong harbored resentment. Mi Nuong then married Son Tinh, Thuc Vuong was furious and told his descendants to destroy Van Lang, and his descendant Thuc Phan conquered the country. The era ended in the year of Quy Mao (258 BC), after 2,622 years.",
+    "gold_spans": [
+      "Because of this, Thuc Vuong harbored resentment",
+      "After Mi Nuong married Son Tinh, Thuc Vuong was furious and instructed his descendants to destroy Van Lang and seize the country",
+      "In the time of his descendant, Thuc Phan, who possessed courage and strategy, he attacked and conquered the country",
+      "which was the year of Quy Mao, totaling 2,622 years [2879 - 258 BC]"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Thuc Vuong",
+      "Mi Nuong",
+      "Son Tinh",
+      "Thuc Phan",
+      "Van Lang",
+      "Hong Bang dynasty"
+    ],
+    "notes": null
+  },
+  {
+    "id": 75,
+    "doc": "quang_trung",
+    "question": "Summarize Quang Trung's political and military achievements as described in the document.",
+    "question_type": "summarization",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Led (with his brothers) the Tay Son uprising that ended the Trinh-Nguyen civil war",
+      "Overthrew the Trinh, the Nguyen and the Later Le Dynasty, ending the Dang Trong / Dang Ngoai division of two centuries",
+      "Defeated Siam (south) and the Great Qing (north)",
+      "Commanded troops from the age of 18; dozens of major battles over 20 years without a loss"
+    ],
+    "ground_truth": "With his brothers he led the Tay Son uprising, which ended the Trinh-Nguyen civil war, overthrew the Trinh, the Nguyen and the Later Le Dynasty, and ended the division of Dang Trong and Dang Ngoai that had lasted two centuries. He defeated the Siamese invasion from the south and the Great Qing invasion from the north. He commanded troops from the age of 18 and, over 20 consecutive years, fought dozens of major battles without losing one.",
+    "gold_spans": [
+      "were the leaders of the Tay Son uprising",
+      "ending the division of Dang Trong (Inner Realm) and Dang Ngoai (Outer Realm) that lasted for 2 centuries",
+      "Quang Trung was also the one who defeated the invasions of Dai Viet by Siam from the south and the Great Qing from the north",
+      "He personally commanded troops from the age of 18, and over 20 consecutive years, he fought in dozens of major battles without losing a single one"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Quang Trung",
+      "Tay Son",
+      "Later Le Dynasty",
+      "Siam",
+      "Great Qing"
+    ],
+    "notes": null
+  },
+  {
+    "id": 76,
+    "doc": "quang_trung",
+    "question": "Describe the family background and ancestry of the Tay Son brothers as the document presents it.",
+    "question_type": "summarization",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Ancestors from Hung Nguyen district, Nghe An, moved south by Lord Nguyen's forces (captured in 1653-1657 per one account; followed Lord Nguyen in 1655 per another) to Tuy Vien / Tay Son",
+      "Original surname Ho (descending from Ho Quy Ly per one source), changed to Nguyen",
+      "Father Nguyen (Ho) Phi Phuc, mother Nguyen Thi Dong",
+      "Three sons: Nguyen Nhac, Nguyen Hue, Nguyen Lu"
+    ],
+    "ground_truth": "Per Vietnamese chronicles, the ancestors came from Hung Nguyen district, Nghe An, and were captured by Lord Nguyen's army around 1653-1657 and resettled in Tuy Vien district, Hoai Nhon prefecture. Another account says the family originally bore the surname Ho (descending from Ho Quy Ly) and followed Lord Nguyen south in 1655; Ho Phi Tien married the only daughter of a wealthy merchant in Phu Lac, so the children took the mother's surname Nguyen. The father, Nguyen (Ho) Phi Phuc, traded betel and had 8 children including three sons Nhac, Hue and Lu; the mother was Nguyen Thi Dong.",
+    "gold_spans": [
+      "Nguyen Hue's ancestors were from Hung Nguyen district, Nghe An region",
+      "they were captured by Lord Nguyen's army and brought back to live in Tuy Vien district, Hoai Nhon prefecture",
+      "hence they changed their children's surname from Ho to the mother's surname, Nguyen",
+      "His mother was Nguyen Thi Dong",
+      "Mr. Nguyen Phi Phuc had 8 children, including 3 sons: Nguyen Nhac, Nguyen Hue, and Nguyen Lu"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Nguyen Hue",
+      "Ho Phi Phuc",
+      "Nguyen Phi Phuc",
+      "Nguyen Thi Dong",
+      "Ho Quy Ly",
+      "Lord Nguyen",
+      "Tuy Vien",
+      "Nghe An"
+    ],
+    "notes": "Tai lieu dua nhieu nguon khong thong nhat (ten cha Ho/Nguyen Phi Phuc, bi bat hay di theo chua Nguyen). Chap nhan cau tra loi neu neu ro la theo tung nguon."
+  },
+  {
+    "id": 77,
+    "doc": "quang_trung",
+    "question": "What do the sources cited in the document say about the birth order of Nguyen Hue and Nguyen Lu, and do they agree?",
+    "question_type": "conflicting_sources",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "The document says the sources are inconsistent",
+      "Several Vietnamese chronicles: Nhac, then Lu, then Hue",
+      "Quy Nhon local tradition: Nhac 'Brother Two', Hue 'Uncle Three Thom', Lu 'Master Four' (Hue before Lu)",
+      "Western missionaries: Hue was Lu's younger brother (Lu 'Lord Seven', Hue 'Lord Eight')",
+      "Le Trong Ham: Nhac, Lu, two daughters, then Hue"
+    ],
+    "ground_truth": "They do not agree; the document itself calls the sources inconsistent. Several Vietnamese chronicles give the order Nhac, Lu, Hue. Local tradition in old Quy Nhon calls Nhac 'Brother Two', Hue 'Uncle Three Thom' and Lu 'Master Four', placing Hue before Lu. Western missionaries' letters make Hue the younger brother of Lu (Lu 'Lord Seven', Hue 'Lord Eight'). Le Trong Ham gives the order Nhac, Lu, two daughters, then Hue.",
+    "gold_spans": [
+      "Regarding the birth order of Nguyen Hue and Nguyen Lu among the brothers, documentary sources are inconsistent",
+      "The eldest is Nhac, next is Lu, and then Hue",
+      "Nguyen Hue was also named Thom, so he was called Chu Ba Thom (Uncle Three Thom)",
+      "Nguyen Hue was Nguyen Lu's younger brother",
+      "Nhac, Lu, then two daughters, and then Hue"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Nguyen Nhac",
+      "Nguyen Hue",
+      "Nguyen Lu",
+      "Le Trong Ham"
+    ],
+    "notes": "Cau mau thuan nguon: diem cao neu neu duoc ca viec cac nguon khong dong y lan noi dung tung nguon."
+  },
+  {
+    "id": 78,
+    "doc": "quang_trung",
+    "question": "How do historians and contemporaries assess Quang Trung's reforms and rule?",
+    "question_type": "aggregation",
+    "difficulty": "medium",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Phan Huy Le: a brilliant military leader and a politician with exceptional talent",
+      "Historians: the reforms were progressive, surpassing contemporary Asian countries, able to end 100+ years of stagnation under the Trinh-Nguyen system",
+      "1822: overseas Chinese in Hue said Quang Trung ruled more mildly and fairly than Gia Long and Minh Mang"
+    ],
+    "ground_truth": "Historian Phan Huy Le judged Quang Trung a brilliant military leader and a politician of exceptional talent. Historians highly appreciate his reforms as very progressive, surpassing contemporary Asian countries and able to bring the country out of more than a century of stagnation under the Trinh-Nguyen system. In 1822 overseas Chinese in Hue told a British merchant that Quang Trung ruled more mildly and fairly than Gia Long and Minh Mang.",
+    "gold_spans": [
+      "Quang Trung was not only a brilliant military leader but also a politician with exceptional talent",
+      "Historians highly appreciate these reforms because they had a very progressive tendency, surpassing contemporary Asian countries",
+      "they commented to a British merchant that Quang Trung ruled more mildly and fairly than the Nguyen dynasty kings"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Phan Huy Le",
+      "Quang Trung",
+      "Gia Long",
+      "Minh Mang"
+    ],
+    "notes": null
+  },
+  {
+    "id": 79,
+    "doc": "love_the_way_you_lie",
+    "question": "Summarize how critics received \"Love the Way You Lie\" and the contributions of Eminem and Rihanna.",
+    "question_type": "summarization",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Generally favorable reviews",
+      "Rap-Up listed it among the album's four best tracks",
+      "Caramanica (NYT): one of the album's most engaging songs; praised Eminem's ability to assess issues from both sexes' perspectives",
+      "MTV's Rodriguez: Eminem more mature; closest approach to a love song",
+      "The A.V. Club: Eminem more tempered than in \"Kim\" and \"'97 Bonnie & Clyde\"; Rihanna creates an eerie mood",
+      "Critics especially praised Rihanna's contribution (Billboard, Houston Chronicle)"
+    ],
+    "ground_truth": "The song received generally favorable reviews. Rap-Up listed it among the album's four best tracks; Jon Caramanica of The New York Times called it one of the album's most engaging songs and praised Eminem's ability to assess issues from both sexes' perspectives; MTV's Rodriguez found Eminem more mature and the song his closest approach to a love song; The A.V. Club found him more tempered than in \"Kim\" and \"'97 Bonnie & Clyde\" and said Rihanna's involvement creates an eerie mood. Critics especially praised Rihanna's contribution, including Billboard's Michael Menachem and the Houston Chronicle's Joey Guerra.",
+    "gold_spans": [
+      "received generally favorable reviews",
+      "An editor for Rap-Up listed it among the four best tracks from the album",
+      "Critics especially praised Rihanna's contribution",
+      "Editors of The A.V. Club compared the single with",
+      "Michael Menachem of Billboard complimented her",
+      "Houston Chronicle pop critic Joey Guerra commented that Rihanna brought"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Rap-Up",
+      "Jon Caramanica",
+      "Rodriguez",
+      "The A.V. Club",
+      "Michael Menachem",
+      "Joey Guerra",
+      "Rihanna",
+      "Eminem"
+    ],
+    "notes": null
+  },
+  {
+    "id": 80,
+    "doc": "love_the_way_you_lie",
+    "question": "What does the document say about the song's awards, chart performance, sales, and covers?",
+    "question_type": "aggregation",
+    "difficulty": "hard",
+    "answerable": true,
+    "partial": false,
+    "short_answer": null,
+    "key_points": [
+      "Listed among the best tracks of 2010 and of Eminem's career",
+      "Won many awards; five Grammy nominations",
+      "Eminem's best-selling single; number one on the US Billboard Hot 100 for seven weeks; number one in 22 countries",
+      "Sold over 12 million copies in the US and 1.5 million in the UK",
+      "Covered by Cher Lloyd and the Band Perry"
+    ],
+    "ground_truth": "Critics listed it among the best tracks of 2010 and of Eminem's career; it won many awards and received five Grammy nominations. It is Eminem's best-selling single, ranked number one on several charts including the US Billboard Hot 100 for seven weeks, and peaked at number one in 22 countries. It sold over 12 million copies in the US and 1.5 million in the UK. Cher Lloyd and the Band Perry have performed cover versions.",
+    "gold_spans": [
+      "among the best tracks of 2010 and of Eminem's career",
+      "The song won many awards and received five Grammy nominations",
+      "It is Eminem's best-selling single and ranked number one on several record charts",
+      "The single sold over 12 million copies in the US and 1.5 million in the UK",
+      "Musical acts such as Cher Lloyd and the Band Perry have performed cover versions",
+      "peaked at number one in 22 countries"
+    ],
+    "related_spans": [],
+    "supporting_entities": [
+      "Love the Way You Lie",
+      "Grammy",
+      "Billboard Hot 100",
+      "Cher Lloyd",
+      "The Band Perry",
+      "Eminem"
+    ],
+    "notes": null
+  }
+]

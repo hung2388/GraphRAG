@@ -1,13 +1,38 @@
-.env
-.env.*
-!.env.example
-
+# Byte-compiled / optimized / URL
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
+# Caches & IDE
+.cache/
+.idea/
+.vscode/
+
+# Virtual Environments
+.venv/
+.venv*/
+venv/
+HiRAG/.venv/
+
+# Environment Variables
+.env
+
+# Large model weights (GitHub 100MB limit)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+models/nomic_adapted_merged/
+
+# Heavy storages & temporary caches
+lightrag_storage*/
+light/lightrag_storage*/
+microsoft/ragtest_ms*/
+HiRAG/hirag_cache*/
+rag_storage/
+inputs/
 data/cache/
 data/debug/
-*.log
-
-.venv/
-venv/
+lightrag.log
+tempCodeRunnerFile.py
